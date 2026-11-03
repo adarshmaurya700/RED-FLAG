@@ -18,13 +18,13 @@ LEXICON = [
         "vomiting",
         "symptom",
         45,
-        r"vomit\w*|ulti|उल्टी|বমি|வாந்தி|వాంతి|ಛರ್ಡಿ|ಓಕಳಿ|ഛർദ്ദി|ਉਲਟੀ|ଝାଡ଼ା|ઊલટી",
+        r"\bvomit\w*|\bulti\b|उल्टी|বমি|வாந்தி|వాంతి|ಛರ್ಡಿ|ಓಕಳಿ|ഛർദ്ദി|ਉਲਟੀ|ઊલટી",
     ),
     (
         "diarrhea",
         "symptom",
         45,
-        r"diarrh\w*|loose motions?|pet kharab|पेट खराब|जुलाब|পাতলা পায়খানা|வயிற்றுப்போக்கு|విరేచనాలు|ಜಲಭೇದಿ|വയറിളക്കം|ਦਸਤ|ଅତିସାର|ઝાડા",
+        r"diarrh\w*|loose motions?|pet kharab|पेट खराब|जुलाब|পাতলা পায়খানা|வயிற்றுப்போக்கு|విరేచనాలు|ಜಲಭೇದಿ|വയറിളക്കം|ਦਸਤ|ଅତିସାର|ଝାଡ଼ା|ઝાડા",
     ),
     (
         "jaundice / liver injury",
@@ -98,9 +98,9 @@ LEXICON = [
         "cold-chain spoilage",
         "hazard",
         50,
-        r"sour|curdled|thawed|expired milk|khatta|खट्टा|புளித்த|పులిసిన|ಹುಳಿ|പുളിച്ച|টক|ખાટું|ଆମ୍ବିଳ|ਖੱਟਾ",
+        r"\bsour\b|curdled|thawed|expired milk|\bkhatta\b|खट्टा|புளித்த|పులిసిన|ಹುಳಿ|പുളിച്ച|টক|ખાટું|ଆମ୍ବିଳ|ਖੱਟਾ",
     ),
-    ("pest damage", "hazard", 55, r"pest|rat.damage|chewed carton|चूहे"),
+    ("pest damage", "hazard", 55, r"\bpests?\b|rat.damage|chewed carton|चूहे"),
 ]
 
 

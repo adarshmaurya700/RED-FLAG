@@ -73,3 +73,12 @@ def test_negated_symptoms_and_implicit_distress_do_not_become_anaphylaxis():
     assert "vomiting" not in names
     assert "anaphylaxis" not in names
     assert "suspected undeclared allergen" in names
+
+
+def test_multicity_source_and_pesticide_do_not_create_substring_false_positives():
+    entities = extract_entities(
+        "A multi-city source reports pesticide testing and no clinical symptoms."
+    )
+    assert not {"vomiting", "cold-chain spoilage", "pest damage"}.intersection(
+        e.normalized for e in entities
+    )

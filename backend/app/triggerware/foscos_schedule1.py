@@ -198,6 +198,9 @@ def render_pdf(packet: dict) -> bytes:
     styles["Heading3"].fontSize = 11
     styles["Heading3"].leading = 15
     styles["Heading3"].keepWithNext = True
+    styles["Heading3"].spaceBefore = 6
+    styles["Heading3"].spaceAfter = 4
+    styles["Value"].spaceAfter = 3
 
     def printable(value):
         if isinstance(value, list):
@@ -220,8 +223,13 @@ def render_pdf(packet: dict) -> bytes:
         story.extend(
             [
                 Paragraph(escape(label.replace("_", " ").title()), styles["Heading3"]),
-                Paragraph(printable(value), styles["Value"]),
-                Spacer(1, 2 * mm),
+                Paragraph(
+                    "None identified"
+                    if label == "missing_fields" and not value
+                    else printable(value),
+                    styles["Value"],
+                ),
+                Spacer(1, 0.5 * mm),
             ]
         )
 
