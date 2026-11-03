@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { api, dateLabel } from "@/lib/api";
 import type { ReferenceCase } from "@/lib/types";
+import { hostedDemo } from "@/lib/demo-mode";
 export default function ReferenceLibrary({
   query,
   compact = false,
@@ -47,7 +48,6 @@ export default function ReferenceLibrary({
       controller.abort();
     };
   }, [search]);
-  if (compact && !items.length) return null;
   return (
     <section
       className={`reference-library ${compact ? "compact-library" : ""}`}
@@ -136,7 +136,9 @@ export default function ReferenceLibrary({
       </div>
       {!items.length && !error && (
         <div className="reference-empty">
-          No curated match yet. Run a live scan for fresh public signals.
+          {hostedDemo
+            ? "No curated match. Try Priyagold, pari case, Delhi expiry, or MDH. Live collection is available in the full local app."
+            : "No curated match yet. Run a live scan for fresh public signals."}
         </div>
       )}
       {!compact && (

@@ -68,7 +68,15 @@ def main():
     finally:
         for process in (web, backend):
             if process is not None and process.poll() is None:
-                process.terminate()
+                if os.name == "nt":
+                    subprocess.run(
+                        ["taskkill", "/PID", str(process.pid), "/T", "/F"],
+                        stdout=subprocess.DEVNULL,
+                        stderr=subprocess.DEVNULL,
+                        creationflags=subprocess.CREATE_NO_WINDOW,
+                    )
+                else:
+                    process.terminate()
                 try:
                     process.wait(timeout=10)
                 except subprocess.TimeoutExpired:

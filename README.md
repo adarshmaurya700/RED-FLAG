@@ -118,7 +118,33 @@ Automated redaction has limits and is not a DPDPA certification. Public availabi
 
 The hosted Next.js gateway uses HTTP Basic auth with username **operator** and `HOSTED_OPERATOR_PASSWORD`. Production refuses to run the gateway without a password. FastAPI is a private Render service authenticated by `INTERNAL_API_KEY`; PostgreSQL and Redis have no public allow-list. Same-origin checks protect browser writes. Keep the operator password strong and keep native demo servers bound to localhost.
 
-## Deploy to Render
+## Free hosted demo on Vercel
+
+The free demo runs the Next.js frontend with `HOSTED_DEMO=true` and
+`NEXT_PUBLIC_HOSTED_DEMO=true`. It serves a checked-in snapshot of the three
+fictional cases, their evidence, graphs and draft PDF/JSON packets, plus the
+curated source profiles. The server rejects writes with HTTP 405. It needs no
+database, worker, model API or paid integration. It does not perform live scans
+or persist workflow changes. Snapshot dates and grievance timers are frozen.
+
+Create a Vercel Hobby project with root directory `frontend`, framework Next.js,
+and the two flags above in Preview. Set `APP_ENV=production` and a strong
+`HOSTED_OPERATOR_PASSWORD` (username `operator`). Keep the existing deployment
+protection enabled. Deploy a preview using the connected account; no paid
+Render resources are needed for this mode.
+
+Regenerate only synthetic snapshot records from a fresh temporary database:
+
+```powershell
+backend\.venv\Scripts\python.exe scripts/export_hosted_demo.py
+```
+
+The exporter never reads the operator's live database. The normal local and
+Render configurations continue to use the full backend when these flags are
+unset. The local production smoke check is `python scripts/verify_hosted_demo.py`
+against port 3100, with the password supplied via its environment.
+
+## Full stack on Render
 
 The root `render.yaml` defines Next.js, private FastAPI, Celery worker, a singleton Beat scheduler, PostgreSQL and Redis-compatible Render Key Value in Singapore. It uses paid service plans. Connect this GitHub repository to a Render Blueprint and supply `HOSTED_OPERATOR_PASSWORD`; the shared internal API key is generated. Optional provider keys can be added to the shared environment group later.
 

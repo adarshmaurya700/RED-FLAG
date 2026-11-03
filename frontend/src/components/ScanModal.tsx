@@ -14,18 +14,81 @@ import {
 import { api } from "@/lib/api";
 import type { Scan } from "@/lib/types";
 import ReferenceLibrary from "./ReferenceLibrary";
+import { hostedDemo } from "@/lib/demo-mode";
 
-export default function ScanModal({
-  onClose,
-  initialQuery = "",
-  providers = {},
-  onComplete,
-}: {
+type ScanModalProps = {
   onClose: () => void;
   initialQuery?: string;
   providers?: Record<string, boolean>;
   onComplete?: () => void;
-}) {
+};
+
+export default function ScanModal(props: ScanModalProps) {
+  return hostedDemo ? (
+    <HostedSearch {...props} />
+  ) : (
+    <LiveScanModal {...props} />
+  );
+}
+
+function HostedSearch({ onClose, initialQuery = "" }: ScanModalProps) {
+  const dialog = useRef<HTMLDialogElement>(null);
+  const [query, setQuery] = useState(initialQuery);
+  useEffect(() => {
+    const node = dialog.current;
+    node?.showModal();
+    return () => node?.close();
+  }, []);
+  return (
+    <dialog
+      className="modal scan-modal"
+      ref={dialog}
+      onCancel={onClose}
+      aria-labelledby="report-search-title"
+      onClick={(event) => {
+        if (event.target === event.currentTarget) onClose();
+      }}
+    >
+      <div className="modal-inner">
+        <button
+          className="icon-button modal-close"
+          onClick={onClose}
+          aria-label="Close report search"
+        >
+          <X size={20} />
+        </button>
+        <span className="eyebrow red">REAL REPORTS. ACTUAL RECEIPTS.</span>
+        <h2 id="report-search-title">Find the receipts.</h2>
+        <p className="muted">
+          Search curated reports and open the original articles and regulator
+          notices.
+        </p>
+        <label className="field-label">
+          Brand or incident
+          <input
+            autoFocus
+            maxLength={160}
+            placeholder="Try pari case, Priyagold, Delhi expiry, MDH…"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+        </label>
+        <ReferenceLibrary query={query} compact onOpen={onClose} />
+        <p className="scan-note">
+          <ShieldCheck size={14} /> Free read-only demo. Live collection and
+          saved workflows are available in the full local app.
+        </p>
+      </div>
+    </dialog>
+  );
+}
+
+function LiveScanModal({
+  onClose,
+  initialQuery = "",
+  providers = {},
+  onComplete,
+}: ScanModalProps) {
   const dialog = useRef<HTMLDialogElement>(null);
   const [product, setProduct] = useState(initialQuery);
   const [brand, setBrand] = useState("");

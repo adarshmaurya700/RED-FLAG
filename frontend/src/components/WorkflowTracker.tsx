@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Clock3, CheckCircle2 } from "lucide-react";
 import { api } from "@/lib/api";
 import type { CaseDetail } from "@/lib/types";
+import { hostedDemo } from "@/lib/demo-mode";
 function when(value: string) {
   return (
     new Date(value).toLocaleString("en-IN", {
@@ -49,6 +50,19 @@ export default function WorkflowTracker({
       setBusy(false);
     }
   }
+  if (hostedDemo)
+    return (
+      <div className="workflow-tracker">
+        <h3>
+          <Clock3 size={17} /> Workflow preview
+        </h3>
+        <p className="small-text muted">
+          This free demo is a saved snapshot. Download the draft packets above;
+          run the full local app to record recall decisions, authority queries,
+          and weekly reports.
+        </p>
+      </div>
+    );
   return (
     <div className="workflow-tracker">
       <h3>

@@ -1,0 +1,2998 @@
+{
+  "captured_at": "2026-11-03T13:43:06.529003+00:00",
+  "details": {
+    "IND-FSSAI-01": {
+      "id": "IND-FSSAI-01",
+      "title": "The same batch. Different cities.",
+      "subtitle": "Spice pesticide & undeclared allergen",
+      "product_name": "Everyday Masala Blend",
+      "brand_name": "MasalaClub",
+      "dominant_vector": "batch",
+      "sub_scores": {
+        "regulatory": 15,
+        "adverse_events": 82,
+        "live_web": 91,
+        "credibility": 86
+      },
+      "attribution": {
+        "batch": 0.85,
+        "counterfeit": 0.1,
+        "dark_store": 0.05
+      },
+      "delta_velocity_48h": 0.56,
+      "complaint_count_48h": 39,
+      "cities": [
+        "Mumbai",
+        "Delhi",
+        "Bengaluru",
+        "Pune"
+      ],
+      "summary": "Representative synthetic reports describe hives, itchy throat and vomiting after lot-MX-02. A creator screen alleges ferbam residue. The shared manufacturing license also links another fictional brand; confirmation and facility review are required.",
+      "food_category_code": "12",
+      "fbo": {
+        "name": "CommonGround Foods Pvt Ltd (synthetic)",
+        "business_address": "Synthetic Industrial Estate, Maharashtra",
+        "license_no": "10012021000518",
+        "license_type": "central",
+        "coordinator": "Demo Recall Coordinator",
+        "business_contact": "recall@example.invalid / synthetic 24-hour contact"
+      },
+      "products": [
+        {
+          "name": "Everyday Masala Blend",
+          "brand": "MasalaClub",
+          "pack_size": "100 g"
+        },
+        {
+          "name": "Chilli Crunch Mix",
+          "brand": "SnackLab",
+          "pack_size": "80 g"
+        }
+      ],
+      "batches": [
+        {
+          "lot": "lot-MX-02",
+          "manufactured": "2026-09-12",
+          "best_before": "2027-03-11"
+        }
+      ],
+      "quantity_affected": "4,800 packs (synthetic)",
+      "reported_illnesses": 12,
+      "regulatory_action": "Advertising & Claims Notice",
+      "attribution_reasons": {
+        "batch": [
+          "Same lot across four cities",
+          "Acute allergy cues in verified channels",
+          "Creator ferbam screening allegation",
+          "Shared contract-manufacturer license"
+        ],
+        "counterfeit": [
+          "A minority report seal concerns"
+        ],
+        "dark_store": [
+          "Weak localized overlap"
+        ]
+      },
+      "synthetic": true,
+      "created_at": "2026-10-31T13:43:06.434339+00:00",
+      "updated_at": "2026-11-03T13:43:06.434339+00:00",
+      "status": "investigating",
+      "provenance": "All brands, sellers, incidents, contacts and records are synthetic. The requested license number is an illustrative linkage key and is not a verified allegation about its holder.",
+      "seed_score_inputs": "Supplied assessed demonstration factors; representative evidence is not a complete complaint register.",
+      "assessment": {
+        "score": 88.0,
+        "base_score": 72.55,
+        "amplification": 1.212867,
+        "pre_recall_factor": 0.85,
+        "velocity": 0.56,
+        "policy_version": "continuous-hazard-v1"
+      },
+      "risk_score": 88.0,
+      "score_history": [
+        {
+          "label": "-48h",
+          "risk": 37
+        },
+        {
+          "label": "-36h",
+          "risk": 43
+        },
+        {
+          "label": "-24h",
+          "risk": 57
+        },
+        {
+          "label": "-12h",
+          "risk": 69
+        },
+        {
+          "label": "Now",
+          "risk": 88
+        }
+      ],
+      "regulatory_records": [
+        {
+          "id": "IND-FSSAI-01-REG",
+          "source": "foscos",
+          "source_url": "",
+          "recall_id": null,
+          "fbo_name": "CommonGround Foods Pvt Ltd (synthetic)",
+          "fssai_license_no": "10012021000518",
+          "license_type": "unknown",
+          "brand_name": "MasalaClub",
+          "batch_lot_no": null,
+          "food_category_code": "12",
+          "recall_class": null,
+          "action_type": "Advertising & Claims Notice",
+          "reason_for_recall": "Synthetic advertising-claim review",
+          "start_date": "2026-11-01T13:43:06.434339Z",
+          "termination_date": null,
+          "language": "en",
+          "is_standard": null,
+          "grievance_category": null,
+          "clinical_cues": [],
+          "synthetic": true
+        }
+      ],
+      "packets": [
+        {
+          "id": "b697bd63-17b6-4810-b592-e843feb622df",
+          "kind": "recall",
+          "version": 1,
+          "title": "Schedule I - Food Recall Information",
+          "created_at": "2026-11-03T13:43:06.470499"
+        },
+        {
+          "id": "b86041b1-dd33-4267-9687-b37a9d58f454",
+          "kind": "consumer_notice",
+          "version": 1,
+          "title": "URGENT FOOD RECALL NOTICE - DRAFT",
+          "created_at": "2026-11-03T13:43:06.470499"
+        }
+      ],
+      "grievances": [
+        {
+          "id": "FSC-DEMO-001",
+          "case_id": "IND-FSSAI-01",
+          "status": "open",
+          "received_at": "2026-10-31T13:43:06.434339+00:00",
+          "due_at": "2026-11-15T13:43:06.434339+00:00",
+          "days_elapsed": 3,
+          "seconds_remaining": 1036799,
+          "escalation_due": false,
+          "internal_priority_due_at": "2026-11-02T13:43:06.434339+00:00",
+          "category": "Packaged Food",
+          "priority": true,
+          "synthetic": true,
+          "description": "Synthetic Food Safety Connect grievance; day 3 of 15."
+        }
+      ],
+      "audit_events": []
+    },
+    "IND-FSSAI-02": {
+      "id": "IND-FSSAI-02",
+      "title": "Big gains. Bigger red flags.",
+      "subtitle": "Fake whey & syrup-spiked honey",
+      "product_name": "Whey Isolate + Raw Honey",
+      "brand_name": "PeakFuel / BeeTheory",
+      "dominant_vector": "counterfeit",
+      "sub_scores": {
+        "regulatory": 0,
+        "adverse_events": 64,
+        "live_web": 88,
+        "credibility": 80
+      },
+      "attribution": {
+        "batch": 0.08,
+        "counterfeit": 0.87,
+        "dark_store": 0.05
+      },
+      "delta_velocity_48h": 0.93,
+      "complaint_count_48h": 193,
+      "cities": [
+        "Delhi",
+        "Mumbai",
+        "Hyderabad"
+      ],
+      "summary": "Synthetic marketplace reports describe missing holograms, failed QR authentication, label errors and powder clumping. A creator NMR screen alleges rice-syrup adulteration in honey sold by the same fictional unauthorized seller.",
+      "products": [
+        {
+          "name": "Whey Isolate",
+          "brand": "PeakFuel",
+          "pack_size": "1 kg"
+        },
+        {
+          "name": "Raw Forest Honey",
+          "brand": "BeeTheory",
+          "pack_size": "500 g"
+        }
+      ],
+      "batches": [],
+      "sellers": [
+        {
+          "name": "BulkWell Deals (synthetic)",
+          "platform": "Amazon.in",
+          "listing_reference": "DEMO-WHEY-01"
+        },
+        {
+          "name": "BulkWell Deals (synthetic)",
+          "platform": "Flipkart",
+          "listing_reference": "DEMO-HONEY-02"
+        }
+      ],
+      "attribution_reasons": {
+        "batch": [
+          "Limited common-batch evidence"
+        ],
+        "counterfeit": [
+          "Missing hologram and failed official QR",
+          "Unauthorized seller shared across products",
+          "Label typos and powder clumping",
+          "Creator NMR allegation requires confirmation"
+        ],
+        "dark_store": [
+          "No corroborated local cold-chain cluster"
+        ]
+      },
+      "synthetic": true,
+      "created_at": "2026-10-31T13:43:06.481386+00:00",
+      "updated_at": "2026-11-03T13:43:06.481386+00:00",
+      "status": "investigating",
+      "provenance": "All brands, sellers, incidents, contacts and records are synthetic. The requested license number is an illustrative linkage key and is not a verified allegation about its holder.",
+      "seed_score_inputs": "Supplied assessed demonstration factors; representative evidence is not a complete complaint register.",
+      "assessment": {
+        "score": 79.0,
+        "base_score": 62.8,
+        "amplification": 1.25784,
+        "pre_recall_factor": 1.0,
+        "velocity": 0.93,
+        "policy_version": "continuous-hazard-v1"
+      },
+      "risk_score": 79.0,
+      "score_history": [
+        {
+          "label": "-48h",
+          "risk": 33
+        },
+        {
+          "label": "-36h",
+          "risk": 39
+        },
+        {
+          "label": "-24h",
+          "risk": 51
+        },
+        {
+          "label": "-12h",
+          "risk": 62
+        },
+        {
+          "label": "Now",
+          "risk": 79
+        }
+      ],
+      "regulatory_records": [],
+      "packets": [
+        {
+          "id": "30fe2654-b22e-422d-a5f7-279730a5111c",
+          "kind": "marketplace",
+          "version": 1,
+          "title": "Marketplace seller investigation and takedown request",
+          "created_at": "2026-11-03T13:43:06.497046"
+        },
+        {
+          "id": "cef09800-47d8-43a5-9284-5964421060f3",
+          "kind": "authentication",
+          "version": 1,
+          "title": "Consumer product authentication advisory",
+          "created_at": "2026-11-03T13:43:06.497046"
+        },
+        {
+          "id": "b20cc74e-8587-4912-9fe8-5592ceed3852",
+          "kind": "lab_request",
+          "version": 1,
+          "title": "Independent laboratory audit request",
+          "created_at": "2026-11-03T13:43:06.497046"
+        }
+      ],
+      "grievances": [],
+      "audit_events": []
+    },
+    "IND-FSSAI-03": {
+      "id": "IND-FSSAI-03",
+      "title": "The milk's off. The whole brand isn't.",
+      "subtitle": "Two local cold-chain breaks",
+      "product_name": "Fresh Milk & Daily Produce",
+      "brand_name": "DailyDrop",
+      "dominant_vector": "dark_store",
+      "sub_scores": {
+        "regulatory": 25,
+        "adverse_events": 58,
+        "live_web": 84,
+        "credibility": 78
+      },
+      "attribution": {
+        "batch": 0.06,
+        "counterfeit": 0.04,
+        "dark_store": 0.9
+      },
+      "delta_velocity_48h": 0.4,
+      "complaint_count_48h": 28,
+      "cities": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "summary": "28 synthetic complaints in 48 hours are split between two separate 2.5 km nodes. Sour milk and pest-damaged cartons are confined to quick-commerce observations. Synthetic D2C and supermarket controls show no observed defects.",
+      "products": [
+        {
+          "name": "Fresh Milk",
+          "brand": "DailyDrop",
+          "pack_size": "500 ml"
+        }
+      ],
+      "batches": [],
+      "regulatory_action": "Improvement Notice",
+      "dark_store_nodes": [
+        {
+          "id": "ram-koti",
+          "name": "Ram Koti",
+          "city": "Hyderabad",
+          "public_store_pin": "500001",
+          "pin_code_prefix": "500",
+          "latitude": 17.3876,
+          "longitude": 78.4846,
+          "radius_km": 2.5,
+          "complaints": 14
+        },
+        {
+          "id": "malad-west",
+          "name": "Malad West",
+          "city": "Mumbai",
+          "public_store_pin": "400064",
+          "pin_code_prefix": "400",
+          "latitude": 19.1868,
+          "longitude": 72.8487,
+          "radius_km": 2.5,
+          "complaints": 14
+        }
+      ],
+      "unaffected_channels": "0 observed defects in 60 synthetic D2C/supermarket control observations; not a population-wide defect estimate.",
+      "attribution_reasons": {
+        "batch": [
+          "No shared batch across affected nodes"
+        ],
+        "counterfeit": [
+          "No consistent authenticity cues"
+        ],
+        "dark_store": [
+          "28 complaints / 48 hours",
+          "Two separate 2.5 km quick-commerce nodes",
+          "Sour milk and pest-damaged cartons",
+          "Unaffected synthetic D2C/supermarket controls"
+        ]
+      },
+      "synthetic": true,
+      "created_at": "2026-10-31T13:43:06.497046+00:00",
+      "updated_at": "2026-11-03T13:43:06.497046+00:00",
+      "status": "investigating",
+      "provenance": "All brands, sellers, incidents, contacts and records are synthetic. The requested license number is an illustrative linkage key and is not a verified allegation about its holder.",
+      "seed_score_inputs": "Supplied assessed demonstration factors; representative evidence is not a complete complaint register.",
+      "assessment": {
+        "score": 74.0,
+        "base_score": 64.5,
+        "amplification": 1.14742,
+        "pre_recall_factor": 0.75,
+        "velocity": 0.4,
+        "policy_version": "continuous-hazard-v1"
+      },
+      "risk_score": 74.0,
+      "score_history": [
+        {
+          "label": "-48h",
+          "risk": 31
+        },
+        {
+          "label": "-36h",
+          "risk": 36
+        },
+        {
+          "label": "-24h",
+          "risk": 48
+        },
+        {
+          "label": "-12h",
+          "risk": 58
+        },
+        {
+          "label": "Now",
+          "risk": 74
+        }
+      ],
+      "regulatory_records": [
+        {
+          "id": "IND-FSSAI-03-REG",
+          "source": "foscos",
+          "source_url": "",
+          "recall_id": null,
+          "fbo_name": "DailyDrop Local Distribution (synthetic)",
+          "fssai_license_no": null,
+          "license_type": "unknown",
+          "brand_name": "DailyDrop",
+          "batch_lot_no": null,
+          "food_category_code": "01",
+          "recall_class": null,
+          "action_type": "Improvement Notice",
+          "reason_for_recall": "Synthetic premises cold-chain improvement notice",
+          "start_date": "2026-11-01T13:43:06.497046Z",
+          "termination_date": null,
+          "language": "en",
+          "is_standard": null,
+          "grievance_category": null,
+          "clinical_cues": [],
+          "synthetic": true
+        }
+      ],
+      "packets": [
+        {
+          "id": "769db427-9518-4921-a9e5-39b44f2e7586",
+          "kind": "dark_store",
+          "version": 1,
+          "title": "Hyperlocal stock quarantine and cold-chain audit advisory",
+          "created_at": "2026-11-03T13:43:06.519515"
+        }
+      ],
+      "grievances": [],
+      "audit_events": []
+    }
+  },
+  "evidence": {
+    "IND-FSSAI-01": {
+      "items": [
+        {
+          "id": "IND-FSSAI-01-E000",
+          "case_id": "IND-FSSAI-01",
+          "platform": "Amazon.in",
+          "source_url": "",
+          "timestamp": "2026-11-03T11:43:06.434339Z",
+          "retrieved_at": "2026-11-03T13:43:06.453861Z",
+          "product_name": "Everyday Masala Blend",
+          "text": "Verified D2C pack, lot-MX-02. Khane ke 20 minutes baad hives aur gale me khujli. Stopped the product and symptoms subsided.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "hives",
+              "kind": "symptom",
+              "normalized": "hives",
+              "severity": 70.0
+            },
+            {
+              "text": "gale me khujli",
+              "kind": "symptom",
+              "normalized": "itchy throat",
+              "severity": 65.0
+            },
+            {
+              "text": "lot-MX-02",
+              "kind": "batch",
+              "normalized": "lot-MX-02",
+              "severity": 0.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": 0.3333,
+            "symptom_duration_days": null,
+            "dechallenge_status": "positive",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-01-E001",
+          "case_id": "IND-FSSAI-01",
+          "platform": "Reddit",
+          "source_url": "",
+          "timestamp": "2026-11-03T10:43:06.434339Z",
+          "retrieved_at": "2026-11-03T13:43:06.453861Z",
+          "product_name": "Everyday Masala Blend",
+          "text": "Same batch lot-MX-02 in Delhi. Itchy throat and vomiting within 1 hour. Tried again and the hives returned.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": false,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "hives",
+              "kind": "symptom",
+              "normalized": "hives",
+              "severity": 70.0
+            },
+            {
+              "text": "Itchy throat",
+              "kind": "symptom",
+              "normalized": "itchy throat",
+              "severity": 65.0
+            },
+            {
+              "text": "vomiting",
+              "kind": "symptom",
+              "normalized": "vomiting",
+              "severity": 45.0
+            },
+            {
+              "text": "batch lot-MX-02",
+              "kind": "batch",
+              "normalized": "batch lot-MX-02",
+              "severity": 0.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": 1.0,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "positive",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Delhi",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-01-E002",
+          "case_id": "IND-FSSAI-01",
+          "platform": "1mg",
+          "source_url": "",
+          "timestamp": "2026-11-03T09:43:06.434339Z",
+          "retrieved_at": "2026-11-03T13:43:06.453861Z",
+          "product_name": "Everyday Masala Blend",
+          "text": "lot-MX-02: bachche ko vomiting. Stopped the product and he got better. Symptoms lasted for 2 days.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "vomiting",
+              "kind": "symptom",
+              "normalized": "vomiting",
+              "severity": 45.0
+            },
+            {
+              "text": "lot-MX-02",
+              "kind": "batch",
+              "normalized": "lot-MX-02",
+              "severity": 0.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": 2.0,
+            "dechallenge_status": "positive",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Bengaluru",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-01-E003",
+          "case_id": "IND-FSSAI-01",
+          "platform": "YouTube",
+          "source_url": "",
+          "timestamp": "2026-11-03T08:43:06.434339Z",
+          "retrieved_at": "2026-11-03T13:43:06.453861Z",
+          "product_name": "Everyday Masala Blend",
+          "text": "Creator lab screen alleges ferbam residue in lot-MX-02. Accredited confirmatory testing is pending.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "video",
+          "verified_purchase": false,
+          "lab_evidence": "attachment",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "ferbam",
+              "kind": "hazard",
+              "normalized": "ferbam residue",
+              "severity": 90.0
+            },
+            {
+              "text": "lot-MX-02",
+              "kind": "batch",
+              "normalized": "lot-MX-02",
+              "severity": 0.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Pune",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-01-E004",
+          "case_id": "IND-FSSAI-01",
+          "platform": "Reddit",
+          "source_url": "",
+          "timestamp": "2026-11-03T07:43:06.434339Z",
+          "retrieved_at": "2026-11-03T13:43:06.453861Z",
+          "product_name": "Everyday Masala Blend",
+          "text": "SnackLab chilli mix from the shared contract plant. Hives after 30 minutes. FSSAI manufacturing license 10012021000518.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": false,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "Hives",
+              "kind": "symptom",
+              "normalized": "hives",
+              "severity": 70.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": 0.5,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Pune",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        }
+      ],
+      "total": 5,
+      "platforms": [
+        "1mg",
+        "Amazon.in",
+        "Reddit",
+        "YouTube"
+      ]
+    },
+    "IND-FSSAI-02": {
+      "items": [
+        {
+          "id": "IND-FSSAI-02-E000",
+          "case_id": "IND-FSSAI-02",
+          "platform": "Amazon.in",
+          "source_url": "",
+          "timestamp": "2026-11-03T11:43:06.481386Z",
+          "retrieved_at": "2026-11-03T13:43:06.486565Z",
+          "product_name": "Whey Isolate + Raw Honey",
+          "text": "Ek dum bekar protein hai, pet kharab ho gaya, nakli seal hai. Missing 3D hologram; QR code fails to scan. BulkWell Deals is an unauthorized third-party seller.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "pet kharab",
+              "kind": "symptom",
+              "normalized": "diarrhea",
+              "severity": 45.0
+            },
+            {
+              "text": "nakli seal",
+              "kind": "counterfeit",
+              "normalized": "missing hologram",
+              "severity": 65.0
+            },
+            {
+              "text": "QR code fail",
+              "kind": "counterfeit",
+              "normalized": "failed QR authentication",
+              "severity": 60.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Delhi",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-02-E001",
+          "case_id": "IND-FSSAI-02",
+          "platform": "Flipkart",
+          "source_url": "",
+          "timestamp": "2026-11-03T10:43:06.481386Z",
+          "retrieved_at": "2026-11-03T13:43:06.486565Z",
+          "product_name": "Whey Isolate + Raw Honey",
+          "text": "Whey powder clumping in room-temperature water, residue remains. Spelling errors on tub. QR redirects to wrong domain.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "QR redirects to wrong domain",
+              "kind": "counterfeit",
+              "normalized": "failed QR authentication",
+              "severity": 60.0
+            },
+            {
+              "text": "Spelling error",
+              "kind": "counterfeit",
+              "normalized": "label inconsistencies",
+              "severity": 40.0
+            },
+            {
+              "text": "clumping",
+              "kind": "counterfeit",
+              "normalized": "powder clumping",
+              "severity": 25.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-02-E002",
+          "case_id": "IND-FSSAI-02",
+          "platform": "HealthKart",
+          "source_url": "",
+          "timestamp": "2026-11-03T09:43:06.481386Z",
+          "retrieved_at": "2026-11-03T13:43:06.486565Z",
+          "product_name": "Whey Isolate + Raw Honey",
+          "text": "Broken inner seal and blurry hologram on PeakFuel tub from an unverified seller. Pet kharab after 2 hours.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": false,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "Pet kharab",
+              "kind": "symptom",
+              "normalized": "diarrhea",
+              "severity": 45.0
+            },
+            {
+              "text": "Broken inner seal",
+              "kind": "counterfeit",
+              "normalized": "broken seal",
+              "severity": 50.0
+            },
+            {
+              "text": "blurry hologram",
+              "kind": "counterfeit",
+              "normalized": "label inconsistencies",
+              "severity": 40.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": 2.0,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-02-E003",
+          "case_id": "IND-FSSAI-02",
+          "platform": "YouTube",
+          "source_url": "",
+          "timestamp": "2026-11-03T08:43:06.481386Z",
+          "retrieved_at": "2026-11-03T13:43:06.486565Z",
+          "product_name": "Whey Isolate + Raw Honey",
+          "text": "Creator NMR screen alleges C3/C4 rice-syrup in BeeTheory honey from unauthorized seller BulkWell Deals. Laboratory confirmation pending.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "video",
+          "verified_purchase": false,
+          "lab_evidence": "attachment",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "C3/C4 rice-syrup",
+              "kind": "counterfeit",
+              "normalized": "syrup adulteration allegation",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Delhi",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-02-E004",
+          "case_id": "IND-FSSAI-02",
+          "platform": "Reddit",
+          "source_url": "",
+          "timestamp": "2026-11-03T07:43:06.481386Z",
+          "retrieved_at": "2026-11-03T13:43:06.486565Z",
+          "product_name": "Whey Isolate + Raw Honey",
+          "text": "Official D2C QR works; marketplace pack QR fails. Stopped the product and stomach symptoms got better.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": false,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "QR works; marketplace pack QR fail",
+              "kind": "counterfeit",
+              "normalized": "failed QR authentication",
+              "severity": 60.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "positive",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": null,
+            "node_id": null,
+            "node_name": null,
+            "node_latitude": null,
+            "node_longitude": null,
+            "radius_km": null
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        }
+      ],
+      "total": 5,
+      "platforms": [
+        "Amazon.in",
+        "Flipkart",
+        "HealthKart",
+        "Reddit",
+        "YouTube"
+      ]
+    },
+    "IND-FSSAI-03": {
+      "items": [
+        {
+          "id": "IND-FSSAI-03-E000",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T11:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: pest-damaged cartons and thawed produce. Report 1 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E001",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T10:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 2 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E002",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T09:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 3 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E003",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T08:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: pest-damaged cartons and thawed produce. Report 4 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E004",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T07:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 5 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E005",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T06:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 6 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E006",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T05:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: pest-damaged cartons and thawed produce. Report 7 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E007",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T04:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 8 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E008",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T03:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 9 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E009",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T02:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: pest-damaged cartons and thawed produce. Report 10 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E010",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-03T01:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 11 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E011",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-03T00:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 12 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E012",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T23:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: pest-damaged cartons and thawed produce. Report 13 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E013",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T22:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 14 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E014",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T21:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 15 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E015",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T20:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: pest-damaged cartons and thawed produce. Report 16 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E016",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T19:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 17 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E017",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T18:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 18 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E018",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T17:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: pest-damaged cartons and thawed produce. Report 19 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E019",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T16:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.503921Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 20 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E020",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T15:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 21 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E021",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T14:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: pest-damaged cartons and thawed produce. Report 22 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E022",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T13:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 23 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E023",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T12:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 24 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E024",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T11:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: pest-damaged cartons and thawed produce. Report 25 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E025",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T10:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: sour curdled milk, khatta smell. Report 26 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E026",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Blinkit",
+          "source_url": "",
+          "timestamp": "2026-11-02T09:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Blinkit delivery at Ram Koti: sour curdled milk, khatta smell. Report 27 in the synthetic register.",
+          "language": "hi-en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "sour",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Hyderabad",
+            "pin_code_prefix": "500",
+            "node_id": "ram-koti",
+            "node_name": "Ram Koti",
+            "node_latitude": 17.3876,
+            "node_longitude": 78.4846,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        },
+        {
+          "id": "IND-FSSAI-03-E027",
+          "case_id": "IND-FSSAI-03",
+          "platform": "Zepto",
+          "source_url": "",
+          "timestamp": "2026-11-02T08:43:06.497046Z",
+          "retrieved_at": "2026-11-03T13:43:06.513169Z",
+          "product_name": "Fresh Milk & Daily Produce",
+          "text": "Zepto delivery at Malad West: pest-damaged cartons and thawed produce. Report 28 in the synthetic register.",
+          "language": "en",
+          "channel": "public_web",
+          "evidence_type": "complaint",
+          "verified_purchase": true,
+          "lab_evidence": "none",
+          "synthetic": true,
+          "entities": [
+            {
+              "text": "thawed",
+              "kind": "hazard",
+              "normalized": "cold-chain spoilage",
+              "severity": 50.0
+            },
+            {
+              "text": "pest",
+              "kind": "hazard",
+              "normalized": "pest damage",
+              "severity": 55.0
+            }
+          ],
+          "clinical": {
+            "onset_latency_hours": null,
+            "symptom_duration_days": null,
+            "dechallenge_status": "unknown",
+            "rechallenge_status": "unknown",
+            "concomitant_products": []
+          },
+          "geography": {
+            "city": "Mumbai",
+            "pin_code_prefix": "400",
+            "node_id": "malad-west",
+            "node_name": "Malad West",
+            "node_latitude": 19.1868,
+            "node_longitude": 72.8487,
+            "radius_km": 2.5
+          },
+          "extraction_method": "synthetic + rules-v1",
+          "redacted_fields": [],
+          "privacy_status": "synthetic",
+          "warnings": [
+            "Synthetic example; no actual source URL."
+          ]
+        }
+      ],
+      "total": 28,
+      "platforms": [
+        "Blinkit",
+        "Zepto"
+      ]
+    }
+  },
+  "graphs": {
+    "IND-FSSAI-01": {
+      "nodes": [
+        {
+          "id": "brand:MasalaClub",
+          "label": "MasalaClub",
+          "kind": "brand",
+          "license": null
+        },
+        {
+          "id": "brand:SnackLab",
+          "label": "SnackLab",
+          "kind": "brand",
+          "license": null
+        },
+        {
+          "id": "case:IND-FSSAI-01",
+          "label": "IND-FSSAI-01",
+          "kind": "case",
+          "license": null
+        },
+        {
+          "id": "facility:10012021000518",
+          "label": "10012021000518",
+          "kind": "facility",
+          "license": "10012021000518"
+        },
+        {
+          "id": "product:IND-FSSAI-01-P0",
+          "label": "Everyday Masala Blend",
+          "kind": "product",
+          "license": null
+        },
+        {
+          "id": "product:IND-FSSAI-01-P1",
+          "label": "Chilli Crunch Mix",
+          "kind": "product",
+          "license": null
+        },
+        {
+          "id": "supplier:demo-common-spice-supplier",
+          "label": "demo-common-spice-supplier",
+          "kind": "supplier",
+          "license": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "7c445dfa9fed4e37f98fe456b4733048",
+          "source": "brand:MasalaClub",
+          "target": "product:IND-FSSAI-01-P0",
+          "label": "markets"
+        },
+        {
+          "id": "295ed62a895e45ccdd0cb5d3ea2f5b56",
+          "source": "product:IND-FSSAI-01-P0",
+          "target": "case:IND-FSSAI-01",
+          "label": "investigated_in"
+        },
+        {
+          "id": "c660a08fd906c0e6b1b2232742993e86",
+          "source": "product:IND-FSSAI-01-P0",
+          "target": "facility:10012021000518",
+          "label": "manufactured_at"
+        },
+        {
+          "id": "0d33aba3ed6fbc51689ad02218b964db",
+          "source": "product:IND-FSSAI-01-P0",
+          "target": "supplier:demo-common-spice-supplier",
+          "label": "supplied_by"
+        },
+        {
+          "id": "2b01103ef453a3722de0e1a091e9853d",
+          "source": "brand:SnackLab",
+          "target": "product:IND-FSSAI-01-P1",
+          "label": "markets"
+        },
+        {
+          "id": "5f564874a7cd927ad6a795154e6341e0",
+          "source": "product:IND-FSSAI-01-P1",
+          "target": "case:IND-FSSAI-01",
+          "label": "investigated_in"
+        },
+        {
+          "id": "955d81790838f9d32ce9166e8feedba2",
+          "source": "product:IND-FSSAI-01-P1",
+          "target": "facility:10012021000518",
+          "label": "manufactured_at"
+        },
+        {
+          "id": "833c248db6eb90c9eba8fc86e8d19346",
+          "source": "product:IND-FSSAI-01-P1",
+          "target": "supplier:demo-common-spice-supplier",
+          "label": "supplied_by"
+        }
+      ],
+      "facility_alerts": [
+        {
+          "license": "10012021000518",
+          "brands": [
+            "MasalaClub",
+            "SnackLab"
+          ],
+          "case_ids": [
+            "IND-FSSAI-01"
+          ],
+          "status": "cross_brand_review",
+          "message": "2 brands share this manufacturing license. Review facility-level signals."
+        }
+      ],
+      "backend": "networkx",
+      "persistence": "postgresql/sqlalchemy"
+    },
+    "IND-FSSAI-02": {
+      "nodes": [
+        {
+          "id": "brand:BeeTheory",
+          "label": "BeeTheory",
+          "kind": "brand",
+          "license": null
+        },
+        {
+          "id": "brand:PeakFuel",
+          "label": "PeakFuel",
+          "kind": "brand",
+          "license": null
+        },
+        {
+          "id": "case:IND-FSSAI-02",
+          "label": "IND-FSSAI-02",
+          "kind": "case",
+          "license": null
+        },
+        {
+          "id": "product:IND-FSSAI-02-P0",
+          "label": "Whey Isolate",
+          "kind": "product",
+          "license": null
+        },
+        {
+          "id": "product:IND-FSSAI-02-P1",
+          "label": "Raw Forest Honey",
+          "kind": "product",
+          "license": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "65e444ecc0fbe33a0e617cc5a4dfdb69",
+          "source": "brand:PeakFuel",
+          "target": "product:IND-FSSAI-02-P0",
+          "label": "markets"
+        },
+        {
+          "id": "e38f349ed19b712ad5a8656403978ea1",
+          "source": "product:IND-FSSAI-02-P0",
+          "target": "case:IND-FSSAI-02",
+          "label": "investigated_in"
+        },
+        {
+          "id": "34c74b2c36399534574b011a7ad8a8db",
+          "source": "brand:BeeTheory",
+          "target": "product:IND-FSSAI-02-P1",
+          "label": "markets"
+        },
+        {
+          "id": "40d8ccf3360337d9abd736d7e415742c",
+          "source": "product:IND-FSSAI-02-P1",
+          "target": "case:IND-FSSAI-02",
+          "label": "investigated_in"
+        }
+      ],
+      "facility_alerts": [],
+      "backend": "networkx",
+      "persistence": "postgresql/sqlalchemy"
+    },
+    "IND-FSSAI-03": {
+      "nodes": [
+        {
+          "id": "brand:DailyDrop",
+          "label": "DailyDrop",
+          "kind": "brand",
+          "license": null
+        },
+        {
+          "id": "case:IND-FSSAI-03",
+          "label": "IND-FSSAI-03",
+          "kind": "case",
+          "license": null
+        },
+        {
+          "id": "product:IND-FSSAI-03-P0",
+          "label": "Fresh Milk",
+          "kind": "product",
+          "license": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "101cd14442d39378979f697c63803b61",
+          "source": "brand:DailyDrop",
+          "target": "product:IND-FSSAI-03-P0",
+          "label": "markets"
+        },
+        {
+          "id": "da8fbd44e7d9c8791959a12370deded6",
+          "source": "product:IND-FSSAI-03-P0",
+          "target": "case:IND-FSSAI-03",
+          "label": "investigated_in"
+        }
+      ],
+      "facility_alerts": [],
+      "backend": "networkx",
+      "persistence": "postgresql/sqlalchemy"
+    }
+  },
+  "packets": {
+    "b697bd63-17b6-4810-b592-e843feb622df": {
+      "json": {
+        "id": "b697bd63-17b6-4810-b592-e843feb622df",
+        "version": 1,
+        "content_hash": "cc46f063b57e0f9f0111ab2ddfa2ba6ceacb5340cc73ea1375f6037908caa5c0",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-01",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "Schedule I - Food Recall Information",
+          "recipients": [
+            "CEO, Food Safety and Standards Authority of India",
+            "Commissioner of Food Safety, concerned State / Union territory"
+          ],
+          "routing": "central license; confirm responsible authorities before submission",
+          "fbo": {
+            "name": "CommonGround Foods Pvt Ltd (synthetic)",
+            "business_address": "Synthetic Industrial Estate, Maharashtra",
+            "license_no": "10012021000518",
+            "license_type": "central",
+            "coordinator": "Demo Recall Coordinator",
+            "business_contact": "recall@example.invalid / synthetic 24-hour contact"
+          },
+          "food_category_code": "12",
+          "implicated_foods": [
+            {
+              "name": "Everyday Masala Blend",
+              "brand": "MasalaClub",
+              "pack_size": "100 g"
+            },
+            {
+              "name": "Chilli Crunch Mix",
+              "brand": "SnackLab",
+              "pack_size": "80 g"
+            }
+          ],
+          "batches": [
+            {
+              "lot": "lot-MX-02",
+              "manufactured": "2026-09-12",
+              "best_before": "2027-03-11"
+            }
+          ],
+          "quantity_affected": "4,800 packs (synthetic)",
+          "distribution_footprint": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Pune"
+          ],
+          "complaint_count_48h": 39,
+          "reported_illnesses": 12,
+          "reason": "Representative synthetic reports describe hives, itchy throat and vomiting after lot-MX-02. A creator screen alleges ferbam residue. The shared manufacturing license also links another fictional brand; confirmation and facility review are required.",
+          "proposed_recall_class": "Class I - operator/authority review required",
+          "risk_assessment": {
+            "score": 88.0,
+            "base_score": 72.55,
+            "amplification": 1.212867,
+            "pre_recall_factor": 0.85,
+            "velocity": 0.56,
+            "policy_version": "continuous-hazard-v1"
+          },
+          "proposed_actions": [
+            "Identify implicated lots and distribution accounts",
+            "Stop distribution of stock determined to require recall",
+            "Notify the concerned authorities and supply-chain contacts",
+            "Record recovery and effectiveness checks"
+          ],
+          "missing_fields": [],
+          "legal_reference": "FSS (Food Recall Procedure) Regulations, 2017, Regulation 6(3) and Schedule I",
+          "source_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Recall_Regulations.pdf"
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA4IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyAxMCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA4IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgOCAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKFNjaGVkdWxlIEkgLSBGb29kIFJlY2FsbCBJbmZvcm1hdGlvbikgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9Db3VudCAyIC9LaWRzIFsgNCAwIFIgNSAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTQ3OQo+PgpzdHJlYW0KR2F1MENEL1xFJyZIOXRZUiNiSmVwMywlb15VLj5kODkwS01VcSZhZTxrOXJCXXRqQC4yPidVYVNHTTgtMlRASmoiSl9uXV9OKTtjbz85IzpiVXM7UElUWjdgX3VTZ1hJKFd0KTM2W2ApQ2d0PFsqY0MtQ2luS0YmJU04J2RUOFFlNTQ0Sm4pMjVqMi4wTiI2X1svaUkmWztZIjhhNixWZ2ZDdC1gOz9sXzBMOGJNZyk5RVZAIjwkOF0wYkNBT2dCWCxHIm5TQGRPSWY2JiNpSEctSFUpdURIZG1mNTpCVCk6a207c0JJIygnaipZQkg7P185YkApcTVhTixzJVlYcWc8NTdATVwqN2ZELF1yYz9BTiROZltIVG5IPzh0JE1qPmFBb291JD51KnRYJE4oIUZvNmJ0QTsuMCtcajhBTjlIb2J0UWRJdFIyX0NiJG9IQChmKiJmdTsqcEwlcHRuOXBIOCxGNVBjLy5vVW5lYSNTdSdMXzJmLy1OSCk8LV9LImlASiozWV9XdWVAMENkRycjTHNeQS8pbDAvPF9vVi0xUytpP2d1TVpUPSpcbTxibTZtTmhzUm1jXkZQXUc3PmAjcl8/LUs1WzBHVTxOWkVUR0ZZJE86RmNqMGM2UERAO2k3OTEmWXFMVThJREljKVE2YytdTixBIk80YHUhJGAuU0xFVkJPVEQmL1k5ZUQ9LUg9SSJIOTEtYnA2N08rQScjN084NFUpWi4qPFZeaj8xYUpXaCg1QSUtaGxfLEtTQjdWTVtuJTprazRnT1cwU0FbOD9STWhta0srQDspZXJObC8rRiZyOEtAJUk2Z0BXU14yQTUsSmZsZSE4cl1qQGpVLS8uXS4jN25XdGFBOWwqYUJWTik4Q0lWcUdbaD1gPlA9OFdkZXAzZmNUJV1HOUYzKUBgcFwuO0NRYkdhR0M6OHJBb3FORFlxbiJ1V0Z0Zk1KbTk+SDgvSiQ3MlxwLmkoImU0bENXPUVFbmomVWVFYUNaZiFVXW1NPHE/cHBUTHJnYExjYDc5YzJYXUo6Uj9YRkA8PTJHPVVTZTZISEhWK0g0bi9IcUtXZG46MkZHbUljNGZtWDlVclFxTE0jck5cPVI1UU5eOW5zbGlTZlJXVSo/bHAoIWJbPi9DPkVLdUknO0hvWSU5KWgyM3RKYXBcaDdsbjxiMkBBWCJyRjNGOFhsaEFgb3BtSC1DYz11NzczUDlgXmVEJ1xpJ09qc21OXz5Rb0JYYT50ajhSY18xSzFFKGYnRCM7dT8saUApJlQoaWJVZEp0XUwyPmZBQlVvaU9XVFZcdSsta0szJGlmaTlbPiEtXlw1OSRgJSU6U0M8XUZQQldETjg8S0IpU11nOk1bJG5OUG5bblNFWiNYUCkqQSgwbTEoJ1BqS0hiZUVNKW8zYSxwPi1cJ15MOnIiNGtyK2MxQ25PSGsnI3AlaEBAJU8oZ2lBRlZHPUlkcD1FS29tYWwiLF5vVC8lKmZQSWVXWWltLFdDRTVoXi0+P24/MipDKmteIVkoNSwuTnUrQElzMz5oUUA2LSQnc11GK1FwSmYvQFxBIUEhdUJJWGJTZ0VUV0piMVNoOTdwRDs2TVpVRXJQJ2RESSVOYXVmQkZPSlotR0xHaDlBKnVYJnRGW2prJllxRjUpYiZTPiM+QSc6cjQvMTteWW9fVFElXF9ERjpLTigpQiMvJG5wZWpZSFFZMz5halxjOTdYWmIkLVtoXDc4MVdtSCZZV1hsbWQmXmEnNEcvNSFpRFxuYi1kNilGSyQtLWFkSC0rcC4mcGM9JV4xOERDPT9aR0BEIVdOMFReWT89bm5cSChLLyFoRSxTXl9EWilYdEFnTzJyL1JCTV4ncksiVUspbDoiWGpiT1Jdai86JG85V1E8RDBSLFU2a1lwKV1yby5oZ1xdZGRMUjZVJnBGXDEnSVpKRmBFSjsydC5YYDAzJFMkO0tSZn4+ZW5kc3RyZWFtCmVuZG9iagoxMCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxNDAwCj4+CnN0cmVhbQpHYXRVMmdNWiUwJjpPOlNiYk1YTGUiWjlhNSdcZiElST06NWxuM0k0ISIyOGovMmpmdCxxMCdPcVhHVFNRUklpUWFHZ1gyMFpmYChrMC9PUmk4TCQ2aGc+VXNJS0FJWCJtWCIiIjwqRjcoOCdSN0BSLjVcZE5mJVZhN3I2cThbSSZCNXFOPmVgITcyQFBCOl9uWCohZWxNRmo/NikyMD9aODxBJzEoK1U0Tz85aFoiLSZkRTo3YFljQFk0KDhgaVwrRjNpWlFebzZQLiRcQF0pSUgwMiZ0aURMTk5dKk03JTZuNUtUQkxrOmpaV0xsO1VlTSYqMyw+J1EiTjVVS3JfRCVWYGBZJVkhTShsTHBmdU5dQ0duPy9ybnEsKD9UM1pqYjokOyxpQ2tTTHQ1NilkRC08ITxgcT1nci9uIjFCJSYiUCxbaElvMVBeZTo4Rl00T1xHSWBMSTJpKlssbkxFT0tyIkFwIkRNSyU8a2dKPTVgJjZhISkmXyYqTlpCNVc4cGZdLyI7VT1YPmlFQzxZNjJDXHVWcFBAT0sxPiZnby8tIm0mYnNSdClaPF9kJiMoKC5La3NnTyVcRU5GaSRjXSQnbzckWmh0JT9UUWNAPVhDZ0pHIjgpWVtYaGYrNSs8NGpXZ2lnTWZcKTZyLm5bdUlBcyZOTTgrI0FuNj09NW82LUwmOl11I2E4PW8wVTdnRiEsRHFvYUhcSFI9VFUpXz0mO09HcVhTTGFxI2klKy8nYSlRSjFgZyJKQ1FNYTRza0FSRWNvRScjYzB1O0VXVi4rKS0iZzxnNTdiKU0vQ2ZubGFkaWxEX3NyaD4ybDE6PzZjZ0ZWQCNyU0hCSGBzVmldMy1PTlhMOEM7akc1PihZcy1lQT8jNkItWzJoJktQazFsIjtMWE83WCU/X2ssJnNWYGphW2orNURFSV1fWzdDNWkiRGtHU3U/VzEhJ05wK2BCYV5mUWY3NlxIPjk1ZCVaJzM/LDxVPClQbUVHMTxNczBlWF4ibz5AbjQ3OzctM0UrK1kxSTFIdVEoQSVzN3AxNWpiUT9KcG0rPSdePlNIOVNKJCQnP0Eoc1szJXBjRjdWJ1E9PWw4aidScE0mY0kmaF9RaDlkaFtkOVU/STlQQUA4UUQoOjotdUIzI19NMEwoUFwnOEcrQGI1OW5cQGFkbUBiaDBmNklfdFMpWUBXX1M1JmljRDpCPSUnYEBaSyE4dFZpNl1uYEFVUSl1Ki1sdS9iWWQ+JT9kOyphK3QzYTQwWmxGI09MVDcmUzoxU1JCNEtzVXNUJ0h1XVYkW29RZkFkLWJgLig6PTg8XF5NbiIsRVhwMVQ6cj5pKUZROzZScERuZ0RHQGdIVDNzKXJVYyUiNW9aNkxqI2s9MV0rUFIhMVwvblZwcEEubUZEck5IMWVwVDJQRk8uTXJtOSZFbW11WWNdcm5pPl1PSVVUV1BkMEtPTUhJMldqJllmTDklRjRpRlUsUEhXL1J0KT1pW0pwTy0kNjtMQXBIY0IkNm45b11IMjlDV2dsW0NtYFxLJUVGJS5SQlNJT0JzZSNZQFBPOm0nODI9TjVabkxtOyg1SVlvJi8xblxBXWtJLSspNyFIMHNTVyNYOkJLOFVnb1RPK0dzXjAvPj9FJTl1PnJrY0NtSC1uKmpxWmBDUUQ9JU5HXi0pMDM6IzomWitNSmojR2ZaMyUqMzYmUENDW1s3bG1XNm5KPV1nVD9ibTNXL2xRZEM+RXM6KTtxM1BNbjVJKVNuZ1k1JUEoTE00R2w3KCM1WUEvSCtBOTZnVSlDSCs+LV9XOy1xMkRSR2tZdFdzMDM3ODduNypxMCQ1NlonPjFcJzNAPnBYcldQK1U6Q21+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDExCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTI0IDAwMDAwIG4gCjAwMDAwMDA3MjggMDAwMDAgbiAKMDAwMDAwMDc5NiAwMDAwMCBuIAowMDAwMDAxMDk0IDAwMDAwIG4gCjAwMDAwMDExNTkgMDAwMDAgbiAKMDAwMDAwMjcyOSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzwxZTk3NjY1YzY5MDIwZWMzN2Q2MDMwYjY2ODQ5ODg2ZD48MWU5NzY2NWM2OTAyMGVjMzdkNjAzMGI2Njg0OTg4NmQ+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDExCj4+CnN0YXJ0eHJlZgo0MjIxCiUlRU9GCg=="
+    },
+    "b86041b1-dd33-4267-9687-b37a9d58f454": {
+      "json": {
+        "id": "b86041b1-dd33-4267-9687-b37a9d58f454",
+        "version": 1,
+        "content_hash": "59798813eed47b256ae951c33ab6b4a9d83c9235726853ad06c5bd6b58c3a922",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-01",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "URGENT FOOD RECALL NOTICE - DRAFT",
+          "fbo": {
+            "name": "CommonGround Foods Pvt Ltd (synthetic)",
+            "business_address": "Synthetic Industrial Estate, Maharashtra",
+            "license_no": "10012021000518",
+            "license_type": "central",
+            "coordinator": "Demo Recall Coordinator",
+            "business_contact": "recall@example.invalid / synthetic 24-hour contact"
+          },
+          "product": "Everyday Masala Blend",
+          "brands": [
+            {
+              "name": "Everyday Masala Blend",
+              "brand": "MasalaClub",
+              "pack_size": "100 g"
+            },
+            {
+              "name": "Chilli Crunch Mix",
+              "brand": "SnackLab",
+              "pack_size": "80 g"
+            }
+          ],
+          "affected_batches": [
+            {
+              "lot": "lot-MX-02",
+              "manufactured": "2026-09-12",
+              "best_before": "2027-03-11"
+            }
+          ],
+          "reason": "Representative synthetic reports describe hives, itchy throat and vomiting after lot-MX-02. A creator screen alleges ferbam residue. The shared manufacturing license also links another fictional brand; confirmation and facility review are required.",
+          "consumer_message": "Do not consume the identified affected batch. Keep the package and contact the recall coordinator for return instructions.",
+          "health_warning": "Reported allergic reactions and contamination concerns require review. Anyone with severe symptoms should seek urgent medical care.",
+          "distribution_locations": [
+            "Mumbai",
+            "Delhi",
+            "Bengaluru",
+            "Pune"
+          ],
+          "contact": "recall@example.invalid / synthetic 24-hour contact",
+          "release_status": "Requires factual verification and authorized release",
+          "source_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Recall_Regulations.pdf"
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA4IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyAxMCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA4IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgOCAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKFVSR0VOVCBGT09EIFJFQ0FMTCBOT1RJQ0UgLSBEUkFGVCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9Db3VudCAyIC9LaWRzIFsgNCAwIFIgNSAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTY3MQo+PgpzdHJlYW0KR2F1MEM9YGBSbCY6WEFXa1hSUD1CSmtyQjgrSTo2R2g5QHUjYHFZVls0ZC5oXnI0WTA0LUo1QlBvbFY+IUNBXFBNcVgmZlpBUiVPSXNsXW01ZXRBTVdXJ3BVNV02dU9EP3BkWVZLM2xPamhaJEFfcypGJEglWjthPUg4R2whQnMqOWdFR2UiPEAtVylUcDgwWSc+UlBQZG5QODZPLjsiayY0TW0oZkVBJmhGPlFkJFQhQU5JISM/QTs4UCIrKm9GQGFKX3Q5aTYxNXAjUCFJUSk3I1piSitVJF1ca2otPUhFJSZucmksMDU7R1RnXzxyMzFRZyFcXzs8QylYQVRqaHR1R1ovb2Y4TERzJVgibiU8JmtjXVI9bERoWlxhVVdXL15xYSdzZzE6Yi1kVSs+XmReZ01QPEsuJkdMbFtKXEUzNStdPF1QKSUpWTMhMDpuNkZdbT5BdFxvTTZDIS0hVDJRbGtuOzE5U3I1JjdmNjZpYFxZVjJcVVdrKCRFSy4ib1EmKmBTaixfK1QuR1IkSiR0KTNhP11SWnFzKnRqcFR0PDFvIVczbWM6NFxUVVw0KFIvK09uNj9pJW9CWkkyVFFLKiE0TlI4WDIvc05AXkMuJjJFPC47X2chX1giclE5Vz0hJV0wVk4jK0JIRks6ImY2ZG5cXkU0WVwxRGVbWi8ycUEmITctUDEyLTRCJFt0b1ozIz5BLysmPjNRJXF0KEBidFBnMTpQNVU+cmdEPzFNVFttdDdYNWA+by5ic0U0ajNXSCdrQT8vJWVOYlVpVlRRUi4yMDNnLmBwWGg/LDNDMGkoR0hUI1BsUVQ5JFonbTZabV1kL2dTYmFcNSFacmNRaDgkKjhTYzVgIldNT2E9bzhMXztFLU4+O0ZJbyxwciY1bVpFPTliVzRJWixIXG5tTS44WEJZVUtsY09lJEFqYThZJ0s2cWdDNG9wKnNeT0s7OlQ4ODxZcEtDUDciTkkuaTRWNj1FXDFjblVDLTAyOS00M0xZUlt0SiJtPCRZVDpGZy9eUFxrPyU8THBua2ZZXzYyJ2pPKDpiVjo7UCE+ZlAyXlhjZnVUJUc2T0omM2ouS19fcCY4S1BjZXEzRDE3XjtEKy5rKChlWSIhcD1xRkxnPUF0Ly4rUGJBPE9dRUsnLComS2BAYE5jXExXZCU/ODFvZFRgRG8+MF1tITRMNF9nLUs6WS06YjRKK1M8LF9kOm1OOyIiblpwZGohRUs7biNgXl04QDJkQzAhZC5iUytfLzc4OCgiPzNvQHM1LiZcZSg3WkhhMFNBdGVOKz9gY0Q5QVk3Ry9nVXQuQitWNG0rXD4vZ1xBUCxCa2hjOWtbQEl0Xl1PUzc7UydkJFJkdWJicjxQTjw+PyNpUUNhN0JAWSosIkpUJmw6OkdnMjw3PSg+YURKWj9YW2o/S0Y1VF4yUjQpYGdsLV9eMjhJUzZoUHVWW1QuMGNvPE1HV3EkTGFWJU1gNTVmIkJESzIuJWU8akNULWRbP3RyOWlxclg6I1w7JF1NUFhAdGxtVzdCPEAvJXIoVm8vOmY4Jl1xRSIwKTdCJExDVmkjSHMwMiEnVnRgQiYoQ0IuUUVLPlUxVylAKEpgNkUzKDYmWlQ/SydGaC9OSy9Cbm9ZT1xbdSgvJHI5bj5aQTxIOj9JdERiJFdCQlIxI1ImZi10MlBXWSkzWTJNZVtUciosL0AzLWIpJydTdEBNUSNeaDdARjM/MEIqWDRBcmtgNidhJyJtdSkqMmhvUDhCU0QoPDBhVzUlKGRwIS9YSEpAJWFOajFZcyUkV1Q+NjhBOyQ8WDlFYSxFTFJJQjsoND43bDxTXmVkOkdXQmokMVZvXT02STJUMipTKVpKNDU3NlIqMXJSKkZXIipaOlxFWi1NWjNuRCoqUiEjK285KmdnQFFCcG4nTj1NXkE7O1pwXnEtRCRvZkkiNm1pbTVIXW1mNmxATEIwPDI+NG1lNkgiWSprLUArWiJTKlxdLl00ZidXZydLZEpgTkVxaCEuTy4+NmQyMi5SJiRDMF5UOlRAKSU0UWM7aWIiZW9QayNYc2onN21dRyhiOzpLJVojJS0xcFspTzNIMWJpX0lZX0UjZFtnX2IwJXRrTUNYMFxOMXVzSFYiRFNSX0knTyw7KzA3Xjc8YDwkQSJvUDdTSDJOUU5OWUp0KEclLlxHclUrJEFXJ0kqW1FzdUhFT1RBL1g4YC9xLWtyRX4+ZW5kc3RyZWFtCmVuZG9iagoxMCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA2NTYKPj4Kc3RyZWFtCkdhdFUwaC9DYXImOmAjNUVLOjQkTnBZSW9iUytKalRiPGZlI25LLUEucmo5blJybkppQCxkNzFsRD8rYitaXzNASSQzbS9ob0ZEWTVdSkpCazhTcTEpMiomOE4nZ1ZJJzE+K1oqajJmIUJZZGZQSjhnM0xOMC5nQyc1MUh1Olo5KmI6SiZQLz5cLkReV0pKdS0xUGlGYzsrcWo8KWBWVk0hTXFTJiNmNVNNZV5SRkptYjgsal4tX1BBNlJKNkcjW2cnZSJHaXA5VGBVTnVLNmdFT09UXEhvZlJTbm4rcWwkVFk7by4rOyxPVzNWaG1KIiZMKFpybDRCXjNNPFtKa2xNNj9gVWR1XERVY249Z3AjVSJdVldXalQ4cUVUN1FjbnRcVS1TU04zZFooOS9NOEEiVlVcZDpHWFVTSWVOVEBjIls6JjwkJyM9TCslNk4mK3Q0XlAmVDFPXnJLJkgzWiozOi9fMGRLZz9LcC0zO3RqdG9WIzNfJk8kUl9CSktTY0YyajU2O2EvRCJeSihkN1UqXkNWLF9nVidCWGopaUhZTy1QP2ZmRGQrSD1wSl9US2g3blxtTzQrYig1SyhcZiJcbTpUKTZoYGRUKUNhN2gjR21RXHNoVjAxQDIoPU0oMzZoYydTLmNMK2VjYSU4IURoYjoiKkwsZCc/bFxOTD5FcjMrcipxRichRzpRSTlqP0g0OTUrbm46WiomTCxATEIqOis3KFw1NENEMDtYQE0naURdJjtURnBEcGItUUohcFxoT0knbyczLFwickBPO2l0KGRfY21pYz5NIzZPJHRcTzooRVZeYWRoSC9UcllBc0YlRi8yM09fbXNlX0FuJUhQYCgwRiZHdVRWPzhTdH4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMDIgMDAwMDAgbiAKMDAwMDAwMDIwOSAwMDAwMCBuIAowMDAwMDAwMzIxIDAwMDAwIG4gCjAwMDAwMDA1MjQgMDAwMDAgbiAKMDAwMDAwMDcyOCAwMDAwMCBuIAowMDAwMDAwNzk2IDAwMDAwIG4gCjAwMDAwMDEwOTEgMDAwMDAgbiAKMDAwMDAwMTE1NiAwMDAwMCBuIAowMDAwMDAyOTE4IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDdkYWY3ZjZhZGE0MDUwMjYxZTI3N2RkMDMzZmZjZTlkPjw3ZGFmN2Y2YWRhNDA1MDI2MWUyNzdkZDAzM2ZmY2U5ZD5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNyAwIFIKL1Jvb3QgNiAwIFIKL1NpemUgMTEKPj4Kc3RhcnR4cmVmCjM2NjUKJSVFT0YK"
+    },
+    "30fe2654-b22e-422d-a5f7-279730a5111c": {
+      "json": {
+        "id": "30fe2654-b22e-422d-a5f7-279730a5111c",
+        "version": 1,
+        "content_hash": "b54c83b17b1069aea6997dc576884e61e902b997f6e8c860ef6f2a7039aee888",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-02",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "Marketplace seller investigation and takedown request",
+          "requested_action": "Investigate the identified listing and seller; suspend affected listings if the marketplace confirms policy violations.",
+          "marketplaces": [
+            "Amazon.in",
+            "Flipkart",
+            "HealthKart",
+            "1mg"
+          ],
+          "identified_sellers": [
+            {
+              "name": "BulkWell Deals (synthetic)",
+              "platform": "Amazon.in",
+              "listing_reference": "DEMO-WHEY-01"
+            },
+            {
+              "name": "BulkWell Deals (synthetic)",
+              "platform": "Flipkart",
+              "listing_reference": "DEMO-HONEY-02"
+            }
+          ],
+          "affected_products": [
+            {
+              "name": "Whey Isolate",
+              "brand": "PeakFuel",
+              "pack_size": "1 kg"
+            },
+            {
+              "name": "Raw Forest Honey",
+              "brand": "BeeTheory",
+              "pack_size": "500 g"
+            }
+          ],
+          "indicators": [
+            "Missing hologram and failed official QR",
+            "Unauthorized seller shared across products",
+            "Label typos and powder clumping",
+            "Creator NMR allegation requires confirmation"
+          ],
+          "scope": "Named seller/listing only; brand-wide action requires separate corroboration.",
+          "evidence_status": "Reported authenticity concerns and lab allegations require verification."
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKE1hcmtldHBsYWNlIHNlbGxlciBpbnZlc3RpZ2F0aW9uIGFuZCB0YWtlZG93biByZXF1ZXN0KSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMzY5Cj4+CnN0cmVhbQpHYXUwQ2hmJTQ+JjpXZkdRcSlIOGNMMEQlSGBwNDonLyZMOzFeLVdPVjdwY2kpWVVES0ZEVlhmb29Ia21fOFxLIzBvP21GPVAzNipScjpMOiVNVDF0Ql89U14hTnI7PTByLiZQOU9qYGVqMihARGdlPCdUbjBlYG5FMHVdOSFGRGJwOEkwTHJYJz9LPD9GYl9OI0o8XVJaKzk+dUpkRGQ4Jjw3XEAkSV1eYzxtO2FeajtdZDs3WU5gPGJaKT1TITdRRitxRj9mKydFalUiPzg2WDBOWl1NaypmVS1hQVpfPUNHTC9ySSRKWigyKmpUMScwN2NdNT0mRShvJzk2R09qKjw4IlltdFxSJicqdEo/cnRZVEVuPk0lOjBeWD4rNUw5N0w2S2FAQkwhRU0wN2BCWWpVZWM2alAwWSpwMT9BXmU+ZjVgTk9mVUA4YW5kcEs6RkhiL1dWIWVnOy5FRU9pMkJJbV5ec29IcV5RXFlFOUg6aChpNmckMElQXVpEblQ6NCkoJV09PSNfI09LMFgoKDNLOE9uajpaNmBPYTkqRm4wdSlRWUwsPTE5ZyZhKUpyWlZePmU7XTEtXVMiRjZIQEZQVlsrbz8zUiwlcy9aams+R3I3UzxiPClwYVgvTVJXbUQ9YitaM0QvZklhbD5BPlZWWlYrZkdxNiM7WlcmaGspIygpbjNsPCtYJEQ2VlttKTUvQ2orU2UxRjMiJzc7YFZvXFJIWHNwSiZpKUtzQC9TY2QkYjZnckswVDxHXF1vMFUlZG8/Um0sTnAjblUxOTByJnJkRi1ILmhKUiMhUEFmYzt0QGZiO2BPIllyQmZrYS1ELy4mbCl1Qz1QR1pmUHQ/KSlKUy9oX1ddPj5AX0oucD5pVU4rYkY1XSVeazdRUGBHUSdLM21eRGAiJU5ncipbbkpddVNvK2YqMDJxWltqZWZMTVkkUl0uVS90ISVNdUIyTi0nTWcucFQmV3RTVGRAbCpCc2heQyElaTwlKmtWYVskU2ItUCFURTU0TjpSWD82b28mUmxMKyJFVkQ0Z0lvXCE7VCkzSzc6NnBycyMtTyluKjU7MT1INTpvLmNxcj5JbW0hSz9uQkZgPmlaKixRbis6byImcl1obFhOSTgpJ1w+OWY/TnVTIzJyPWdtKlhWPT9PV1REQkN1RGQwbVJ1V0I2VF0jRzBKNipyNVpcKUpfMFA9V1hKYTBtMjclRilGOmFkMzZuP3IvJkQsci9ELiZUcCcyJ0A+cFdESnQ0RSxVQ0VdSUMqakIpcShbIk87OEgnakgqRW8nZVVBLC0wbkByWiVzWGldKGkxVThPLVZALXUlMG9zZjEzJEhYV25ANkRYNkJAXC9lSTllJGc+TDJrUEtlMXAkZSZcRjBcNFA/Xi5FYU5vPVRJISgrKGJXLyg8YnROMjk5R1YnXzRGVWlFPS0zbzNacklrblBlKDwuUFhvbDE8NjZDLk1LTjMoLmsnUHJdPm8oYWkvPCEoJE5BYiU+TWIuUHNGL1A9VVkkQnNvZjU/ViEsITtDXEleYiYlQ1FFWURlZE85a0hVbTljZSNALCtkViE3TTM1dDBFQ1NDYW84QTYudTQiPmhDKyJSZk4lYjFFRjlyMVtNIzlVOUtZX0dnN1ckc21uTFdJSEVUS11RcXBEN1Q3K2BgaHRFW1MoK2NbMDFKMUtFVTlrR0ZVU3JrQWJfOz5WOUJuMmJhV15YPzVWZEl1MU8xXW8wazc9ckNPPmkpN01UOyc1JTM7cCRSZjJWWCpGT1xbUnJqWWBDb1g9UHQuOy5mcjlrJjxXYS9WMjpHJihtLysuZn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUyNCAwMDAwMCBuIAowMDAwMDAwNTkyIDAwMDAwIG4gCjAwMDAwMDA5MDcgMDAwMDAgbiAKMDAwMDAwMDk2NiAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw3MjFhMTExOWQ3M2QyODU3NWI4MmQ4ZDQzYjBhNmU0MD48NzIxYTExMTlkNzNkMjg1NzViODJkOGQ0M2IwYTZlNDA+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjI0MjYKJSVFT0YK"
+    },
+    "cef09800-47d8-43a5-9284-5964421060f3": {
+      "json": {
+        "id": "cef09800-47d8-43a5-9284-5964421060f3",
+        "version": 1,
+        "content_hash": "b5e441d04b5d1ab6f3051a1527061ecb5686796277615d756361ee754c433ef6",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-02",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "Consumer product authentication advisory",
+          "product": "Whey Isolate + Raw Honey",
+          "steps": [
+            "Check the inner seal and manufacturer hologram before use.",
+            "Use the manufacturer's official website to verify the QR/barcode destination.",
+            "Record the batch and seller invoice. Avoid consuming a product with a broken seal.",
+            "Contact the authorized brand channel about suspected counterfeits."
+          ],
+          "qualification": "Dissolution and packaging appearance alone cannot establish counterfeit status."
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKENvbnN1bWVyIHByb2R1Y3QgYXV0aGVudGljYXRpb24gYWR2aXNvcnkpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDQgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDk2NQo+PgpzdHJlYW0KR2F0VTA/I1MxRydSZkdSXDhNZiZdSnRiM3BpNVlROWdbPVsic0ckbmY0aUstXS9cKjUsKDtYNURWQVsrTUdAcl8+Ilw1JzNRTDtoJDUjSFlyNiREJVZcMmBXLkY4cFMkPjwlMC4pM1BkMz9nU14xc15daik/K1k9LkY0XmlnakJmNkBcPjlKJ1JeJXNWMSEzSE9jNz5ONkklU19ucV1XQ0tIbUMsOnQ5ImItUW81OmYiYXM6cFs9Z1IhVGYqYFpKWjxRIUJkVzIhSkV0VUxmLCg+KmdvPT1KZTx0JFlRVTcrS0dBTStvV0VxalcrVChPa1ckXG1JKnNqRiQxXlc2NHEtLEBILWJYcWpATWZKKCp1J2NeVjJdbV43N2tsWUUsRnFpJkFJSXEiLDMyXnVZQWVIJCl0alQrK20yWDNsVT04WClIQ0Z0O1xea1RKcEtCVWIrJj5FVDo9I3RrckUsNWBGN2NkLl9DXnErOjo3RHFiZjIlQ0ZCKiJlVlI7MyViImlUU0xTVkhrWVYucWBMc29INz5QOnJbOSJfP0diS0s1UmJwRG8iaEkoKl4/LWs5WClMTGwwUjkrZEJyakA8aEAxWkcuLjFpTT03SihALD9MOiJCTjIrOnBCRyZsRXRhNiQqT1QsIyRIZ1VfUGFILHQyKmxGZURFPlNRJjc4aHRyMDsxdSpeQy8nb0gxUU9yXTEhRW0sRWZJKGRQJ3EzUmRKLT8uZCliQ1JVT1JiXHEybFpMZlUiNDI9Zk5OTScrKDZdQWlRPChINHAyITUmUHEpLytsW1NbbjJfXj4/RUtbcixASzMvXz1QNmA9KlZXJjdzVmpHa2oqcWNwT0VHTEQlLC4xOy5wXFFCITt1SFhaR2MtSShRVmpTTkYqMFdDI28hQkgrQGE5Rig0UkNTTzRNQEVRMWRDZlAyS1oudStDMkIkMCMoKjheaGVOLStVTkRIRmc4TlRsLHBAP3BuLVJYWVNAalM3SEwiTkJvRVkyXDpXaWNxcTJAaWhdN0dubSspOT1NJmc8O2tMIzR0Yz45UycxTHBXPFZGS0EmPDEqZykzOmgnPzQmSilPOnJcdXBmbiNoL29lUitnK1lkbCZeJl4kPDI5YFtiKz5tQCsyKUwsJUpPR29sRTM5Ii9vTyFPIjwlKj1mSFpxVj8ybU91T0A6SElMWj5sTlctQWg8WzhSQypoclNRajtfUy5qXCJWTTJLa0Q4ZyR1ImdkJCtuQFRyKTAxIjZhJ1YvSGxCT18sa05dXGJlKXE/Kls1aV48fj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTI0IDAwMDAwIG4gCjAwMDAwMDA1OTIgMDAwMDAgbiAKMDAwMDAwMDg5NCAwMDAwMCBuIAowMDAwMDAwOTUzIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGVkNDcxMTdjZDBhNWYyNGZiNjQ1ZjJiZDVlNTIyNWIxPjxlZDQ3MTE3Y2QwYTVmMjRmYjY0NWYyYmQ1ZTUyMjViMT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjAwOAolJUVPRgo="
+    },
+    "b20cc74e-8587-4912-9fe8-5592ceed3852": {
+      "json": {
+        "id": "b20cc74e-8587-4912-9fe8-5592ceed3852",
+        "version": 1,
+        "content_hash": "374c35997acbb69e84940232d9c9f017f6fca698bc103ec338511e713f726a19",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-02",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "Independent laboratory audit request",
+          "products": [
+            {
+              "name": "Whey Isolate",
+              "brand": "PeakFuel",
+              "pack_size": "1 kg"
+            },
+            {
+              "name": "Raw Forest Honey",
+              "brand": "BeeTheory",
+              "pack_size": "500 g"
+            }
+          ],
+          "tests_requested": [
+            "Validated NMR and isotope testing for the alleged honey syrup adulteration",
+            "Protein identity, content and contaminant testing for the implicated supplement"
+          ],
+          "requirements": [
+            "Accredited laboratory",
+            "Documented chain of custody",
+            "Batch and seller identity",
+            "Report method, uncertainty and limits of detection"
+          ],
+          "status": "Draft request; no test has been commissioned."
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKEluZGVwZW5kZW50IGxhYm9yYXRvcnkgYXVkaXQgcmVxdWVzdCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTA1Ngo+PgpzdHJlYW0KR2F0VTE/JyF1JydSZi5HZ2RlczBuXSI9b2A4Lj5aU1lfN29OaSFBcWxEKXJjaShhb2tNNSxzLjVKR2EoYWIxXF1KLzBDM2pGM1ZHY0ZHWmAjaUBJZFdaJ2Z1Si5GRkNQWDJQVVJaSVowP2Y/JlwrWDNVOjk3YTtdP1EhMUw4PkAwWW9kJD1lVEtLJTJMQlJPQSpidDsyVWsvbVtSMUxYaCtwcGFKZG9NZz5Xb1AnXko1amhIIyJtXTdyPDEqczpxUi9mRXRNZ29eYW8tKEpWWmtYOyQpWV8tSSZLJGMzWnJIVy5EdUxpQW8oZnJpOUVlM0Q+WmFGRnA9N28tP24kQSI0YyhiZW5HMyxXajZBJEAvLylTNEJnaWFRRiouMm1fVzpHKCgpWkpII1c7KFVsM2UhbUE+Ik1EKFRbcTU7VVNqKF5DdC88NyRyQzYqRDtKVztNIjlxRSJycCxsa1o4XipBOC0sU0Q2XDonO20hcSorNyteIikkQU8yLjpdSUVNU2olJi4mUCRgJlZTU2BRbnFwSUg7b3NcN09EVWVRLUklVFwiYThIPC1HXydtaWRibitaYi5tK1c1WFtwKWJuTC4wR0UoP2pCLCZLb2dTVCVKYUdZTk1OSEg/X0RoX1MhTGVaIWshbyY8RTxqbCM+cCo4cHA2SmIyJWszKiE7KUZTczYrTyxYa0YtSiN0UFlyREhpKmg1WGVzPSFpaDpqJnMtOlUuWThuV15GNFhbczJUXWVNQzBSXSVqcl0uPioobkpPOSluZ2xMQi5ONGdcRUVBamplZDcoQ3MjZ05PJzRgbEg8bSg0R2EuSiJRS0kpVlNMP1YmOkYpR3VbPzFGKGJkUV5kcGdQMlVdLDk0bGYjOitSNUhmW1lVQm9HO0xxdVkuJnE4Q0RTMHBcPkZjSWtoZS4qOGtEOjdNTD07VyFiM3BKdUxmR082dEEsSUsjO2tqNzs0VClZJyJZLj8xZiVJLzBMTTBBZiMkYDdjU0hJWHBddUlSQShCcUJVZ01dQkRJSEMqTSM3JmhuYExTbXIpI3JBRkRZRzM6RC1VMS5YUkVwSWcsJ0ZsSilBL25nV0hHcFZzQ2hILl1pIkBLWz5bUj1pU2FFUERGO2RcNSIic01lTjlSJFddMEJhKml1a0IzLVIoV3RaVXFgY0xcQGtePVdNaFEjRy1fVjhmTU9fcV0zZVRdPClVUydeNWUwX0VWQnA+ZUEsXkJdIWtjSlxCZUNuYlVxJl1CJWwuMDkrW2dSSkhXPT9FUE1qTi4zMiRqLWIlPyl0bmM5Rkw0bDY1KEg0ZEpqU3JXNEJUJlddIU5kJFx0NGIxMUliSURnYWJmRzZCTks8Skg7Ql4hI2M/Ji1ZZm5xKzFvYGo2c2VmXG9DJ1BRKFtBSjRXIX4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUyNCAwMDAwMCBuIAowMDAwMDAwNTkyIDAwMDAwIG4gCjAwMDAwMDA4OTAgMDAwMDAgbiAKMDAwMDAwMDk0OSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw0NzYyMGIxMzJlNDUwOTdiYjE4NzU4OTVmZWFkOTQxZT48NDc2MjBiMTMyZTQ1MDk3YmIxODc1ODk1ZmVhZDk0MWU+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjIwOTYKJSVFT0YK"
+    },
+    "769db427-9518-4921-a9e5-39b44f2e7586": {
+      "json": {
+        "id": "769db427-9518-4921-a9e5-39b44f2e7586",
+        "version": 1,
+        "content_hash": "4760868955a894cb0e30f988edc71259794f9774117a8bbacad711e00a8ec640",
+        "brand": "red flag",
+        "case_id": "IND-FSSAI-03",
+        "status": "draft",
+        "synthetic": true,
+        "assessment_version": "continuous-hazard-v1",
+        "notice": "Synthetic demonstration - not an actual recall or enforcement action.",
+        "content": {
+          "title": "Hyperlocal stock quarantine and cold-chain audit advisory",
+          "nodes": [
+            {
+              "id": "ram-koti",
+              "name": "Ram Koti",
+              "city": "Hyderabad",
+              "public_store_pin": "500001",
+              "pin_code_prefix": "500",
+              "latitude": 17.3876,
+              "longitude": 78.4846,
+              "radius_km": 2.5,
+              "complaints": 14
+            },
+            {
+              "id": "malad-west",
+              "name": "Malad West",
+              "city": "Mumbai",
+              "public_store_pin": "400064",
+              "pin_code_prefix": "400",
+              "latitude": 19.1868,
+              "longitude": 72.8487,
+              "radius_km": 2.5,
+              "complaints": 14
+            }
+          ],
+          "product": "Fresh Milk & Daily Produce",
+          "requested_actions": [
+            "Identify and segregate implicated stock at each named node.",
+            "Conduct FEFO and expiry checks, pest inspection and temperature-log review.",
+            "Compare affected lots against unaffected D2C and supermarket channels.",
+            "Record inspection findings before expanding geographic scope."
+          ],
+          "scope": "Separate local nodes; no inferred radius from a PIN prefix and no automatic national recall.",
+          "unaffected_channel_observation": "0 observed defects in 60 synthetic D2C/supermarket control observations; not a population-wide defect estimate."
+        }
+      },
+      "pdf_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAocmVkIGZsYWcpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDMxOTEzMDcrMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKEh5cGVybG9jYWwgc3RvY2sgcXVhcmFudGluZSBhbmQgY29sZC1jaGFpbiBhdWRpdCBhZHZpc29yeSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTM4Mgo+PgpzdHJlYW0KR2F1SEo/I1QhdCY6Tl9DYllzZC1BYE5IbWdTWms3OWx0PGAnV0EjcURYN1A4ZlhvRlRTUXF1aXBsPHJrOUpJIj84ZCxNb2JDI2hKRiQpTXUqO2lfM1JoYyI9YmkqazlKXCFPQiE7MjBabz9WQT8rLT1GPTFeXGZEK2F0Vl9kTmlwRGQqJHVfRUllPkYtL0xdQC5HX3VSNjR0Vl82NlNyNmleRj8yR2xfIThCPF1KMSchP2VeN09TUVxZTF9VS3IlRkg7P3JQKCVLMVEnOFFvYk04MyhgSzMwYD8sOjQjLGNHVE4pJHMiQz1jUmZUImI2RWdSPEUndV5XbktTNnNgSSxDXD9mJjpRNSQqWkhUZz1DPXVnXj9bbjMqcCdWNUU+MmVVWTUickVUaFdJSWZuSiNEYXApdEFxLGooJiw1XDlnSi9MPkJbZTkwazx0KlEtPl5lVEchJyg4NCw7Mj0oJFR0XSRbYEk2X1M3LGdwRTxFPjRLZihDMF1APVBYZmM2cGw9IVYzU1pBIjo6YDVQJGlNQy5UOEwjSmMtRjciN1gmUzM2ME82Q1ZKXnAvQl5wNyQ9LkQ9c2dxW0w7J2tlYWlmTm1PbitCXSgoU3BlNHAycjRCOUYiPipqYzhMbFpWRy4qTkZgSm1EYyUjJ2swZEVHM20jWjtma2ZncXNaO0RjRkdFX21bYT5VWjA2SmtOSCMmTktyNWtUSmlfLjdEczBpJEVgJjtbckpGck1KKEYmRC4/MCQ+JyxpIVk5WU9UJjpgb2xXWV5qTlxwOUNLMi9saiJlIz0iMVtfbCMiZSQxRFs1LFVqMmMwNCFZL1tSJDgrb2teXm8pWVk+QEJFW3AoKlhPQ1xHdVgqZiE+Y1MwTllCVUdSYV9PQFJUSUstL2gxTTxfXmwjL1dlIkwlc0JiZl0yV0IyLkdrO1wwcjctMDkzbjUoRj5GSDUjRyNPZl5KRiJaOnJhX0huKC8oPlM/XSU5Ymg2Im11c2AySmJfSiY0WS5AIkJBKWQ2PTY8YS9ULEo3OFVZaGk1YWV1XnBBcHE9QTg+RDRzTDQsPjc3Jiw1VE48dTp1KGdmYi05NEMsR3JZSExRcWFIUFlpWnJ0bEVuIz4iXUptPzplNGQ2bGxJOz5UXzA3cGhOaTJBYWVCajdIYnQuR0AiXSQ9TF9mcCg/NykiM2YjIVczRShRXj4uZ3NgQ0BLayJiNz1ZJEJJVisvX2k4b1xBMEoyOE9WKWclOGFrKGtZVmIlJDFYTyckNGUpXGpqOmU5b0BII0QoIzAuO04+IUc6dGJmPWg0WmtZQVQocj4vblpqRUA8WnNjaj9LRWQyKmFYSWs/QjI1ZT50Pl0pISIyLy5kSzk5Jj9eRE5KWlR0P0xRK2ZSTGFKSWAtXyNTbkArJUM3RVAmdEFXJGAnQEZBREskSjVzcE5SO0xPNUpNOFg+UCdjVy89OWFiSzovLWw0S2dnOVZFQGo+bGJaYTBSMGdGKmkwYzZlOFYqaC40YjRuXDk/a1RvJVpyNUAsc1VGIUZwIU4wNiN1ZzJHMjZcSUUxJysrJT42TUs6dGVNMUQ5RUAuZWksWCdmPDlxc2w9WUtQcEQuIW1xbGFtTWQ2YWw4KGVjIWs6dGdiP1I2WCw/KWNhK1MqS2tSVmcyQjE8WypsY0JkcyJSdSpmPTFtY0paIS9ycitPPmdLI05mamdqQ0llVW1dOSlAYEg6ayY5T2kiM1A0Ri1sSHFXPFMxUl8qTjhcJCxWJl1mNWgvSUZYbiZUaEtrdEo+cj1NWSVmIiFwXl4nVkhmZzZkRC9TajRAQjsockdCSnUqPT4qIjtmSV4qUWtYfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTI0IDAwMDAwIG4gCjAwMDAwMDA1OTIgMDAwMDAgbiAKMDAwMDAwMDkxMSAwMDAwMCBuIAowMDAwMDAwOTcwIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDk0N2ZiNjA5MGRjNjEzOTA1YjdhNDE0MjNkZGFhOGRmPjw5NDdmYjYwOTBkYzYxMzkwNWI3YTQxNDIzZGRhYThkZj5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjQ0MwolJUVPRgo="
+    }
+  },
+  "telemetry": {
+    "active_cases": 3,
+    "high_risk_cases": 3,
+    "velocity_alerts": 2,
+    "pending_grievances": 1,
+    "evidence_count": 38,
+    "privacy_status": "Synthetic demo data",
+    "synthetic_cases": 3,
+    "live_cases": 0,
+    "last_updated": "2026-11-03T13:43:06.497046+00:00",
+    "providers": {},
+    "task_mode": "readonly",
+    "hosted_demo": true
+  },
+  "cases": [
+    {
+      "id": "IND-FSSAI-01",
+      "title": "The same batch. Different cities.",
+      "subtitle": "Spice pesticide & undeclared allergen",
+      "product_name": "Everyday Masala Blend",
+      "brand_name": "MasalaClub",
+      "risk_score": 88.0,
+      "sub_scores": {
+        "regulatory": 15.0,
+        "adverse_events": 82.0,
+        "live_web": 91.0,
+        "credibility": 86.0
+      },
+      "attribution": {
+        "batch": 0.85,
+        "counterfeit": 0.1,
+        "dark_store": 0.05
+      },
+      "dominant_vector": "batch",
+      "delta_velocity_48h": 0.56,
+      "complaint_count_48h": 39,
+      "cities": [
+        "Mumbai",
+        "Delhi",
+        "Bengaluru",
+        "Pune"
+      ],
+      "synthetic": true,
+      "updated_at": "2026-11-03T13:43:06.434339Z",
+      "status": "investigating"
+    },
+    {
+      "id": "IND-FSSAI-02",
+      "title": "Big gains. Bigger red flags.",
+      "subtitle": "Fake whey & syrup-spiked honey",
+      "product_name": "Whey Isolate + Raw Honey",
+      "brand_name": "PeakFuel / BeeTheory",
+      "risk_score": 79.0,
+      "sub_scores": {
+        "regulatory": 0.0,
+        "adverse_events": 64.0,
+        "live_web": 88.0,
+        "credibility": 80.0
+      },
+      "attribution": {
+        "batch": 0.08,
+        "counterfeit": 0.87,
+        "dark_store": 0.05
+      },
+      "dominant_vector": "counterfeit",
+      "delta_velocity_48h": 0.93,
+      "complaint_count_48h": 193,
+      "cities": [
+        "Delhi",
+        "Mumbai",
+        "Hyderabad"
+      ],
+      "synthetic": true,
+      "updated_at": "2026-11-03T13:43:06.481386Z",
+      "status": "investigating"
+    },
+    {
+      "id": "IND-FSSAI-03",
+      "title": "The milk's off. The whole brand isn't.",
+      "subtitle": "Two local cold-chain breaks",
+      "product_name": "Fresh Milk & Daily Produce",
+      "brand_name": "DailyDrop",
+      "risk_score": 74.0,
+      "sub_scores": {
+        "regulatory": 25.0,
+        "adverse_events": 58.0,
+        "live_web": 84.0,
+        "credibility": 78.0
+      },
+      "attribution": {
+        "batch": 0.06,
+        "counterfeit": 0.04,
+        "dark_store": 0.9
+      },
+      "dominant_vector": "dark_store",
+      "delta_velocity_48h": 0.4,
+      "complaint_count_48h": 28,
+      "cities": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "synthetic": true,
+      "updated_at": "2026-11-03T13:43:06.497046Z",
+      "status": "investigating"
+    }
+  ]
+}

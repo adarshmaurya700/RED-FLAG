@@ -26,6 +26,7 @@ import TriVectorCard from "./TriVectorCard";
 import EvidenceWall from "./EvidenceWall";
 import ReferenceLibrary from "./ReferenceLibrary";
 import { api, vectorNames, dateLabel } from "@/lib/api";
+import { hostedDemo } from "@/lib/demo-mode";
 import type {
   CaseSummary,
   CaseDetail,
@@ -124,18 +125,27 @@ export default function RadarDashboard() {
               >
                 <Search size={20} />
                 <input
-                  aria-label="Product to scan"
-                  placeholder="What's in your cart?"
+                  aria-label={
+                    hostedDemo ? "Search source reports" : "Product to scan"
+                  }
+                  placeholder={
+                    hostedDemo
+                      ? "Try pari case, MDH, Delhi…"
+                      : "What's in your cart?"
+                  }
                   value={scanQuery}
                   onChange={(event) => setScanQuery(event.target.value)}
                 />
                 <button type="submit">
-                  Scan it <ArrowUpRight size={17} />
+                  {hostedDemo ? "Find reports" : "Scan it"}{" "}
+                  <ArrowUpRight size={17} />
                 </button>
               </form>
               <div className="hero-search-note">
-                <ShieldCheck size={13} /> Public signals. Personal details
-                scrubbed. No guesswork.
+                <ShieldCheck size={13} />{" "}
+                {hostedDemo
+                  ? "Curated public reports. Original sources. Free demo."
+                  : "Public signals. Personal details scrubbed. No guesswork."}
               </div>
             </div>
             <div className="hero-radar" aria-hidden="true">
@@ -201,9 +211,13 @@ export default function RadarDashboard() {
               },
               {
                 icon: ShieldCheck,
-                label: "Privacy at the edge",
-                value: "On",
-                note: "Personal details scrubbed",
+                label: hostedDemo
+                  ? "Investigation data"
+                  : "Privacy at the edge",
+                value: hostedDemo ? "Demo" : "On",
+                note: hostedDemo
+                  ? "Three synthetic scenarios"
+                  : "Personal details scrubbed",
                 color: "green",
               },
             ].map((metric) => (
@@ -239,25 +253,34 @@ export default function RadarDashboard() {
         </section>
       )}
       <div className="demo-strip">
-        <span className="demo-badge">DEMO + LIVE</span>
+        <span className="demo-badge">
+          {hostedDemo ? "READ-ONLY DEMO" : "DEMO + LIVE"}
+        </span>
         <p>
-          Three fictional scenarios show how it works.{" "}
+          {hostedDemo
+            ? "Saved synthetic investigations + curated real reports. "
+            : "Three fictional scenarios show how it works. "}
           <button onClick={openScan}>
-            Run a live scan <ArrowUpRight size={12} />
+            {hostedDemo ? "Search real reports" : "Run a live scan"}{" "}
+            <ArrowUpRight size={12} />
           </button>{" "}
-          to bring your own product into the radar.
+          {hostedDemo
+            ? "Live scans and editing run locally."
+            : "to bring your own product into the radar."}
         </p>
-        <div className="mode-switch" aria-label="Data mode">
-          {["all", "demo", "live"].map((value) => (
-            <button
-              key={value}
-              className={mode === value ? "selected" : ""}
-              onClick={() => setMode(value)}
-            >
-              {value === "all" ? "All" : value === "demo" ? "Demo" : "Live"}
-            </button>
-          ))}
-        </div>
+        {!hostedDemo && (
+          <div className="mode-switch" aria-label="Data mode">
+            {["all", "demo", "live"].map((value) => (
+              <button
+                key={value}
+                className={mode === value ? "selected" : ""}
+                onClick={() => setMode(value)}
+              >
+                {value === "all" ? "All" : value === "demo" ? "Demo" : "Live"}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
       {error && (
         <div className="error-box" role="alert">
@@ -275,7 +298,10 @@ export default function RadarDashboard() {
               <div>
                 <span className="eyebrow">THE BIG PICTURE</span>
                 <h2>
-                  Your radar, right now<span className="heading-dot">.</span>
+                  {hostedDemo
+                    ? "A closer look at the signals"
+                    : "Your radar, right now"}
+                  <span className="heading-dot">.</span>
                 </h2>
               </div>
               <button
@@ -285,7 +311,8 @@ export default function RadarDashboard() {
               >
                 <RefreshCw size={14} />
                 <span>
-                  Updated {telemetry ? dateLabel(telemetry.last_updated) : "…"}
+                  {hostedDemo ? "Snapshot" : "Updated"}{" "}
+                  {telemetry ? dateLabel(telemetry.last_updated) : "…"}
                 </span>
               </button>
             </div>
@@ -341,7 +368,8 @@ export default function RadarDashboard() {
                     : "Try another filter or search."}
                 </p>
                 <button className="button dark" onClick={openScan}>
-                  Scan a product <ArrowUpRight size={16} />
+                  {hostedDemo ? "Search reports" : "Scan a product"}{" "}
+                  <ArrowUpRight size={16} />
                 </button>
               </div>
             )}

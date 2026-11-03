@@ -1,0 +1,172 @@
+{
+  "reviewed_at": "2026-11-03",
+  "notice": "Curated source-backed reports, separate from synthetic scenarios and newly collected signals. Dates and jurisdictions matter; these records are not a current product-wide safety verdict.",
+  "cases": [
+    {
+      "id": "priyagold-bran-2026",
+      "brand": "Priyagold",
+      "product": "Priyagold biscuits",
+      "title": "Cattle-feed bran in biscuits: what the records say.",
+      "category": "Manufacturing & ingredients",
+      "published_at": "2026-10-17",
+      "jurisdiction": "India findings / Nepal recall",
+      "status": "Regulatory action reported",
+      "aliases": [
+        "pari",
+        "priya",
+        "priya gold",
+        "priyagold",
+        "priyagold biscuits",
+        "husk",
+        "bran",
+        "bhusa",
+        "chokar",
+        "प्रियागोल्ड",
+        "भूसा",
+        "चोकर"
+      ],
+      "summary": "FSSAI findings reported in October 2026 concerned cattle-feed bran used as a fibre ingredient in Priyagold biscuits. Nepal subsequently issued an import suspension and recall notice.",
+      "findings": [
+        "Nepal's official notice cites an FSSAI communication dated 17 October about material marked for cattle feed, alongside hygiene deficiencies.",
+        "The Nepal order covers all batches and production dates of the specified manufacturer's biscuits within its jurisdiction."
+      ],
+      "company_response": "A manufacturer response was not established in the sources reviewed for this profile.",
+      "limitations": "Reports describe cattle-feed bran. Proceedings and licence action are distinct from a final court judgment. The linked sources do not identify a specific affected Indian batch.",
+      "sources": [
+        {
+          "title": "Priyagold recall and suspension notice",
+          "publisher": "Nepal DFTQC",
+          "url": "https://dftqc.gov.np/en/notice-details/598/35235951",
+          "published_at": "2026-10-18",
+          "kind": "Official notice",
+          "supports": "Nepal recall, scope and cited Indian inspection findings"
+        },
+        {
+          "title": "Original two-page regulatory order",
+          "publisher": "Nepal DFTQC",
+          "url": "https://dftqc.gov.np/noticefiles/%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-1792311887.pdf",
+          "published_at": "2026-10-18",
+          "kind": "Official PDF",
+          "supports": "Original order describing cattle-feed bran and all-batch Nepal scope"
+        },
+        {
+          "title": "FSSAI prosecutes Surya Food & Agro, Dodla Dairy and Ueir Organic Foods for serious violations",
+          "publisher": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/fssai-prosecutes-surya-food-amp-agro-dodla-dairy-and-ueir-organic-foods-for-serious-violations/article71595712.ece",
+          "published_at": null,
+          "kind": "User-provided article",
+          "supports": "Related reporting supplied for this case. Publisher access may be required; findings are corroborated by the linked regulatory order and accessible coverage."
+        },
+        {
+          "title": "FSSAI's legal action against Priyagold Biscuits, others",
+          "publisher": "The Indian Express",
+          "url": "https://indianexpress.com/article/india/fssai-legal-action-against-priyagold-biscuits-dodla-dairy-ueir-organic-food-safety-violations-10925731/",
+          "published_at": "2026-10-17",
+          "kind": "News report",
+          "supports": "Reporting on FSSAI's inspection findings, licence suspension and prosecution"
+        },
+        {
+          "title": "Nepal bans import, sales of Indian biscuit Priyagold",
+          "publisher": "PTI / The Samaja",
+          "url": "https://www.thesamaja.com/en/business/nepal-bans-import-sales-of-indian-biscuit-priyagold",
+          "published_at": "2026-10-19",
+          "kind": "News report",
+          "supports": "Independent reporting on Nepal's action"
+        }
+      ]
+    },
+    {
+      "id": "delhi-expiry-racket-2026",
+      "brand": "Multiple packaged-food brands",
+      "product": "Soft drinks & biscuits",
+      "title": "A fresh label doesn't make old stock fresh.",
+      "category": "Seller & supply-chain tampering",
+      "published_at": "2026-04-04",
+      "jurisdiction": "Dwarka, Delhi",
+      "status": "Police action reported",
+      "aliases": [
+        "delhi",
+        "dwarka",
+        "expiry",
+        "expired",
+        "cold drink",
+        "soft drink",
+        "biscuits",
+        "coca cola",
+        "sprite",
+        "thums up",
+        "fake date"
+      ],
+      "summary": "Delhi reporting described a warehouse operation allegedly replacing dates on expired or near-expiry soft drinks and biscuits. Police seized stock and reported three arrests.",
+      "findings": [
+        "The Times of India reported altered dates and batch information on packaged goods in a Dwarka warehouse.",
+        "ThePrint separately described date-erasing and reprinting equipment in the reported operation."
+      ],
+      "company_response": "These reports concern alleged downstream relabelling. No manufacturer-wide finding is established by this profile.",
+      "limitations": "A police allegation is not a conviction. This is a dated local supply-chain case, not a recall of every product sold under the named beverage brands.",
+      "sources": [
+        {
+          "title": "Delhi Police busts racket repackaging and selling expired soft drinks, biscuits",
+          "publisher": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-police-busts-racket-repackaging-and-selling-expired-soft-drinks-biscuits-3-held/articleshow/130014348.cms",
+          "published_at": "2026-04-04",
+          "kind": "News report",
+          "supports": "Reported seizure, alleged relabelling and arrests"
+        },
+        {
+          "title": "From toothpaste to paneer: daily essentials under the lens",
+          "publisher": "ThePrint",
+          "url": "https://theprint.in/india/from-toothpaste-to-paneer-counterfeits-have-penetrated-homes-raids-bring-daily-essentials-under-lens/2896821/",
+          "published_at": "2026-04-05",
+          "kind": "News report",
+          "supports": "Additional reporting on the date-tampering operation"
+        }
+      ]
+    },
+    {
+      "id": "mdh-everest-spices-2024",
+      "brand": "MDH / Everest",
+      "product": "Specified spice mixes",
+      "title": "The spice recall that crossed borders.",
+      "category": "Regulator-confirmed product findings",
+      "published_at": "2024-04-05",
+      "jurisdiction": "Hong Kong / Australia",
+      "status": "Historical recall record",
+      "aliases": [
+        "mdh",
+        "everest",
+        "spice",
+        "masala",
+        "ethylene oxide",
+        "pesticide",
+        "fish curry",
+        "sambhar"
+      ],
+      "summary": "Hong Kong's CFS reported ethylene oxide in specified MDH and Everest spice mixes in April 2024. An Australian recall separately covered Everest Fish Curry Masala 50 g.",
+      "findings": [
+        "The CFS notice identifies four products, date markings and instructions to withdraw affected stock.",
+        "The Australian notice identifies the 50 g product with a September 2025 best-before date."
+      ],
+      "company_response": "Manufacturer responses are not reproduced here; the original notices establish the recalled products and markets.",
+      "limitations": "This is a 2024 historical case. Its product and date limits must not be presented as a current recall of all Indian MDH or Everest products.",
+      "sources": [
+        {
+          "title": "CFS finds ethylene oxide in prepackaged spice mix samples",
+          "publisher": "Hong Kong CFS",
+          "url": "https://www.cfs.gov.hk/english/press/20240405_10919.html",
+          "published_at": "2024-04-05",
+          "kind": "Official notice",
+          "supports": "Specific products, date markings and Hong Kong recall action"
+        },
+        {
+          "title": "Indya Foods: Everest Fish Curry Masala 50 g recall",
+          "publisher": "Food Standards Australia New Zealand",
+          "url": "https://www.foodstandards.govt.nz/food-recalls/recall-alert/indya-foods-pty-ltd-everest-fish-curry-masala-50g",
+          "published_at": "2024-05-28",
+          "kind": "Official notice",
+          "supports": "Australian product recall and September 2025 date marking"
+        }
+      ]
+    }
+  ]
+}

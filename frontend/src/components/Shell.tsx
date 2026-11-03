@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
+import { hostedDemo } from "@/lib/demo-mode";
 import {
   Flag,
   Radar,
@@ -108,7 +109,7 @@ export function Shell({
             </span>
             {onScan && (
               <button className="button small dark" onClick={onScan}>
-                <Radar size={15} /> New scan
+                <Radar size={15} /> {hostedDemo ? "Search reports" : "New scan"}
               </button>
             )}
           </div>

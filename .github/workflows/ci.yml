@@ -6,7 +6,12 @@ jobs:
     services:
       postgres:
         image: postgres:16-alpine
-        env: {POSTGRES_USER: redflag, POSTGRES_PASSWORD: ci-only, POSTGRES_DB: redflag_test}
+        env:
+          {
+            POSTGRES_USER: redflag,
+            POSTGRES_PASSWORD: ci-only,
+            POSTGRES_DB: redflag_test,
+          }
         ports: ["5432:5432"]
         options: >-
           --health-cmd "pg_isready -U redflag -d redflag_test"
@@ -20,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
+        with: { python-version: "3.12" }
       - run: pip install -r backend/requirements.lock
       - run: alembic upgrade head && python seed_demo_data.py
         working-directory: backend
@@ -36,10 +41,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: {node-version: "24", cache: npm}
+        with: { node-version: "24", cache: npm }
       - run: npm ci --no-audit --no-fund
       - run: npm run typecheck
       - run: npm run build
+        env:
+          NEXT_PUBLIC_HOSTED_DEMO: "true"
+      - name: Verify free hosted demo API
+        env:
+          HOSTED_DEMO: "true"
+          APP_ENV: production
+          HOSTED_OPERATOR_PASSWORD: ci-local-demo-only
+        run: |
+          node node_modules/next/dist/bin/next start frontend --hostname 127.0.0.1 --port 3100 > /tmp/red-flag-demo.log 2>&1 &
+          NEXT_PID=$!
+          trap 'kill "$NEXT_PID"' EXIT
+          for attempt in $(seq 1 20); do
+            if curl -fsS http://127.0.0.1:3100/health > /dev/null; then break; fi
+            sleep 1
+          done
+          python scripts/verify_hosted_demo.py
       - name: Docker image builds
         run: |
           docker compose config --quiet

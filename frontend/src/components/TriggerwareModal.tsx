@@ -13,6 +13,7 @@ import {
 import { api, dateLabel } from "@/lib/api";
 import type { CaseDetail, Packet } from "@/lib/types";
 import WorkflowTracker from "./WorkflowTracker";
+import { hostedDemo } from "@/lib/demo-mode";
 export default function TriggerwareModal({
   item,
   onClose,
@@ -155,7 +156,9 @@ export default function TriggerwareModal({
                       : `Day ${grievance.days_elapsed} of 15 · due ${dateLabel(grievance.due_at)}`}
                   </span>
                 </div>
-                {grievance.status !== "resolved" ? (
+                {hostedDemo ? (
+                  <span className="demo-badge">SNAPSHOT</span>
+                ) : grievance.status !== "resolved" ? (
                   <button
                     className="button light small"
                     onClick={() => resolve(grievance.id)}

@@ -18,6 +18,10 @@ async function forward(
   if (denial)
     return Response.json({ detail: denial.message }, { status: denial.status });
   const { path } = await context.params;
+  if (process.env.HOSTED_DEMO === "true") {
+    const { serveHostedDemo } = await import("@/lib/demo-api");
+    return serveHostedDemo(request, path);
+  }
   if (
     !ALLOWED.has(path[0]) ||
     path.some(
