@@ -1,0 +1,4 @@
+-r requirements.txt
+torch>=2.5,<3
+transformers>=4.48,<5
+cognee>=0.2,<1

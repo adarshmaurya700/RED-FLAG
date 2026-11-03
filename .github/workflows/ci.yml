@@ -1,0 +1,47 @@
+name: red flag checks
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env: {POSTGRES_USER: redflag, POSTGRES_PASSWORD: ci-only, POSTGRES_DB: redflag_test}
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U redflag -d redflag_test"
+          --health-interval 5s --health-timeout 3s --health-retries 15
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+    env:
+      DATABASE_URL: postgresql+asyncpg://redflag:ci-only@localhost:5432/redflag_test
+      TEST_DATABASE_URL: postgresql+asyncpg://redflag:ci-only@localhost:5432/redflag_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r backend/requirements.lock
+      - run: alembic upgrade head && python seed_demo_data.py
+        working-directory: backend
+      - run: pytest -q
+        working-directory: backend
+      - name: Verify actual Celery queue and worker
+        working-directory: backend
+        run: |
+          celery -A app.worker.celery_app worker --loglevel=warning --concurrency=1 > /tmp/red-flag-worker.log 2>&1 &
+          python -c "from app.worker import deadline_task; assert isinstance(deadline_task.delay().get(timeout=30), int)"
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "24", cache: npm}
+      - run: npm ci --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm run build
+      - name: Docker image builds
+        run: |
+          docker compose config --quiet
+          docker build -f frontend/Dockerfile -t red-flag-web .
+          docker build -f backend/Dockerfile -t red-flag-api .

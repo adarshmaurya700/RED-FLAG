@@ -1,0 +1,85 @@
+name: red-flag
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  environment: &backend-env
+    DATABASE_URL: postgresql+asyncpg://redflag:${POSTGRES_PASSWORD:-local-demo-only}@postgres:5432/redflag
+    REDIS_URL: redis://redis:6379/0
+    TASK_MODE: celery
+    INITIALIZE_DATABASE: "false"
+    SEED_DEMO: "true"
+    APP_ENV: development
+    INTERNAL_API_KEY: ${INTERNAL_API_KEY:-}
+    TINYFISH_API_KEY: ${TINYFISH_API_KEY:-}
+    BRIGHTDATA_API_KEY: ${BRIGHTDATA_API_KEY:-}
+    BRIGHTDATA_DATASET_IDS: ${BRIGHTDATA_DATASET_IDS:-}
+    GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.5-flash}
+    SARVAM_API_KEY: ${SARVAM_API_KEY:-}
+    BHASHINI_API_KEY: ${BHASHINI_API_KEY:-}
+    BHASHINI_USER_ID: ${BHASHINI_USER_ID:-}
+    REDDIT_ACCESS_TOKEN: ${REDDIT_ACCESS_TOKEN:-}
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: redflag
+      POSTGRES_DB: redflag
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-demo-only}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U redflag -d redflag"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    command: [redis-server, --appendonly, "yes", --maxmemory-policy, noeviction]
+    volumes: [redis_data:/data]
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  init:
+    <<: *backend
+    command: [sh, -c, "alembic upgrade head && python seed_demo_data.py"]
+    depends_on:
+      postgres: {condition: service_healthy}
+  api:
+    <<: *backend
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      init: {condition: service_completed_successfully}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  worker:
+    <<: *backend
+    command: [celery, -A, app.worker.celery_app, worker, --loglevel=warning, --concurrency=2]
+    depends_on:
+      api: {condition: service_healthy}
+  scheduler:
+    <<: *backend
+    command: [celery, -A, app.worker.celery_app, beat, --loglevel=warning, --schedule=/tmp/red-flag-celerybeat]
+    depends_on:
+      api: {condition: service_healthy}
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      API_BASE_URL: http://api:8000
+      INTERNAL_API_KEY: ${INTERNAL_API_KEY:-}
+      APP_ENV: development
+      PORT: 3000
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      api: {condition: service_healthy}
+volumes:
+  postgres_data:
+  redis_data:
