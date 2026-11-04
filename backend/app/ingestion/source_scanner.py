@@ -153,7 +153,7 @@ class SourceScanner:
                 last_attempt_at=now, last_success_at=old.last_success_at
             )
             known = {url for url, item in items.items() if item.source == source}
-            pending = set(old.pending_urls)
+            pending = set(old.pending_urls) | known
             discovered, criteria_by_category = set(), {}
             try:
                 robot_url = f"https://{HOSTS[source]}/robots.txt"
@@ -169,7 +169,12 @@ class SourceScanner:
                 self.interval = max(self.interval, robots.crawl_delay(USER_AGENT) or 0)
                 for start in STARTS[source]:
                     page = PublicPage(await self.get(start, robots))
-                    discovered.update(detail_urls(source, page, start))
+                    found = detail_urls(source, page, start)
+                    discovered.update(found)
+                    if source == "trustified" and not found:
+                        health.errors.append(
+                            f"{start}: No readable product links in this index; known product URLs retained."
+                        )
                     pending.update(discovered)
                     if source == "foodpharmer":
                         for category in sorted(category_urls(page, start)):
@@ -181,12 +186,10 @@ class SourceScanner:
                                 detail_urls(source, category_page, category)
                             )
                             pending.update(discovered)
-                if not discovered:
+                if not discovered and not pending:
                     raise ValueError(
                         "No product links discovered; source layout may have changed"
                     )
-                for missing in known - discovered:
-                    items[missing].availability = "unavailable"
                 pending.update(discovered)
                 # Resume unchecked pages first, then oldest checked pages. No fixed first-page loop.
                 queue = sorted(
@@ -224,7 +227,7 @@ class SourceScanner:
                             health.errors.append(f"{url}: {str(error)[:150]}")
                         if url in items:
                             items[url].availability = "unavailable"
-                health.status = "ok" if not pending else "partial"
+                health.status = "ok" if not pending and not health.errors else "partial"
                 if health.checked:
                     health.last_success_at = datetime.now(timezone.utc)
             except (CrawlLimit, SourceBlocked, httpx.HTTPError, ValueError) as error:
@@ -239,7 +242,7 @@ class SourceScanner:
                 if health.checked:
                     health.last_success_at = datetime.now(timezone.utc)
             health.pending_urls = sorted(pending)
-            health.discovered = len(discovered or known)
+            health.discovered = len(discovered | known | set(old.pending_urls))
             # Unknown coverage must not look like a successful empty refresh.
             return source, health
 

@@ -143,7 +143,7 @@ def test_search_outcomes_scope_and_staleness():
     )
 
 
-def transport(block=False):
+def transport(block=False, incomplete_index=False):
     def handle(request):
         url = str(request.url)
         if block and request.url.host == "www.trustified.in":
@@ -156,6 +156,8 @@ def transport(block=False):
                 200, text=(FIXTURES / f"{name}.html").read_text(encoding="utf-8")
             )
         if url == "https://www.trustified.in/passandfail":
+            if incomplete_index:
+                return httpx.Response(200, text="<main>Products are loading</main>")
             return httpx.Response(
                 200,
                 text="".join(
@@ -198,6 +200,18 @@ async def test_bounded_scan_resumes_and_preserves_blocked_records():
         for item in blocked.items
         if item.source == "trustified"
     )
+
+
+@pytest.mark.asyncio
+async def test_incomplete_listing_still_rechecks_known_products():
+    async with httpx.AsyncClient(transport=transport()) as client:
+        previous = await SourceScanner(client, interval=0).run()
+    async with httpx.AsyncClient(transport=transport(incomplete_index=True)) as client:
+        current = await SourceScanner(client, interval=0).run(previous)
+    health = current.sources["trustified"]
+    assert health.status == "partial" and health.checked == health.discovered == 4
+    assert not health.pending_urls and "known product URLs retained" in health.errors[0]
+    assert all(item.availability == "available" for item in current.items)
 
 
 @pytest.mark.asyncio
