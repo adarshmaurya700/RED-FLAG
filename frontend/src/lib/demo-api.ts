@@ -56,8 +56,8 @@ function matchingReports(query: string) {
   });
 }
 
-export function serveHostedDemo(request: NextRequest, path: string[]) {
-  if (request.method !== "GET")
+export async function serveHostedDemo(request: NextRequest, path: string[]) {
+  if (!["GET", "HEAD"].includes(request.method))
     return reply(
       {
         detail:
@@ -66,6 +66,22 @@ export function serveHostedDemo(request: NextRequest, path: string[]) {
       405,
     );
   const params = request.nextUrl.searchParams;
+  if (path[0] === "source-findings" && path.length === 1) {
+    const { searchSourceFindings } = await import("./source-catalog");
+    try {
+      return reply(await searchSourceFindings(params));
+    } catch (error) {
+      return reply(
+        {
+          detail:
+            error instanceof RangeError
+              ? error.message
+              : "Source catalogue unavailable",
+        },
+        error instanceof RangeError ? 422 : 503,
+      );
+    }
+  }
   if (path[0] === "telemetry" && path.length === 1)
     return reply(snapshot.telemetry);
   if (path[0] === "reference-cases") {

@@ -4,6 +4,23 @@
  */
 
 export interface paths {
+  "/api/v1/source-findings": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    /** Source Findings */
+    get: operations["source_findings_api_v1_source_findings_get"];
+    put?: never;
+    post?: never;
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
   "/api/v1/reference-cases": {
     parameters: {
       query?: never;
@@ -404,6 +421,117 @@ export interface components {
        */
       status: string;
     };
+    /** FindingChange */
+    FindingChange: {
+      /**
+       * Changed At
+       * Format: date-time
+       */
+      changed_at: string;
+      /**
+       * Outcome
+       * @enum {string}
+       */
+      outcome: "pass" | "fail" | "recommended" | "unknown";
+      /** Testing Status */
+      testing_status: string;
+      /** Content Hash */
+      content_hash: string;
+    };
+    /** FindingView */
+    FindingView: {
+      /** Id */
+      id: string;
+      /**
+       * Source
+       * @enum {string}
+       */
+      source: "trustified" | "foodpharmer";
+      /** Source Url */
+      source_url: string;
+      /** Product Name */
+      product_name: string;
+      /** Brand */
+      brand?: string | null;
+      /** Category */
+      category?: string | null;
+      /**
+       * Outcome
+       * @default unknown
+       * @enum {string}
+       */
+      outcome: "pass" | "fail" | "recommended" | "unknown";
+      /**
+       * Testing Status
+       * @default unknown
+       * @enum {string}
+       */
+      testing_status: "passed" | "failed" | "expired" | "unknown";
+      /**
+       * Review Method
+       * @default unknown
+       * @enum {string}
+       */
+      review_method:
+        | "independent_test"
+        | "label_reviewed"
+        | "reported_lab_test"
+        | "reviewed"
+        | "unknown";
+      /** Batch */
+      batch?: string | null;
+      /** Manufactured */
+      manufactured?: string | null;
+      /** Expires */
+      expires?: string | null;
+      /** Published At */
+      published_at?: string | null;
+      /** Last Verified At */
+      last_verified_at?: string | null;
+      /** Laboratory */
+      laboratory?: string | null;
+      /** Criteria */
+      criteria?: string[];
+      /**
+       * Excerpt
+       * @default
+       */
+      excerpt: string;
+      /** Proof Links */
+      proof_links?: components["schemas"]["ProofLink"][];
+      /**
+       * Fetched At
+       * Format: date-time
+       */
+      fetched_at: string;
+      /**
+       * First Seen At
+       * Format: date-time
+       */
+      first_seen_at: string;
+      /**
+       * Updated At
+       * Format: date-time
+       */
+      updated_at: string;
+      /** Content Hash */
+      content_hash: string;
+      /**
+       * Revision
+       * @default 1
+       */
+      revision: number;
+      /** History */
+      history?: components["schemas"]["FindingChange"][];
+      /**
+       * Availability
+       * @default available
+       * @enum {string}
+       */
+      availability: "available" | "unavailable";
+      /** Stale */
+      stale: boolean;
+    };
     /** GrievanceUpdate */
     GrievanceUpdate: {
       /**
@@ -430,6 +558,13 @@ export interface components {
         | "authentication"
         | "lab_request"
         | "dark_store";
+    };
+    /** ProofLink */
+    ProofLink: {
+      /** Label */
+      label: string;
+      /** Url */
+      url: string;
     };
     /** QueryRequest */
     QueryRequest: {
@@ -461,7 +596,39 @@ export interface components {
       /** Product Urls */
       product_urls?: string[];
       /** Sources */
-      sources?: ("reddit" | "google_news" | "tinyfish" | "brightdata")[];
+      sources?: (
+        | "reddit"
+        | "google_news"
+        | "tinyfish"
+        | "brightdata"
+        | "trustified"
+        | "foodpharmer"
+      )[];
+    };
+    /** SourceFindingsResponse */
+    SourceFindingsResponse: {
+      /** Items */
+      items: components["schemas"]["FindingView"][];
+      /** Total */
+      total: number;
+      /**
+       * Generated At
+       * Format: date-time
+       */
+      generated_at: string;
+      /** Sources */
+      sources: {
+        [key: string]: {
+          [key: string]: unknown;
+        };
+      };
+      /** Catalog Origin */
+      catalog_origin: string;
+      /**
+       * Notice
+       * @default Source-authored findings for review. Batch-specific tests and nutrition recommendations are not regulator decisions or safety guarantees.
+       */
+      notice: string;
     };
     /** SubScores */
     SubScores: {
@@ -522,6 +689,44 @@ export interface components {
 }
 export type $defs = Record<string, never>;
 export interface operations {
+  source_findings_api_v1_source_findings_get: {
+    parameters: {
+      query?: {
+        q?: string;
+        source?: "all" | "trustified" | "foodpharmer";
+        outcome?:
+          "all" | "pass" | "fail" | "recommended" | "expired" | "unknown";
+        offset?: number;
+        limit?: number;
+      };
+      header?: {
+        authorization?: string;
+      };
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": components["schemas"]["SourceFindingsResponse"];
+        };
+      };
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": components["schemas"]["HTTPValidationError"];
+        };
+      };
+    };
+  };
   reference_cases_api_v1_reference_cases_get: {
     parameters: {
       query?: {

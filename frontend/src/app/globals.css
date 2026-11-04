@@ -3554,3 +3554,265 @@ mark {
   font-size: 9px;
   margin-top: 15px;
 }
+.source-findings {
+  margin: 28px 0;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+.source-findings h2 {
+  font-size: 26px;
+  letter-spacing: -1px;
+}
+.source-health-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 18px 0;
+}
+.source-health {
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: #f6f7f1;
+  border-left: 3px solid #90a674;
+  display: grid;
+  gap: 5px;
+}
+.source-health.limited {
+  border-left-color: #d8a755;
+}
+.source-health b {
+  font-size: 12px;
+}
+.source-health span,
+.source-health small {
+  font-size: 10px;
+  color: #74776b;
+}
+.finding-toolbar {
+  display: flex;
+  align-items: end;
+  gap: 14px;
+  margin: 22px 0;
+}
+.finding-toolbar label {
+  display: grid;
+  gap: 6px;
+  font-size: 10px;
+  color: var(--muted);
+}
+.finding-toolbar select {
+  border: 1px solid var(--line);
+  padding: 9px 10px;
+  border-radius: 7px;
+  background: #fafbf7;
+  color: var(--ink);
+  font-size: 11px;
+  min-width: 145px;
+}
+.finding-toolbar > span {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--muted);
+  padding-bottom: 10px;
+}
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.finding-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.finding-top {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+}
+.finding-top .eyebrow {
+  font-size: 9px;
+}
+.finding-outcome {
+  font-size: 8px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background: #f0f0eb;
+  color: #76786e;
+}
+.finding-outcome.pass {
+  background: #edf4e3;
+  color: #587239;
+}
+.finding-outcome.fail {
+  background: #fde9e3;
+  color: #ae4937;
+}
+.finding-outcome.recommended {
+  background: #eaf2f2;
+  color: #4a7471;
+}
+.finding-outcome.expired {
+  background: #fbf0da;
+  color: #8f6f31;
+}
+.finding-brand {
+  font-size: 10px;
+  color: var(--muted);
+}
+.finding-card h3 {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 5px 0 7px;
+  overflow-wrap: anywhere;
+  letter-spacing: -0.3px;
+}
+.finding-method {
+  font-size: 10px;
+  color: #81867a;
+  margin: 0 0 17px;
+}
+.finding-card dl {
+  margin: 0;
+}
+.finding-card dl > div {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  font-size: 9px;
+  padding: 7px 0;
+  border-bottom: 1px solid #f0f0e9;
+}
+.finding-card dt {
+  color: var(--muted);
+}
+.finding-card dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  max-width: 60%;
+}
+.finding-excerpt,
+.finding-warning {
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 13px 0;
+  color: #76796e;
+}
+.finding-warning {
+  color: #a47b35;
+}
+.finding-proofs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 15px;
+}
+.finding-proofs a {
+  font-size: 10px;
+  font-weight: 500;
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+  color: var(--red);
+}
+.finding-scope {
+  font-size: 8px;
+  line-height: 1.6;
+  color: #96998e;
+  margin-top: 14px;
+}
+.finding-criteria {
+  font-size: 10px;
+  color: #7a806f;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.finding-criteria summary {
+  cursor: pointer;
+}
+.finding-criteria ul {
+  padding-left: 16px;
+}
+.finding-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 22px;
+}
+.compact-findings {
+  padding: 0;
+  border: 0;
+  margin-top: 28px;
+}
+.compact-findings h2 {
+  font-size: 22px;
+}
+.compact-findings .finding-grid {
+  grid-template-columns: 1fr;
+}
+.compact-findings .reference-pill {
+  display: none;
+}
+.compact-findings .finding-toolbar {
+  flex-wrap: wrap;
+}
+.compact-findings .finding-toolbar > span {
+  flex-basis: 100%;
+  margin-left: 0;
+}
+.compact-findings .finding-card {
+  padding: 16px;
+}
+.compact-findings .finding-top {
+  margin-bottom: 12px;
+}
+@media (max-width: 1100px) {
+  .finding-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .source-findings {
+    padding: 20px;
+  }
+  .source-findings .section-heading {
+    align-items: start;
+  }
+  .source-findings .reference-pill {
+    display: none;
+  }
+  .source-health-row,
+  .finding-grid {
+    grid-template-columns: 1fr;
+  }
+  .finding-toolbar {
+    flex-wrap: wrap;
+  }
+  .finding-toolbar label {
+    flex: 1;
+  }
+  .finding-toolbar select {
+    width: 100%;
+    min-width: 0;
+  }
+  .finding-toolbar > span {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+  .compact-findings {
+    padding: 0;
+  }
+}

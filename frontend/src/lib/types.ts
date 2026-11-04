@@ -178,6 +178,7 @@ export interface Scan {
   id: string;
   state: "queued" | "running" | "completed" | "partial" | "failed";
   results: {
+    source_findings?: SourceFinding[];
     sources?: Record<
       string,
       { status: string; count: number; message: string }
@@ -188,6 +189,41 @@ export interface Scan {
     warnings?: string[];
     message?: string;
   };
+}
+
+export type FindingSource = "trustified" | "foodpharmer";
+export type FindingOutcome = "pass" | "fail" | "recommended" | "unknown";
+export type SourceFinding = Omit<
+  Required<components["schemas"]["FindingView"]>,
+  "stale"
+> & { stale?: boolean };
+export interface FindingSourceHealth {
+  status: "ok" | "partial" | "blocked" | "error" | "unavailable";
+  last_attempt_at: string | null;
+  last_success_at: string | null;
+  discovered: number;
+  checked: number;
+  failed: number;
+  errors: string[];
+  pending?: number;
+  stale?: boolean;
+}
+export interface SourceCatalog {
+  schema_version: 1;
+  generated_at: string;
+  sources: Record<
+    FindingSource,
+    FindingSourceHealth & { pending_urls: string[] }
+  >;
+  items: SourceFinding[];
+}
+export interface SourceFindingsResponse {
+  items: SourceFinding[];
+  total: number;
+  generated_at: string;
+  sources: Record<FindingSource, FindingSourceHealth>;
+  catalog_origin: string;
+  notice: string;
 }
 export interface GraphData {
   nodes: { id: string; label: string; kind: string; license: string | null }[];

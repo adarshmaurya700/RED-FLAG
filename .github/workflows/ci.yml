@@ -44,6 +44,7 @@ jobs:
         with: { node-version: "24", cache: npm }
       - run: npm ci --no-audit --no-fund
       - run: npm run typecheck
+      - run: npm run test:catalog --workspace frontend
       - run: npm run build
         env:
           NEXT_PUBLIC_HOSTED_DEMO: "true"

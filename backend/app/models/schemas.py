@@ -131,8 +131,17 @@ class ScanRequest(StrictModel):
     product_name: str = Field(min_length=2, max_length=160)
     brand: str = Field(default="", max_length=100)
     product_urls: list[str] = Field(default_factory=list, max_length=5)
-    sources: list[Literal["reddit", "google_news", "tinyfish", "brightdata"]] = Field(
-        default_factory=lambda: ["reddit", "google_news"]
+    sources: list[
+        Literal[
+            "reddit",
+            "google_news",
+            "tinyfish",
+            "brightdata",
+            "trustified",
+            "foodpharmer",
+        ]
+    ] = Field(
+        default_factory=lambda: ["reddit", "google_news", "trustified", "foodpharmer"]
     )
 
     @model_validator(mode="after")
@@ -145,7 +154,7 @@ class ScanRequest(StrictModel):
 
 
 class SourceOutcome(StrictModel):
-    status: Literal["ok", "empty", "blocked", "unavailable", "error"]
+    status: Literal["ok", "empty", "partial", "blocked", "unavailable", "error"]
     count: int = 0
     message: str = ""
 

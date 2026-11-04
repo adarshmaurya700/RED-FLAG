@@ -73,6 +73,11 @@ async def export(destination: Path):
     (destination / "real-cases.json").write_text(
         (ROOT / "data/real_cases.json").read_text(encoding="utf-8"), encoding="utf-8"
     )
+    source_catalog = ROOT / "data/source-catalog.json"
+    if source_catalog.exists():
+        (destination / "source-catalog.json").write_text(
+            source_catalog.read_text(encoding="utf-8"), encoding="utf-8"
+        )
     await engine.dispose()
     print(
         f"Exported {len(snapshot['cases'])} synthetic cases and {len(snapshot['packets'])} packets for the free hosted demo"

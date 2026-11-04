@@ -237,6 +237,40 @@ async def collect_sources(request: ScanRequest) -> tuple[list[dict], dict[str, d
                     items = await google_news_search(client, query)
                 elif source == "tinyfish":
                     items = await tinyfish_collect(client, request.product_urls)
+                elif source in {"trustified", "foodpharmer"}:
+                    from app.source_catalog import source_findings
+
+                    found = await source_findings(q=query, source=source, limit=100)
+                    health = found.sources.get(source, {})
+                    status = health.get("status", "unavailable")
+                    items = [
+                        {
+                            "record_kind": "source_finding",
+                            "finding": item.model_dump(mode="json"),
+                        }
+                        for item in found.items
+                    ]
+                    return (
+                        source,
+                        items,
+                        SourceOutcome(
+                        status="partial"
+                        if items and (status != "ok" or health.get("stale"))
+                        else "ok"
+                        if status == "ok"
+                            else "blocked"
+                            if status == "blocked"
+                            else "unavailable",
+                            count=len(items),
+                            message=f"Daily source catalogue: {status}; {len(items)} matched review findings. "
+                            + (
+                                "Data older than 48 hours. "
+                                if health.get("stale")
+                                else ""
+                            )
+                            + "References do not affect risk scores.",
+                        ).model_dump(),
+                    )
                 else:
                     items = await brightdata_collect(client, request.product_urls)
                 return (

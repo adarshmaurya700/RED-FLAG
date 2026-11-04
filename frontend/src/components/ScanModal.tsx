@@ -60,8 +60,8 @@ function HostedSearch({ onClose, initialQuery = "" }: ScanModalProps) {
         <span className="eyebrow red">REAL REPORTS. ACTUAL RECEIPTS.</span>
         <h2 id="report-search-title">Find the receipts.</h2>
         <p className="muted">
-          Search curated reports and open the original articles and regulator
-          notices.
+          Search reports, Trustified tests and Food Pharmer reviews. Open the
+          original source for the full scope.
         </p>
         <label className="field-label">
           Brand or incident
@@ -75,8 +75,8 @@ function HostedSearch({ onClose, initialQuery = "" }: ScanModalProps) {
         </label>
         <ReferenceLibrary query={query} compact onOpen={onClose} />
         <p className="scan-note">
-          <ShieldCheck size={14} /> Free read-only demo. Live collection and
-          saved workflows are available in the full local app.
+          <ShieldCheck size={14} /> Free read-only demo. Product reviews refresh
+          daily; investigations shown here are saved scenarios.
         </p>
       </div>
     </dialog>
@@ -145,7 +145,13 @@ function LiveScanModal({
         body: JSON.stringify({
           product_name: product.trim(),
           brand: brand.trim(),
-          sources: ["reddit", "google_news", ...(tinyfish ? ["tinyfish"] : [])],
+          sources: [
+            "reddit",
+            "google_news",
+            "trustified",
+            "foodpharmer",
+            ...(tinyfish ? ["tinyfish"] : []),
+          ],
           product_urls: urls
             .split("\n")
             .map((url) => url.trim())
@@ -223,6 +229,8 @@ function LiveScanModal({
           <div className="scan-source-row">
             <span>Reddit public search</span>
             <span>Google News RSS</span>
+            <span>Trustified catalogue</span>
+            <span>Food Pharmer catalogue</span>
           </div>
           {providers.tinyfish && (
             <details className="advanced-scan">

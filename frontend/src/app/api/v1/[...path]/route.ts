@@ -9,6 +9,7 @@ const ALLOWED = new Set([
   "regulatory",
   "audio",
   "reference-cases",
+  "source-findings",
 ]);
 async function forward(
   request: NextRequest,

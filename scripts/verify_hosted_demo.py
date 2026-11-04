@@ -44,6 +44,18 @@ def verify():
     assert any("thehindu.com" in source["url"] for source in reports[0]["sources"])
     assert len(get("/reference-cases")["items"]) == 3
     assert get("/reference-cases?q=unknownzebra")["items"] == []
+    findings = get("/source-findings?q=MDH&source=trustified&outcome=fail")
+    assert findings["total"] >= 1 and all(
+        item["source"] == "trustified" and item["outcome"] == "fail"
+        for item in findings["items"]
+    )
+    reviewed = get("/source-findings?source=foodpharmer&limit=1")
+    assert reviewed["total"] >= 1 and len(reviewed["items"]) == 1
+    assert reviewed["items"][0]["proof_links"][0]["url"].startswith(
+        "https://foodpharmer.health/"
+    )
+    request("/api/v1/source-findings?outcome=unsafe", status=422)
+    request("/api/v1/source-findings", status=401, auth=False)
     report = get("/reference-cases/" + reports[0]["id"])
     assert len(report["sources"]) >= 3
     request("/reports/" + report["id"])

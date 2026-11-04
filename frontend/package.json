@@ -6,7 +6,8 @@
     "dev": "next dev --hostname 127.0.0.1 --port 3000",
     "build": "next build",
     "start": "next start --hostname 0.0.0.0 --port ${PORT:-3000}",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:catalog": "node --test tests/source-catalog.test.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.0",

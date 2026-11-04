@@ -51,6 +51,13 @@ async def process_scan(identifier: str):
         await session.commit()
     try:
         raw, outcomes = await collect_sources(request)
+        # Publisher reviews never enter complaint, clinical, attribution or risk paths.
+        source_findings = [
+            item["finding"]
+            for item in raw
+            if item.get("record_kind") == "source_finding"
+        ]
+        raw = [item for item in raw if item.get("record_kind") != "source_finding"]
         terms = [
             term.casefold()
             for term in re.findall(r"[\w]+", request.product_name + " " + request.brand)
@@ -203,16 +210,21 @@ async def process_scan(identifier: str):
                 "completed"
                 if successful == len(outcomes)
                 else "partial"
-                if successful
+                if successful or source_findings
                 else "failed"
             )
             job.results = {
                 "sources": outcomes,
+                "source_findings": source_findings,
                 "collected_count": len(raw),
                 "relevant_count": len(cleaned),
                 "case_ids": [case_id] if case_id else [],
                 "warnings": warnings,
-                "message": "No relevant evidence found."
+                "message": (
+                    "Source reviews found; no complaint investigation was created."
+                    if source_findings
+                    else "No relevant evidence found."
+                )
                 if not cleaned
                 else "Evidence collected and assessed.",
             }

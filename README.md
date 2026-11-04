@@ -38,6 +38,47 @@ The native demo uses SQLite and asynchronous in-process jobs. Production require
 
 The supplied license `10012021000518` is a synthetic linkage key, not a verified claim about a real license holder. Synthetic graph links and source-free demo cards are labeled accordingly.
 
+## Trustified and Food Pharmer daily scanner
+
+The **Tested & reviewed** section searches publisher findings with source,
+outcome, tested batch, original dates, review method and proof links. Trustified
+pass/fail and NMR pages and Food Pharmer category/product pages are collected
+using public HTML. Recommendations, reported tests and expired testing statuses
+remain distinct. Findings do not change investigation scores or create complaint
+evidence, regulatory records or action packets.
+
+`Daily source scanner` runs on a standard GitHub Actions Linux runner at
+**06:17 IST** (`47 0 * * *` UTC), with **Run workflow** for manual retries.
+Schedules are best effort; GitHub can delay jobs or disable schedules in inactive
+public repositories. No model API, paid crawler or always-on server is needed.
+Only the publisher job has `contents: write`; it commits the validated catalogue
+to `codex/source-data` with the built-in Actions token. Workflow artifacts are
+retained for one day.
+
+The backend and hosted demo read that fixed public branch with hourly caching.
+Vercel validates before caching and falls back to its bundled catalogue when the
+published version is unavailable. Daily changes need no redeployment. Backend
+fetch failures retain previously validated data. Records older than 48 hours
+show as stale. Partial coverage and pending pages remain visible.
+
+The scanner respects robots.txt, identifies itself, requests at most one page
+per second per host, and limits runs to 600 requests and 20 minutes. Pending
+pages resume before checked pages. Some older Trustified links return empty
+public templates or errors; these remain unreadable rather than interpreted.
+The scanner does not log in or use hidden APIs.
+
+Run `backend/.venv/Scripts/python.exe scripts/scan_sources.py` locally.
+Add `--from-published` to resume the data branch, or `--output <path>` to choose
+an output file. Copy the result to `frontend/src/data/source-catalog.json` before
+building to refresh the bundled fallback.
+
+`GET /api/v1/source-findings?q=MDH&source=trustified&outcome=fail&offset=0&limit=20`
+uses existing authentication. Sources: `all`, `trustified`, `foodpharmer`.
+Outcomes: `all`, `pass`, `fail`, `recommended`, `expired`, `unknown`.
+The response includes `items`, `total`, source health, timestamps and catalogue
+origin. Full-app scans accept both new source names and return matching reviews
+in `results.source_findings`, separately from `case_ids`.
+
 ## Live scan and optional providers
 
 The default scan queries Reddit public `search.json` and Google News RSS with `httpx`. The initial feasibility check returned Google RSS HTTP 200 and Reddit HTTP 403. Hosted Reddit access generally requires approved OAuth access; optionally set `REDDIT_ACCESS_TOKEN`. A partial scan still retains successful sources.

@@ -2,7 +2,7 @@ import hashlib
 import hmac
 from datetime import datetime, timedelta
 from uuid import uuid4
-from typing import Annotated
+from typing import Annotated, Literal
 from fastapi import (
     APIRouter,
     BackgroundTasks,
@@ -58,6 +58,23 @@ async def authenticate(authorization: str = Header(default="")):
 
 router = APIRouter(prefix="/api/v1", dependencies=[Depends(authenticate)])
 DB = Annotated[AsyncSession, Depends(get_session)]
+
+from app.models.source_findings import SourceFindingsResponse
+
+
+@router.get("/source-findings", response_model=SourceFindingsResponse)
+async def source_findings(
+    q: str = Query("", max_length=160),
+    source: Literal["all", "trustified", "foodpharmer"] = "all",
+    outcome: Literal[
+        "all", "pass", "fail", "recommended", "expired", "unknown"
+    ] = "all",
+    offset: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=100),
+):
+    from app.source_catalog import source_findings as search
+
+    return await search(q=q, source=source, outcome=outcome, offset=offset, limit=limit)
 
 
 @router.get("/reference-cases")
