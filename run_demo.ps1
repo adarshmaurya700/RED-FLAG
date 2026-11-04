@@ -1,4 +1,4 @@
-param([switch]$Native)
+param([switch]$Native, [ValidateRange(1024, 65535)][int]$WebPort = 3000)
 $ErrorActionPreference = 'Stop'
 $projectRoot = $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
@@ -23,5 +23,5 @@ try {
 } finally { Pop-Location }
 & npm.cmd ci --no-audit --no-fund
 if ($LASTEXITCODE -ne 0) { throw 'Frontend dependency installation failed.' }
-& (Join-Path $projectRoot 'backend\.venv\Scripts\python.exe') (Join-Path $projectRoot 'scripts\native_demo.py')
+& (Join-Path $projectRoot 'backend\.venv\Scripts\python.exe') (Join-Path $projectRoot 'scripts\native_demo.py') --port $WebPort
 exit $LASTEXITCODE

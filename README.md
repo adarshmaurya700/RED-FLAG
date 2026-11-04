@@ -30,6 +30,23 @@ sh ./run_demo.sh --native
 
 The native demo uses SQLite and asynchronous in-process jobs. Production requires PostgreSQL, Redis and Celery; the local task runner is for a single process. First installation needs internet for packages. Seeded runtime operation does not require internet or model downloads. Live scans require network access.
 
+### Current R&D setup
+
+During the one-month R&D phase, open the full app at
+[127.0.0.1:3100](http://127.0.0.1:3100), with no password prompt.
+Further Vercel deployment is on hold.
+
+```powershell
+.\run_demo.ps1 -Native -WebPort 3100
+```
+
+After dependencies are installed, restart with
+`backend/.venv/Scripts/python.exe scripts/native_demo.py --port 3100`.
+The API runs on localhost:8000, and SQLite data persists between restarts.
+The native launcher enables live scans and saved workflows, and disables the
+hosted demo and password flags for these localhost processes. The daily GitHub
+scanner continues publishing public source findings for local review.
+
 ## Three kinds of evidence
 
 - **Real reports:** searchable, dated source profiles for Priyagold's October 2026 bran/recall reporting, Delhi's 2026 expiry-date operation, and the historical 2024 MDH/Everest spice recalls. Search `pari case`, `Priyagold`, `husk`, `Delhi expiry`, or `MDH`. Original notices and reporting are linked. The Hindu article supplied by the operator is included with a publisher-access note. These profiles have no invented risk scores and do not imply current nationwide recalls.

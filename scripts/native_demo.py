@@ -1,6 +1,7 @@
 """Local process supervisor. Secrets are inherited through environment, never arguments."""
 
 import os
+import argparse
 from pathlib import Path
 import shutil
 import socket
@@ -12,8 +13,15 @@ root = Path(__file__).resolve().parents[1]
 load_dotenv(root / ".env", override=False)
 
 
-def main():
-    for port in (8000, 3000):
+def main(web_port=3000):
+    # This supervisor binds both services to localhost for password-free R&D.
+    os.environ.update(
+        APP_ENV="development",
+        HOSTED_OPERATOR_PASSWORD="",
+        HOSTED_DEMO="false",
+        NEXT_PUBLIC_HOSTED_DEMO="false",
+    )
+    for port in (8000, web_port):
         with socket.socket() as connection:
             if connection.connect_ex(("127.0.0.1", port)) == 0:
                 raise SystemExit(
@@ -46,7 +54,7 @@ def main():
     web = None
     try:
         print(
-            "red flag: http://localhost:3000 | API: http://localhost:8000/docs",
+            f"red flag: http://127.0.0.1:{web_port} | API: http://127.0.0.1:8000/docs",
             flush=True,
         )
         web = subprocess.Popen(
@@ -58,7 +66,7 @@ def main():
                 "--hostname",
                 "127.0.0.1",
                 "--port",
-                "3000",
+                str(web_port),
             ],
             cwd=root,
         )
@@ -84,4 +92,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--port", type=int, default=3000)
+    args = parser.parse_args()
+    if not 1024 <= args.port <= 65535 or args.port == 8000:
+        parser.error("Choose a web port from 1024 to 65535, excluding API port 8000")
+    main(args.port)

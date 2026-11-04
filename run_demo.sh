@@ -15,4 +15,5 @@ cd backend
 uv pip install --python .venv/bin/python -r requirements.lock
 cd ..
 npm ci --no-audit --no-fund
-exec backend/.venv/bin/python scripts/native_demo.py
+shift
+exec backend/.venv/bin/python scripts/native_demo.py "$@"
