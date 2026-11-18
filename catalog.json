@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T08:37:54.969117Z",
+  "generated_at": "2026-11-18T08:02:45.998990Z",
   "sources": {
     "trustified": {
       "status": "partial",
-      "last_attempt_at": "2026-11-17T08:30:24.613131Z",
-      "last_success_at": "2026-11-17T08:37:54.968388Z",
+      "last_attempt_at": "2026-11-18T07:57:57.498075Z",
+      "last_success_at": "2026-11-18T08:02:45.998687Z",
       "discovered": 283,
       "checked": 210,
       "failed": 73,
@@ -85,7 +85,6 @@
         "https://www.trustified.in/passandfail/zeroharmomega"
       ],
       "errors": [
-        "https://www.trustified.in/passandfail: No readable product links in this index; known product URLs retained.",
         "https://www.trustified.in/passandfail/-insane-labz-psychotic: Client error '404 Not Found' for url 'https://www.trustified.in/passandfail/-insane-labz-psychotic'\nFor more information check: https://developer.mozi",
         "https://www.trustified.in/passandfail/Americanzmusclesprotein: Product heading missing; source layout may have changed",
         "https://www.trustified.in/passandfail/Becadexaminemultivitamins: Product heading missing; source layout may have changed",
@@ -104,13 +103,14 @@
         "https://www.trustified.in/passandfail/asitis-atom-creatine: Trustified product fields missing",
         "https://www.trustified.in/passandfail/asitis-concentrate: Trustified product fields missing",
         "https://www.trustified.in/passandfail/avvatar-blend: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/avvatar-isorich: Trustified product fields missing"
+        "https://www.trustified.in/passandfail/avvatar-isorich: Trustified product fields missing",
+        "https://www.trustified.in/passandfail/avvatar-muscle-gainer: Trustified product fields missing"
       ]
     },
     "foodpharmer": {
       "status": "ok",
-      "last_attempt_at": "2026-11-17T08:30:24.613131Z",
-      "last_success_at": "2026-11-17T08:31:48.863572Z",
+      "last_attempt_at": "2026-11-18T07:57:57.498075Z",
+      "last_success_at": "2026-11-18T07:59:21.803790Z",
       "discovered": 63,
       "checked": 63,
       "failed": 0,
@@ -147,7 +147,7 @@
           "url": "https://foodpharmer.health/c/paneer/humpy-a2-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:24.858316Z",
+      "fetched_at": "2026-11-18T07:58:57.768805Z",
       "first_seen_at": "2026-11-03T14:29:32.997897Z",
       "updated_at": "2026-11-03T14:29:32.997897Z",
       "content_hash": "dc08aeec789b4bfe789090955defd897213fab5cecf2ef872f67dd6de043638d",
@@ -183,7 +183,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/bakers-loaf-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:49.819770Z",
+      "fetched_at": "2026-11-18T07:58:22.638742Z",
       "first_seen_at": "2026-11-03T14:28:56.582367Z",
       "updated_at": "2026-11-03T14:28:56.582367Z",
       "content_hash": "0e9c534520468491f1467981e1ab1f77bd9804c5e9a9edce4cbdaca28fe81782",
@@ -217,7 +217,7 @@
           "url": "https://foodpharmer.health/c/tofu/milky-mist-briyas-tofu"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:42.865737Z",
+      "fetched_at": "2026-11-18T07:59:15.727108Z",
       "first_seen_at": "2026-11-03T14:29:51.332465Z",
       "updated_at": "2026-11-03T14:29:51.332465Z",
       "content_hash": "e4ef81d0b85114ca1e3586543027c29576d0792ae5a8c90be74dcc3d20ff71c5",
@@ -253,7 +253,7 @@
           "url": "https://foodpharmer.health/c/pasta/pinkharvest-chickpea-penne"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:26.868032Z",
+      "fetched_at": "2026-11-18T07:58:59.677384Z",
       "first_seen_at": "2026-11-03T14:29:34.868722Z",
       "updated_at": "2026-11-03T14:29:34.868722Z",
       "content_hash": "9c23cbd8e6441f8c06e4f5cd7cd2860458ac58b092274ff5e337d6fc5811d1e7",
@@ -287,7 +287,7 @@
           "url": "https://foodpharmer.health/c/tofu/health-on-plants-classic-tofu"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:41.907924Z",
+      "fetched_at": "2026-11-18T07:59:14.735044Z",
       "first_seen_at": "2026-11-03T14:29:50.097920Z",
       "updated_at": "2026-11-03T14:29:50.097920Z",
       "content_hash": "8c41472d4d0a8dea21b0e656125af8c13b9af85af639afd9b505a272223b8a9f",
@@ -321,7 +321,7 @@
           "url": "https://foodpharmer.health/c/ors/electral"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:15.806903Z",
+      "fetched_at": "2026-11-18T07:58:48.648695Z",
       "first_seen_at": "2026-11-03T14:29:23.878241Z",
       "updated_at": "2026-11-03T14:29:23.878241Z",
       "content_hash": "fde5dcfc967e79d7dcac72facc63dd2932f7f7bab842bcf06fc9b87ca57cb8ba",
@@ -355,7 +355,7 @@
           "url": "https://foodpharmer.health/c/tofu/urban-platter-firm-tofu"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:45.912051Z",
+      "fetched_at": "2026-11-18T07:59:18.718373Z",
       "first_seen_at": "2026-11-03T14:29:54.173759Z",
       "updated_at": "2026-11-03T14:29:54.173759Z",
       "content_hash": "5962b3476e16a6c28b9ae45ca163480b8de26a53383e422cdaee423763b6d1c1",
@@ -389,7 +389,7 @@
           "url": "https://foodpharmer.health/c/tofu/mother-natures-fresh-soft-tofu"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:43.858117Z",
+      "fetched_at": "2026-11-18T07:59:16.716226Z",
       "first_seen_at": "2026-11-03T14:29:52.073542Z",
       "updated_at": "2026-11-03T14:29:52.073542Z",
       "content_hash": "b3be0453721d47a9e98bd559762030692060f70e613c9cad8176d6238dceb6e9",
@@ -426,7 +426,7 @@
           "url": "https://foodpharmer.health/c/chips/lo-foods-millet-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:58.788497Z",
+      "fetched_at": "2026-11-18T07:58:31.630615Z",
       "first_seen_at": "2026-11-03T14:29:05.511546Z",
       "updated_at": "2026-11-03T14:29:05.511546Z",
       "content_hash": "2224fdca6926c51d3daf4c7974787e3073615a9f814ed573c4b0d23d868107c3",
@@ -463,7 +463,7 @@
           "url": "https://foodpharmer.health/c/noodles/wickedgud-hakka-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:08.804345Z",
+      "fetched_at": "2026-11-18T07:58:41.823134Z",
       "first_seen_at": "2026-11-03T14:29:17.013889Z",
       "updated_at": "2026-11-03T14:29:17.013889Z",
       "content_hash": "3798392d06b04cba956cdc8a1b74395658209fa8299dac78444466ec1a3ed42e",
@@ -500,7 +500,7 @@
           "url": "https://foodpharmer.health/c/biscuits/open-secret-healthy-digestive"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:47.755530Z",
+      "fetched_at": "2026-11-18T07:58:20.669201Z",
       "first_seen_at": "2026-11-03T14:28:54.412434Z",
       "updated_at": "2026-11-03T14:28:54.412434Z",
       "content_hash": "03720fe9f9c79e6641bce1c79267855160b157d8f26d78e9c20e06aec2f89295",
@@ -535,7 +535,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/pintola-high-protein-oats-chocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:13.868282Z",
+      "fetched_at": "2026-11-18T07:58:46.686028Z",
       "first_seen_at": "2026-11-03T14:29:21.943534Z",
       "updated_at": "2026-11-03T14:29:21.943534Z",
       "content_hash": "71167176b869b1ea95e463ae72900361614931164daa675ad25c2f73a2e331b6",
@@ -570,7 +570,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/yoga-bar-high-protein-oats-dark-chocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:14.823995Z",
+      "fetched_at": "2026-11-18T07:58:47.737274Z",
       "first_seen_at": "2026-11-03T14:29:22.902500Z",
       "updated_at": "2026-11-03T14:29:22.902500Z",
       "content_hash": "5af28fa142fad1d73bf693f056e430a065ff751aaa27e43bf816f3d30377890a",
@@ -605,7 +605,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/alpino-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:10.782508Z",
+      "fetched_at": "2026-11-18T07:58:43.674090Z",
       "first_seen_at": "2026-11-03T14:29:19.205878Z",
       "updated_at": "2026-11-03T14:29:19.205878Z",
       "content_hash": "036ffe285f48dc8c98a6b23b25f5f9a607f1920111f95d2d75702600ef75d8c9",
@@ -640,7 +640,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/goat-life-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:11.771888Z",
+      "fetched_at": "2026-11-18T07:58:44.736896Z",
       "first_seen_at": "2026-11-03T14:29:19.990667Z",
       "updated_at": "2026-11-03T14:29:19.990667Z",
       "content_hash": "d69afdedf73c83ce5df9d9f319160ff6232079b34b701bd5d6c8cd49eedbc161",
@@ -675,7 +675,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/amul-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:18.802620Z",
+      "fetched_at": "2026-11-18T07:58:51.693967Z",
       "first_seen_at": "2026-11-03T14:29:26.842391Z",
       "updated_at": "2026-11-03T14:29:26.842391Z",
       "content_hash": "7dd8181c7dfcea8b835a8b2f6659737cb71103609303cd815ff14b062c329621",
@@ -710,7 +710,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/id-fresh-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:20.845503Z",
+      "fetched_at": "2026-11-18T07:58:53.667621Z",
       "first_seen_at": "2026-11-03T14:29:28.930772Z",
       "updated_at": "2026-11-03T14:29:28.930772Z",
       "content_hash": "ad25513bc1d5b007f63cb73a87aebd3e477cdf9dea3fe1b63976d1aff43a1697",
@@ -745,7 +745,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/desi-farms-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:19.793642Z",
+      "fetched_at": "2026-11-18T07:58:52.683117Z",
       "first_seen_at": "2026-11-03T14:29:27.873469Z",
       "updated_at": "2026-11-03T14:29:27.873469Z",
       "content_hash": "267e2b231e218f0a3f5d1703cc958186be37ee64d4974cf3ab79f35e37c1b79a",
@@ -780,7 +780,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/milky-mist-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:21.849968Z",
+      "fetched_at": "2026-11-18T07:58:54.695874Z",
       "first_seen_at": "2026-11-03T14:29:29.927609Z",
       "updated_at": "2026-11-03T14:29:29.927609Z",
       "content_hash": "e84d1a6ca5ecef0b49450ab0b80889243363a9d7bedad9b005b347c5e0ce573b",
@@ -816,7 +816,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/muscleblaze-high-protein-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:30.899883Z",
+      "fetched_at": "2026-11-18T07:59:03.733110Z",
       "first_seen_at": "2026-11-03T14:29:39.143115Z",
       "updated_at": "2026-11-03T14:29:39.143115Z",
       "content_hash": "0474ffc09c2c1b9f70a2d78e9a7770a90a4d4acbf1253b74d5cabe00cc5e8ef8",
@@ -852,7 +852,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/pintola-high-protein-pb"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:32.824829Z",
+      "fetched_at": "2026-11-18T07:59:05.792206Z",
       "first_seen_at": "2026-11-03T14:29:41.061481Z",
       "updated_at": "2026-11-03T14:29:41.061481Z",
       "content_hash": "7b0d88dfed126db1588b3f3d676237751cc4b9205a1aa8dc0bc015f9e23525a3",
@@ -889,7 +889,7 @@
           "url": "https://foodpharmer.health/c/biscuits/taakat-hunger-bar-crunchy-coconut"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:48.793762Z",
+      "fetched_at": "2026-11-18T07:58:21.673573Z",
       "first_seen_at": "2026-11-03T14:28:55.542212Z",
       "updated_at": "2026-11-03T14:28:55.542212Z",
       "content_hash": "e26a0b2311cdd533873da087a584b289c2ba7b2808a45e83889d642baf5bf1df",
@@ -926,7 +926,7 @@
           "url": "https://foodpharmer.health/c/noodles/jiwa-instant-oats-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:04.882856Z",
+      "fetched_at": "2026-11-18T07:58:37.707985Z",
       "first_seen_at": "2026-11-03T14:29:13.089204Z",
       "updated_at": "2026-11-03T14:29:13.089204Z",
       "content_hash": "b913cd762e3212f16f29c4e30c1f17a35c5c15ef8cc608683a69a84fa7285e3f",
@@ -961,7 +961,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/no-bs-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:12.831423Z",
+      "fetched_at": "2026-11-18T07:58:45.669766Z",
       "first_seen_at": "2026-11-03T14:29:20.942275Z",
       "updated_at": "2026-11-03T14:29:20.942275Z",
       "content_hash": "799355845db30c18483bb7f47f2d1ca8892a8c22d82128ca08b1ef61c6e56ca9",
@@ -998,7 +998,7 @@
           "url": "https://foodpharmer.health/c/noodles/slurrp-farm-little-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:06.816209Z",
+      "fetched_at": "2026-11-18T07:58:39.637158Z",
       "first_seen_at": "2026-11-03T14:29:14.974064Z",
       "updated_at": "2026-11-03T14:29:14.974064Z",
       "content_hash": "66e15bac77976c0039619c23377e0e869f2b83797f61581d375d6929cdd98a57",
@@ -1034,7 +1034,7 @@
           "url": "https://foodpharmer.health/c/paneer/amul-malai-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:22.889926Z",
+      "fetched_at": "2026-11-18T07:58:55.707593Z",
       "first_seen_at": "2026-11-03T14:29:30.904819Z",
       "updated_at": "2026-11-03T14:29:30.904819Z",
       "content_hash": "02a806abef2b78fbf1e531abd16f0efbd408a3f504f8597834355336187e9563",
@@ -1071,7 +1071,7 @@
           "url": "https://foodpharmer.health/c/biscuits/millet-jaggery-cookies"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:46.780597Z",
+      "fetched_at": "2026-11-18T07:58:19.634524Z",
       "first_seen_at": "2026-11-03T14:28:53.152564Z",
       "updated_at": "2026-11-03T14:28:53.152564Z",
       "content_hash": "4132bd6fa2a41a176e69f426a207abeb661b42433d7598663a8bb8ccd959effc",
@@ -1108,7 +1108,7 @@
           "url": "https://foodpharmer.health/c/noodles/conscious-food-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:03.814663Z",
+      "fetched_at": "2026-11-18T07:58:36.673937Z",
       "first_seen_at": "2026-11-03T14:29:11.372192Z",
       "updated_at": "2026-11-03T14:29:11.372192Z",
       "content_hash": "b0e29b299fc963334eb30b627cc4c8eb6d6f5ca99297c1b0f46e3d186542046d",
@@ -1143,7 +1143,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/superyou-multigrain-chips"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:55.815675Z",
+      "fetched_at": "2026-11-18T07:58:28.634572Z",
       "first_seen_at": "2026-11-03T14:29:02.257552Z",
       "updated_at": "2026-11-03T14:29:02.257552Z",
       "content_hash": "30839e60de78128f33df18943fb8f74b3775542e6252302eaa44b32833651aa2",
@@ -1179,7 +1179,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-bakers-dozen-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:50.788294Z",
+      "fetched_at": "2026-11-18T07:58:23.627117Z",
       "first_seen_at": "2026-11-03T14:28:57.624051Z",
       "updated_at": "2026-11-03T14:28:57.624051Z",
       "content_hash": "e86d025f390d7daf3d4d1fa79321eb9b455378c3f883d2cc08e269e9a9e6495f",
@@ -1213,7 +1213,7 @@
           "url": "https://foodpharmer.health/c/makhana/tata-sampann-natural-high-protein-makhana"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:02.803376Z",
+      "fetched_at": "2026-11-18T07:58:35.666187Z",
       "first_seen_at": "2026-11-03T14:29:09.483653Z",
       "updated_at": "2026-11-03T14:29:09.483653Z",
       "content_hash": "e9f3159e8198b09a1257199b9049bb8bc0a820a4d0cf5a9bd78f52c96129987c",
@@ -1249,7 +1249,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/butternutco-natural-creamy-pb"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:29.817864Z",
+      "fetched_at": "2026-11-18T07:59:02.693442Z",
       "first_seen_at": "2026-11-03T14:29:38.653377Z",
       "updated_at": "2026-11-03T14:29:38.653377Z",
       "content_hash": "052fffc19079549bd5e0617e8f875e9d4f88e87d64337f797d13551754924718",
@@ -1285,7 +1285,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/alpino-natural-pb-crunch"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:28.849550Z",
+      "fetched_at": "2026-11-18T07:59:01.716148Z",
       "first_seen_at": "2026-11-03T14:29:37.688211Z",
       "updated_at": "2026-11-03T14:29:37.688211Z",
       "content_hash": "e8c754e443313218cb5e8443d1fa35faf7b96504e62659cc34d20f504175ef72",
@@ -1320,7 +1320,7 @@
           "url": "https://foodpharmer.health/c/tempeh/hello-tempayy-soybean-tempeh-cubes"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:40.861632Z",
+      "fetched_at": "2026-11-18T07:59:13.733761Z",
       "first_seen_at": "2026-11-03T14:29:49.040550Z",
       "updated_at": "2026-11-03T14:29:49.040550Z",
       "content_hash": "b66a39db811877f62153f9e0ccd5959324b32ab8e06bdf1258cc2167e0b95d23",
@@ -1356,7 +1356,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/myfitness-unsweetened-crunchy-pb"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:31.835742Z",
+      "fetched_at": "2026-11-18T07:59:04.694923Z",
       "first_seen_at": "2026-11-03T14:29:40.013960Z",
       "updated_at": "2026-11-03T14:29:40.013960Z",
       "content_hash": "f0d2cc411fe9e12befb56077cbe36ac01337c82c69ec1117252ba7e3bc07be04",
@@ -1392,7 +1392,7 @@
           "url": "https://foodpharmer.health/c/paneer/gowardhan-paneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:23.809359Z",
+      "fetched_at": "2026-11-18T07:58:56.701472Z",
       "first_seen_at": "2026-11-03T14:29:31.825338Z",
       "updated_at": "2026-11-03T14:29:31.825338Z",
       "content_hash": "90e80f8dd78d9e03e94352878aaf797f2d71efbeef4775a475239ea76caa7049",
@@ -1428,7 +1428,7 @@
           "url": "https://foodpharmer.health/c/pasta/mille-penne-protein-pasta"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:25.820873Z",
+      "fetched_at": "2026-11-18T07:58:58.705453Z",
       "first_seen_at": "2026-11-03T14:29:33.873209Z",
       "updated_at": "2026-11-03T14:29:33.873209Z",
       "content_hash": "211992001217fd2ecee7a85c2ccc0402c6ba57167c06c0d2d65d51465db1c863",
@@ -1462,7 +1462,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/whole-farm-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:39.895674Z",
+      "fetched_at": "2026-11-18T07:59:12.717371Z",
       "first_seen_at": "2026-11-03T14:29:48.067627Z",
       "updated_at": "2026-11-03T14:29:48.067627Z",
       "content_hash": "6bad1efd2d83fd383b2769ca997af78ebe06324f7b5f8009237bf4a9d010b93c",
@@ -1496,7 +1496,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/515-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:37.873509Z",
+      "fetched_at": "2026-11-18T07:59:10.732159Z",
       "first_seen_at": "2026-11-03T14:29:46.413665Z",
       "updated_at": "2026-11-03T14:29:46.413665Z",
       "content_hash": "1a302422b755c3a303a0131a63a6d0a81c58e235259fa8b458ec579359fb8c9b",
@@ -1530,7 +1530,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/urban-platter-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:38.884993Z",
+      "fetched_at": "2026-11-18T07:59:11.747676Z",
       "first_seen_at": "2026-11-03T14:29:47.201355Z",
       "updated_at": "2026-11-03T14:29:47.201355Z",
       "content_hash": "9dbcfce1fca419db06f1bdf7cf8719144e8ad225457d14a0c52fc0509f5aace8",
@@ -1564,7 +1564,7 @@
           "url": "https://foodpharmer.health/c/makhana/farmley-prasadam-makhana"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:00.860503Z",
+      "fetched_at": "2026-11-18T07:58:33.900930Z",
       "first_seen_at": "2026-11-03T14:29:07.962172Z",
       "updated_at": "2026-11-03T14:29:07.962172Z",
       "content_hash": "c23eb7b9b9047cd280e1cf641861560d8f84c32749cb538230ead9a088609fdf",
@@ -1598,7 +1598,7 @@
           "url": "https://foodpharmer.health/c/ors/prolyte-ors"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:16.823707Z",
+      "fetched_at": "2026-11-18T07:58:49.705446Z",
       "first_seen_at": "2026-11-03T14:29:24.869292Z",
       "updated_at": "2026-11-03T14:29:24.869292Z",
       "content_hash": "bd521f6bcf07632cafec601751e524d0a1cb8f0bfdc6834cb46e0d072d44f29c",
@@ -1633,7 +1633,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/the-bakers-dozen-protein-chips-masala-mania"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:56.845762Z",
+      "fetched_at": "2026-11-18T07:58:29.639660Z",
       "first_seen_at": "2026-11-03T14:29:03.523829Z",
       "updated_at": "2026-11-03T14:29:03.523829Z",
       "content_hash": "0541c42c33d723dba154f5b034a14b94f3a4c32eaa639e7cb88e839fad3192cd",
@@ -1669,7 +1669,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/protein-chef-protein-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:52.809853Z",
+      "fetched_at": "2026-11-18T07:58:25.714301Z",
       "first_seen_at": "2026-11-03T14:28:59.699354Z",
       "updated_at": "2026-11-03T14:28:59.699354Z",
       "content_hash": "78aae1ef2e3b935b40c741ad4989a031a54d029064ecc16e9c25a301cadd1fba",
@@ -1705,7 +1705,7 @@
           "url": "https://foodpharmer.health/c/yogurt/country-delight-protein-greek-yogurt"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:46.878195Z",
+      "fetched_at": "2026-11-18T07:59:19.707514Z",
       "first_seen_at": "2026-11-03T14:29:54.912503Z",
       "updated_at": "2026-11-03T14:29:54.912503Z",
       "content_hash": "377ea5e3c74519363ddd42f50c2e5fb54c4fdc88f108bd7efbb69b58f1e63567",
@@ -1741,7 +1741,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/poptein-protein-popcorn-herb-n-zing"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:36.844886Z",
+      "fetched_at": "2026-11-18T07:59:09.736764Z",
       "first_seen_at": "2026-11-03T14:29:45.136881Z",
       "updated_at": "2026-11-03T14:29:45.136881Z",
       "content_hash": "5f23e209b258290e5111c150f55006f4025f72137de6865ab91bc4bff4a3c78c",
@@ -1777,7 +1777,7 @@
           "url": "https://foodpharmer.health/c/pasta/urbanplatter-protein-spaghetti"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:27.868788Z",
+      "fetched_at": "2026-11-18T07:59:00.726370Z",
       "first_seen_at": "2026-11-03T14:29:36.304847Z",
       "updated_at": "2026-11-03T14:29:36.304847Z",
       "content_hash": "798aaae48ac4ae4e347ba5448e81759e6086e9266fd2496a2e37473e2aca7d2e",
@@ -1814,7 +1814,7 @@
           "url": "https://foodpharmer.health/c/noodles/quinoa-noodles-naturally"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:05.855469Z",
+      "fetched_at": "2026-11-18T07:58:38.660199Z",
       "first_seen_at": "2026-11-03T14:29:14.459741Z",
       "updated_at": "2026-11-03T14:29:14.459741Z",
       "content_hash": "841fe949bff2faae9b33f438dc8919ee22f5f7f04cdcaead2c0da50678483fde",
@@ -1851,7 +1851,7 @@
           "url": "https://foodpharmer.health/c/chips/the-bakers-dozen-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:59.796215Z",
+      "fetched_at": "2026-11-18T07:58:32.644004Z",
       "first_seen_at": "2026-11-03T14:29:07.106608Z",
       "updated_at": "2026-11-03T14:29:07.106608Z",
       "content_hash": "ff00f605f0034809b2866413cd39e598ed57ad5a383a5550d32da736d89591ea",
@@ -1885,7 +1885,7 @@
           "url": "https://foodpharmer.health/c/makhana/lotus-raw-makhana"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:01.771279Z",
+      "fetched_at": "2026-11-18T07:58:34.722280Z",
       "first_seen_at": "2026-11-03T14:29:08.613579Z",
       "updated_at": "2026-11-03T14:29:08.613579Z",
       "content_hash": "91fa7897754533451aec1d7a201a1dfd243bc2e346f25825b593d069266bb6f6",
@@ -1921,7 +1921,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/4700bc-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:34.857219Z",
+      "fetched_at": "2026-11-18T07:59:07.689669Z",
       "first_seen_at": "2026-11-03T14:29:43.106764Z",
       "updated_at": "2026-11-03T14:29:43.106764Z",
       "content_hash": "6b419d8d767738aff12541c4429ecafbb75b0f4c52ed43e74fcb6490650ea198",
@@ -1957,7 +1957,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/lets-try-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:35.841774Z",
+      "fetched_at": "2026-11-18T07:59:08.735638Z",
       "first_seen_at": "2026-11-03T14:29:44.127648Z",
       "updated_at": "2026-11-03T14:29:44.127648Z",
       "content_hash": "60698cb3446604df439c2e3281e108b3f6deaaafa55d5f0e6dd41449fa4d0bb1",
@@ -1994,7 +1994,7 @@
           "url": "https://foodpharmer.health/c/noodles/urbanplatter-shirataki-konjac-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:07.844208Z",
+      "fetched_at": "2026-11-18T07:58:40.708209Z",
       "first_seen_at": "2026-11-03T14:29:16.029580Z",
       "updated_at": "2026-11-03T14:29:16.029580Z",
       "content_hash": "0beadccd7bdfd880ff019f73e535a2ea4bcd31a8540dd4e29049307783baf72f",
@@ -2030,7 +2030,7 @@
           "url": "https://foodpharmer.health/c/yogurt/milky-mist-skyr-high-protein-plain"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:48.860130Z",
+      "fetched_at": "2026-11-18T07:59:21.800483Z",
       "first_seen_at": "2026-11-03T14:29:57.270692Z",
       "updated_at": "2026-11-03T14:29:57.270692Z",
       "content_hash": "fc8c4abaa4dbc3e55e8dd8acf6328cd75c8aae942d676dec08f08581dd220e76",
@@ -2067,7 +2067,7 @@
           "url": "https://foodpharmer.health/c/chips/eatopia-superfood-oat-bites-masala-crunch"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:57.804158Z",
+      "fetched_at": "2026-11-18T07:58:30.640456Z",
       "first_seen_at": "2026-11-03T14:29:04.683416Z",
       "updated_at": "2026-11-03T14:29:04.683416Z",
       "content_hash": "33c04a422765712c842f96d368c87430c5df407c441df2c220a71b0d0972c7f6",
@@ -2101,7 +2101,7 @@
           "url": "https://foodpharmer.health/c/tofu/soyarich-tofu"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:44.856630Z",
+      "fetched_at": "2026-11-18T07:59:17.714957Z",
       "first_seen_at": "2026-11-03T14:29:53.192405Z",
       "updated_at": "2026-11-03T14:29:53.192405Z",
       "content_hash": "6b6fc0d458640dc0fab69fb46056cdf6f85fda94d660686fda85508013217c29",
@@ -2137,7 +2137,7 @@
           "url": "https://foodpharmer.health/c/yogurt/epigamia-turbo-protein-yogurt"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:47.848916Z",
+      "fetched_at": "2026-11-18T07:59:20.810065Z",
       "first_seen_at": "2026-11-03T14:29:56.691659Z",
       "updated_at": "2026-11-03T14:29:56.691659Z",
       "content_hash": "62b38bcc8855df746dea94c9f5e9490abf22380e561c742afe2bae8bca44f711",
@@ -2173,7 +2173,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/the-whole-truth-unsweetened-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:33.862419Z",
+      "fetched_at": "2026-11-18T07:59:06.739087Z",
       "first_seen_at": "2026-11-03T14:29:42.683621Z",
       "updated_at": "2026-11-03T14:29:42.683621Z",
       "content_hash": "c9b810a335a54e5a221402bf07c74edddf3bf2c3e6dbaec807777cfb8e8bf795",
@@ -2207,7 +2207,7 @@
           "url": "https://foodpharmer.health/c/ors/walyte-ors"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:17.838968Z",
+      "fetched_at": "2026-11-18T07:58:50.782706Z",
       "first_seen_at": "2026-11-03T14:29:26.132363Z",
       "updated_at": "2026-11-03T14:29:26.132363Z",
       "content_hash": "84a1dfa883f8ad677e7a5a4f3834688d05ac1f74812503740a483a1d2efd4a5e",
@@ -2244,7 +2244,7 @@
           "url": "https://foodpharmer.health/c/noodles/yu-foodlabs-whole-wheat-noodles"
         }
       ],
-      "fetched_at": "2026-11-17T08:31:09.812884Z",
+      "fetched_at": "2026-11-18T07:58:42.690151Z",
       "first_seen_at": "2026-11-03T14:29:18.267089Z",
       "updated_at": "2026-11-03T14:29:18.267089Z",
       "content_hash": "8331f80fd1940c4c01d1cd1324b7e86f1f58b6319fcecc83b247309c4affe0fa",
@@ -2280,7 +2280,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-bakers-dozen-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:53.863990Z",
+      "fetched_at": "2026-11-18T07:58:26.643098Z",
       "first_seen_at": "2026-11-03T14:29:00.600762Z",
       "updated_at": "2026-11-03T14:29:00.600762Z",
       "content_hash": "5700f7b4e2570c5be6fecd7c344fd4aee84aab302bdde36bfbcf1bdae59714cf",
@@ -2316,7 +2316,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-health-factory-zero-maida-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:54.809981Z",
+      "fetched_at": "2026-11-18T07:58:27.678956Z",
       "first_seen_at": "2026-11-03T14:29:01.553399Z",
       "updated_at": "2026-11-03T14:29:01.553399Z",
       "content_hash": "d9a8a25af150ce11cb1c5d1859474263cba47f2135e20304012694b34bb548f6",
@@ -2352,7 +2352,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-health-factory-zero-maida-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-17T08:30:51.826713Z",
+      "fetched_at": "2026-11-18T07:58:24.616275Z",
       "first_seen_at": "2026-11-03T14:28:58.543364Z",
       "updated_at": "2026-11-03T14:28:58.543364Z",
       "content_hash": "bcefed072755793bcec159e53a43520a946978e0c431efbe9014f2c5b088750a",
@@ -2384,7 +2384,7 @@
           "url": "https://www.trustified.in/passandfail/britanniawholebread"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:34.553871Z",
+      "fetched_at": "2026-11-18T07:59:57.756126Z",
       "first_seen_at": "2026-11-03T14:29:52.912786Z",
       "updated_at": "2026-11-03T14:29:52.912786Z",
       "content_hash": "7fc805a53b8620916941ba4ed57b09f79df294d5d7d87c19cddc4ec25e8ea1b6",
@@ -2416,7 +2416,7 @@
           "url": "https://www.trustified.in/passandfail/avvatarperformance100"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:09.959990Z",
+      "fetched_at": "2026-11-18T07:59:44.742544Z",
       "first_seen_at": "2026-11-03T14:29:34.882500Z",
       "updated_at": "2026-11-03T14:29:34.882500Z",
       "content_hash": "478190678f99fd5f17066d8b30d3871dc6ac969c185e9e18cfbd789b947cf72d",
@@ -2448,7 +2448,7 @@
           "url": "https://www.trustified.in/passandfail/nutraboxsoyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:34.863204Z",
+      "fetched_at": "2026-11-18T08:01:49.966177Z",
       "first_seen_at": "2026-11-03T14:32:28.376624Z",
       "updated_at": "2026-11-03T14:32:28.376624Z",
       "content_hash": "e6f066b1c05cca880eca92809cc5f0439bdfb4d9ea97dec357a23b2a8a5b2f62",
@@ -2480,7 +2480,7 @@
           "url": "https://www.trustified.in/passandfail/janaushadhiwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:54.977963Z",
+      "fetched_at": "2026-11-18T08:00:47.842221Z",
       "first_seen_at": "2026-11-03T14:30:52.736437Z",
       "updated_at": "2026-11-03T14:30:52.736437Z",
       "content_hash": "ab27c384a0250ed3a1cf15db2861a8d8b177e282bb8ccb42c5fd832bf262f577",
@@ -2512,7 +2512,7 @@
           "url": "https://www.trustified.in/passandfail/nutrabay-gold"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:27.857831Z",
+      "fetched_at": "2026-11-18T08:01:44.963629Z",
       "first_seen_at": "2026-11-03T14:32:19.547357Z",
       "updated_at": "2026-11-03T14:32:19.547357Z",
       "content_hash": "1b573a774557885b277ba897c95ce43aed4a1bdc4ec8ffae34a2834a62b68fb9",
@@ -2544,7 +2544,7 @@
           "url": "https://www.trustified.in/passandfail/tata1mgomega3"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:15.618000Z",
+      "fetched_at": "2026-11-18T08:02:18.012676Z",
       "first_seen_at": "2026-11-03T14:32:59.374286Z",
       "updated_at": "2026-11-03T14:32:59.374286Z",
       "content_hash": "cd296c41070a2d61b2b8aaff2f1dc66917f8a83cdfdee09282745cc607981301",
@@ -2576,7 +2576,7 @@
           "url": "https://www.trustified.in/passandfail/lindtchocolate70"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:11.829453Z",
+      "fetched_at": "2026-11-18T08:00:53.847432Z",
       "first_seen_at": "2026-11-03T14:31:01.512125Z",
       "updated_at": "2026-11-03T14:31:01.512125Z",
       "content_hash": "4fdd097e0feaaea4226cb6673a484024ad3e04ed5fbd42f01106a000074e0c78",
@@ -2608,7 +2608,7 @@
           "url": "https://www.trustified.in/passandfail/lindtchocolate85"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:13.220381Z",
+      "fetched_at": "2026-11-18T08:00:54.850898Z",
       "first_seen_at": "2026-11-03T14:31:02.038272Z",
       "updated_at": "2026-11-03T14:31:02.038272Z",
       "content_hash": "587a550c48ab4f9c087a5bc9ef9640785d6f38810c86a5a03ddd029b16f5d65a",
@@ -2640,7 +2640,7 @@
           "url": "https://www.trustified.in/passandfail/alkem-laboratories"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:19.043737Z",
+      "fetched_at": "2026-11-18T07:59:15.733536Z",
       "first_seen_at": "2026-11-03T14:28:54.174473Z",
       "updated_at": "2026-11-03T14:28:54.174473Z",
       "content_hash": "65e7f08fe820d2b644aebb6f95d5eccb0bb25dd9f44ea1e2f28e6e578066cb96",
@@ -2672,7 +2672,7 @@
           "url": "https://www.trustified.in/passandfail/musclegearswhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:56.801742Z",
+      "fetched_at": "2026-11-18T08:01:23.930929Z",
       "first_seen_at": "2026-11-03T14:31:37.064199Z",
       "updated_at": "2026-11-03T14:31:37.064199Z",
       "content_hash": "886ac316980b210c60bfaa11da05c1585b50f98fcbd6e6663a7486dc62d54eeb",
@@ -2704,7 +2704,7 @@
           "url": "https://www.trustified.in/passandfail/wow"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:36.171341Z",
+      "fetched_at": "2026-11-18T08:02:32.969870Z",
       "first_seen_at": "2026-11-03T14:33:22.793279Z",
       "updated_at": "2026-11-03T14:33:22.793279Z",
       "content_hash": "823c20f6289dd02c3013f8fe6add37131c23ddab99dbc4d1bcb54bb3c2fd676b",
@@ -2736,7 +2736,7 @@
           "url": "https://www.trustified.in/passandfail/getmymettle"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:26.959105Z",
+      "fetched_at": "2026-11-18T08:00:28.835010Z",
       "first_seen_at": "2026-11-03T14:30:32.107140Z",
       "updated_at": "2026-11-03T14:30:32.107140Z",
       "content_hash": "8b27eb3bafc51609d69cc83ed985d7d5b2efdc58f116b994cef18c007c139152",
@@ -2768,7 +2768,7 @@
           "url": "https://www.trustified.in/passandfail/alpinonaturalpeanutbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:23.401994Z",
+      "fetched_at": "2026-11-18T07:59:18.706135Z",
       "first_seen_at": "2026-11-03T14:28:57.201545Z",
       "updated_at": "2026-11-03T14:28:57.201545Z",
       "content_hash": "4f9abe3a4980d122528a4e008fb8b32e4128f09a9a85ae23f27128b3e86778d7",
@@ -2800,7 +2800,7 @@
           "url": "https://www.trustified.in/passandfail/amulbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:37.023440Z",
+      "fetched_at": "2026-11-18T07:59:26.707405Z",
       "first_seen_at": "2026-11-03T14:29:06.207858Z",
       "updated_at": "2026-11-03T14:29:06.207858Z",
       "content_hash": "ea2af123a95b995a14a95dce24738edfffac504a2b3b0a5fd4bad745566f811f",
@@ -2832,7 +2832,7 @@
           "url": "https://www.trustified.in/passandfail/amulgoldmilk"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:41.592161Z",
+      "fetched_at": "2026-11-18T07:59:29.710312Z",
       "first_seen_at": "2026-11-03T14:29:09.302484Z",
       "updated_at": "2026-11-03T14:29:09.302484Z",
       "content_hash": "2a9e3f167c8e159bb7eaf334b2451f006fc79f4aa88f985bbcc838393398c954",
@@ -2864,7 +2864,7 @@
           "url": "https://www.trustified.in/passandfail/amulpaneer"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:44.933517Z",
+      "fetched_at": "2026-11-18T07:59:31.714673Z",
       "first_seen_at": "2026-11-03T14:29:14.425970Z",
       "updated_at": "2026-11-03T14:29:14.425970Z",
       "content_hash": "4351e5dcbf6b2d562e8075ce3b3b12d54cf8120119ad604482a4f85616fcd789",
@@ -2896,7 +2896,7 @@
           "url": "https://www.trustified.in/passandfail/vaidyaapplecidervinegar"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:33.428766Z",
+      "fetched_at": "2026-11-18T08:02:30.971070Z",
       "first_seen_at": "2026-11-03T14:33:17.592105Z",
       "updated_at": "2026-11-03T14:33:17.592105Z",
       "content_hash": "542450596865569e76e97e2b42ea960d975a41b53f5cc723aa621514f3a5c041",
@@ -2928,7 +2928,7 @@
           "url": "https://www.trustified.in/passandfail/atompowerwheyexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:57.658934Z",
+      "fetched_at": "2026-11-18T07:59:38.726369Z",
       "first_seen_at": "2026-11-03T14:29:24.832145Z",
       "updated_at": "2026-11-03T14:29:24.832145Z",
       "content_hash": "75f350d440b8570b757d84b89420d004547a444182d1759a274bd79e04dac5c0",
@@ -2960,7 +2960,7 @@
           "url": "https://www.trustified.in/passandfail/avvatarcreatinemonohydrate"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:05.746085Z",
+      "fetched_at": "2026-11-18T07:59:42.733610Z",
       "first_seen_at": "2026-11-03T14:29:33.069686Z",
       "updated_at": "2026-11-03T14:29:33.069686Z",
       "content_hash": "87797e5e01a9e3db464ebc29287ca2def4b98a1efa884c12b794637b82d5349c",
@@ -2992,7 +2992,7 @@
           "url": "https://www.trustified.in/passandfail/avvatar-mass-gainer"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:00.529695Z",
+      "fetched_at": "2026-11-18T07:59:39.726108Z",
       "first_seen_at": "2026-11-03T14:29:27.794499Z",
       "updated_at": "2026-11-03T14:29:27.794499Z",
       "content_hash": "d191798fac266eca725fce81fc9dc899bae33a5b8f94058da63cf14d197a0e8d",
@@ -3024,7 +3024,7 @@
           "url": "https://www.trustified.in/passandfail/avvatar-mass-gainer-test-1"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:02.220448Z",
+      "fetched_at": "2026-11-18T07:59:40.736080Z",
       "first_seen_at": "2026-11-03T14:29:28.699938Z",
       "updated_at": "2026-11-03T14:29:28.699938Z",
       "content_hash": "7d34ff9c14288e73c9aa393008885ce65fcb258e89a839bb7d21e0742e1f22fb",
@@ -3056,7 +3056,7 @@
           "url": "https://www.trustified.in/passandfail/glaxosmithkline---gsk"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:28.971050Z",
+      "fetched_at": "2026-11-18T08:00:29.807202Z",
       "first_seen_at": "2026-11-03T14:30:32.425086Z",
       "updated_at": "2026-11-03T14:30:32.425086Z",
       "content_hash": "6812b92f5c3ef7d61c9d1a922c0c4884a2e68a82cb691e1d93c672baf373f98a",
@@ -3088,7 +3088,7 @@
           "url": "https://www.trustified.in/passandfail/belgianchocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:14.782026Z",
+      "fetched_at": "2026-11-18T07:59:47.743392Z",
       "first_seen_at": "2026-11-03T14:29:38.998631Z",
       "updated_at": "2026-11-03T14:29:38.998631Z",
       "content_hash": "f68f3beb34f30b14191f9940a6c8436690235e1483493cc0749e09f77cae99e8",
@@ -3120,7 +3120,7 @@
           "url": "https://www.trustified.in/passandfail/bgreenplantproteinexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:20.404109Z",
+      "fetched_at": "2026-11-18T07:59:50.743382Z",
       "first_seen_at": "2026-11-03T14:29:42.519741Z",
       "updated_at": "2026-11-03T14:29:42.519741Z",
       "content_hash": "b33dc3e8d2e2224e239d400ae1ddd81a3d4278b7c87c694ce4350553d4ca834e",
@@ -3152,7 +3152,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblaze-multivitamin"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:46.517320Z",
+      "fetched_at": "2026-11-18T08:01:16.921775Z",
       "first_seen_at": "2026-11-03T14:31:26.868283Z",
       "updated_at": "2026-11-03T14:31:26.868283Z",
       "content_hash": "cd77b94a4a7181c6d4037b4ff51661be256c78369629e58ab1033dc0fbb8bc56",
@@ -3184,7 +3184,7 @@
           "url": "https://www.trustified.in/passandfail/biozymegoldwhey100"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:25.288130Z",
+      "fetched_at": "2026-11-18T07:59:52.745517Z",
       "first_seen_at": "2026-11-03T14:29:46.334327Z",
       "updated_at": "2026-11-03T14:29:46.334327Z",
       "content_hash": "24f2d08b369d361109634176d781455f7c514d4ba5c7fa65815d19cfb7c2c85d",
@@ -3216,7 +3216,7 @@
           "url": "https://www.trustified.in/passandfail/biozyme-performance-whey"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:22.529114Z",
+      "fetched_at": "2026-11-18T07:59:51.745574Z",
       "first_seen_at": "2026-11-03T14:29:44.883531Z",
       "updated_at": "2026-11-03T14:29:44.883531Z",
       "content_hash": "6d4cd9ed518fb853267a4d4882004f9411109b0fd69dd031f640477ca17fc7f8",
@@ -3248,7 +3248,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblaze-biozyme%C2%A0pr"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:43.387866Z",
+      "fetched_at": "2026-11-18T08:01:14.922365Z",
       "first_seen_at": "2026-11-03T14:31:23.846239Z",
       "updated_at": "2026-11-03T14:31:23.846239Z",
       "content_hash": "f55dc2131b0251042e7f1a61f8e35d884aeaa6e76f2aeab2140a0fe3f5bec773",
@@ -3280,7 +3280,7 @@
           "url": "https://www.trustified.in/passandfail/mdhbiryanimasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:25.889183Z",
+      "fetched_at": "2026-11-18T08:01:02.873845Z",
       "first_seen_at": "2026-11-03T14:31:11.877970Z",
       "updated_at": "2026-11-04T19:46:08.493294Z",
       "content_hash": "8862fee3cc6ded2ebfe73ad00a3bb08d940c1ac2baf9f78213c1f90866071515",
@@ -3319,7 +3319,7 @@
           "url": "https://www.trustified.in/passandfail/amul75chocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:33.450284Z",
+      "fetched_at": "2026-11-18T07:59:24.705124Z",
       "first_seen_at": "2026-11-03T14:29:03.205851Z",
       "updated_at": "2026-11-03T14:29:03.205851Z",
       "content_hash": "7772abfcbe5d6abc79b42c99d8ddd689f2da2d14a0e864030a564cedaa252299",
@@ -3351,7 +3351,7 @@
           "url": "https://www.trustified.in/passandfail/amul90chocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:35.301751Z",
+      "fetched_at": "2026-11-18T07:59:25.705863Z",
       "first_seen_at": "2026-11-03T14:29:04.636595Z",
       "updated_at": "2026-11-03T14:29:04.636595Z",
       "content_hash": "025b51b1c7c97330bcefa5020411ef6f73492f9ce812eb334e6b0a2f28f6505a",
@@ -3383,7 +3383,7 @@
           "url": "https://www.trustified.in/passandfail/blackbeastwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:29.454423Z",
+      "fetched_at": "2026-11-18T07:59:54.755544Z",
       "first_seen_at": "2026-11-03T14:29:50.006873Z",
       "updated_at": "2026-11-03T14:29:50.006873Z",
       "content_hash": "60c7faa35789da130f8770e18537f4e1bed26e91873e2dcd7dcf4d73d23437ae",
@@ -3415,7 +3415,7 @@
           "url": "https://www.trustified.in/passandfail/bluvitd3sachets"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:31.251516Z",
+      "fetched_at": "2026-11-18T07:59:55.758678Z",
       "first_seen_at": "2026-11-03T14:29:50.868918Z",
       "updated_at": "2026-11-03T14:29:50.868918Z",
       "content_hash": "3c1eb1571d8eb28c386e496ecaaca52b14e877005d3c73c279f6429ffc6714a1",
@@ -3447,7 +3447,7 @@
           "url": "https://www.trustified.in/passandfail/boldfit-vitamin-d3"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:33.074703Z",
+      "fetched_at": "2026-11-18T07:59:56.756515Z",
       "first_seen_at": "2026-11-03T14:29:51.912659Z",
       "updated_at": "2026-11-03T14:29:51.912659Z",
       "content_hash": "b7f18cdea2efffbe4da90e8cd94409116f37c92408ef687ffc3bb0df007441f3",
@@ -3479,7 +3479,7 @@
           "url": "https://www.trustified.in/passandfail/cadburybournville50"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:35.898963Z",
+      "fetched_at": "2026-11-18T07:59:58.755420Z",
       "first_seen_at": "2026-11-03T14:29:54.013511Z",
       "updated_at": "2026-11-03T14:29:54.013511Z",
       "content_hash": "131c6e61ee42a42b9ae785fd9789ac5b034addef7c2a0f6db4973211b30b5f2b",
@@ -3511,7 +3511,7 @@
           "url": "https://www.trustified.in/passandfail/cadburybournville70"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:37.593877Z",
+      "fetched_at": "2026-11-18T07:59:59.757629Z",
       "first_seen_at": "2026-11-03T14:29:54.921816Z",
       "updated_at": "2026-11-03T14:29:54.921816Z",
       "content_hash": "258702c4cd9d1156bfbdd9603d7cae35582b5508998ab5eec4338c1a2ec0f83b",
@@ -3543,7 +3543,7 @@
           "url": "https://www.trustified.in/passandfail/daawatrice"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:51.331177Z",
+      "fetched_at": "2026-11-18T08:00:07.780446Z",
       "first_seen_at": "2026-11-03T14:30:04.133304Z",
       "updated_at": "2026-11-03T14:30:04.133304Z",
       "content_hash": "377558a6ece00b0ec9923fa2dfa6756bf4d89ff115273c7c76d2eb1a183c04b9",
@@ -3575,7 +3575,7 @@
           "url": "https://www.trustified.in/passandfail/amulcheesecubes"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:38.533739Z",
+      "fetched_at": "2026-11-18T07:59:27.708971Z",
       "first_seen_at": "2026-11-03T14:29:07.942233Z",
       "updated_at": "2026-11-03T14:29:07.942233Z",
       "content_hash": "44d9e1693e2e1344d6b982116b5a8489d1066b43c73b7c0d584a0f8a2f59ef3d",
@@ -3607,7 +3607,7 @@
           "url": "https://www.trustified.in/passandfail/liciouschicken"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:10.365411Z",
+      "fetched_at": "2026-11-18T08:00:52.856016Z",
       "first_seen_at": "2026-11-03T14:30:58.950502Z",
       "updated_at": "2026-11-03T14:30:58.950502Z",
       "content_hash": "97938a767b6caf6688280f8d615de5729f558bfc1e84d57e30e25d10c93de513",
@@ -3639,7 +3639,7 @@
           "url": "https://www.trustified.in/passandfail/mdhchunkychatmasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:28.203781Z",
+      "fetched_at": "2026-11-18T08:01:03.887524Z",
       "first_seen_at": "2026-11-03T14:31:12.937299Z",
       "updated_at": "2026-11-04T19:46:10.796311Z",
       "content_hash": "481876172e63ca1a406b5e82ebf64d8a6719156968a421a8e086ee060b2d97db",
@@ -3678,7 +3678,7 @@
           "url": "https://www.trustified.in/passandfail/truebasiccleanisolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:29.477906Z",
+      "fetched_at": "2026-11-18T08:02:27.965212Z",
       "first_seen_at": "2026-11-03T14:33:11.661658Z",
       "updated_at": "2026-11-03T14:33:11.661658Z",
       "content_hash": "6f8a13ed39b50fedd4d70a5bc689169de3c715891c0c8cb7bdb5b7c13d69b33f",
@@ -3710,7 +3710,7 @@
           "url": "https://www.trustified.in/passandfail/cleanwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:43.498146Z",
+      "fetched_at": "2026-11-18T08:00:02.774625Z",
       "first_seen_at": "2026-11-03T14:29:58.059612Z",
       "updated_at": "2026-11-03T14:29:58.059612Z",
       "content_hash": "a2af40cce0738ea57085de60cbf8faff8afe2aae158f90c50a7adce1d75606e0",
@@ -3742,7 +3742,7 @@
           "url": "https://www.trustified.in/passandfail/kellogscornflakes"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:01.713557Z",
+      "fetched_at": "2026-11-18T08:00:50.839394Z",
       "first_seen_at": "2026-11-03T14:30:55.831494Z",
       "updated_at": "2026-11-03T14:30:55.831494Z",
       "content_hash": "2350404424b4b7f7dcc896f05fd75250db4f6d5b46dcc1c07873c380f694f13e",
@@ -3774,7 +3774,7 @@
           "url": "https://www.trustified.in/passandfail/amulghee"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:40.097057Z",
+      "fetched_at": "2026-11-18T07:59:28.710397Z",
       "first_seen_at": "2026-11-03T14:29:08.212562Z",
       "updated_at": "2026-11-03T14:29:08.212562Z",
       "content_hash": "8746bcf6acd809a0fc8d81c95a85ff50621b3e09e28c9f347890dbee96a94b95",
@@ -3806,7 +3806,7 @@
           "url": "https://www.trustified.in/passandfail/motherdairymilk"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:40.501810Z",
+      "fetched_at": "2026-11-18T08:01:12.911913Z",
       "first_seen_at": "2026-11-03T14:31:20.846228Z",
       "updated_at": "2026-11-03T14:31:20.846228Z",
       "content_hash": "571e6ea50501123732a7043d576729bead6622ef8193c5f1e29590fdae715300",
@@ -3838,7 +3838,7 @@
           "url": "https://www.trustified.in/passandfail/countrydelightmilk"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:46.563100Z",
+      "fetched_at": "2026-11-18T08:00:04.767139Z",
       "first_seen_at": "2026-11-03T14:30:01.259736Z",
       "updated_at": "2026-11-03T14:30:01.259736Z",
       "content_hash": "706b860ca421732f8a25caa338480c076a3da20f174c8aaea287088be028dc95",
@@ -3870,7 +3870,7 @@
           "url": "https://www.trustified.in/passandfail/patanjalighee"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:50.812883Z",
+      "fetched_at": "2026-11-18T08:01:59.986534Z",
       "first_seen_at": "2026-11-03T14:32:39.359724Z",
       "updated_at": "2026-11-03T14:32:39.359724Z",
       "content_hash": "fab19bbb9fa9e01fbd9f293c121260d85aee2cd37d888c622cf06f745e79daff",
@@ -3902,7 +3902,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteincreamag"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:11.569676Z",
+      "fetched_at": "2026-11-18T08:01:33.943321Z",
       "first_seen_at": "2026-11-03T14:32:06.243579Z",
       "updated_at": "2026-11-03T14:32:06.243579Z",
       "content_hash": "161d3adb0b1fb972ffd0d1db58e740ddc7b7323125faa46280afad356b098d7d",
@@ -3934,7 +3934,7 @@
           "url": "https://www.trustified.in/passandfail/creasurecreatinemonohydrate"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:48.349251Z",
+      "fetched_at": "2026-11-18T08:00:05.787108Z",
       "first_seen_at": "2026-11-03T14:30:02.356232Z",
       "updated_at": "2026-11-03T14:30:02.356232Z",
       "content_hash": "0f052a5dacb052dd6df6171538d7ae07a713828518f5f9bf00a13231ffbc28c6",
@@ -3966,7 +3966,7 @@
           "url": "https://www.trustified.in/passandfail/manmattersgummies"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:16.205608Z",
+      "fetched_at": "2026-11-18T08:00:56.854222Z",
       "first_seen_at": "2026-11-03T14:31:03.926851Z",
       "updated_at": "2026-11-03T14:31:03.926851Z",
       "content_hash": "3ba052ba63e6ac1e63df646dc98045eb660df7b3f8ea8d8a7a1f50da9d85b345",
@@ -3998,7 +3998,7 @@
           "url": "https://www.trustified.in/passandfail/musclenectarcreatinemonohydrate"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:58.531745Z",
+      "fetched_at": "2026-11-18T08:01:24.978934Z",
       "first_seen_at": "2026-11-03T14:31:44.703816Z",
       "updated_at": "2026-11-03T14:31:44.703816Z",
       "content_hash": "c59e45630b0f3c0c4603515a75cd345786c44a0308e2ea5a76365299e051916b",
@@ -4030,7 +4030,7 @@
           "url": "https://www.trustified.in/passandfail/blackbeastcreatinemonohydrate"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:27.226437Z",
+      "fetched_at": "2026-11-18T07:59:53.749942Z",
       "first_seen_at": "2026-11-03T14:29:48.942194Z",
       "updated_at": "2026-11-03T14:29:48.942194Z",
       "content_hash": "4a1a62f9ba50a36b394248f87f73c0d3a7ec749483a9f78891d8280a5897cda2",
@@ -4062,7 +4062,7 @@
           "url": "https://www.trustified.in/passandfail/superyoucreatine"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:08.815708Z",
+      "fetched_at": "2026-11-18T08:02:13.001234Z",
       "first_seen_at": "2026-11-03T14:32:54.376611Z",
       "updated_at": "2026-11-03T14:32:54.376611Z",
       "content_hash": "75004acb67ff4ce6bca0f7c740a7a1f3ceb2f679be51ac54a6d9c3e9d7147f0b",
@@ -4094,7 +4094,7 @@
           "url": "https://www.trustified.in/passandfail/asitisonecreatine"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:52.114236Z",
+      "fetched_at": "2026-11-18T07:59:35.722435Z",
       "first_seen_at": "2026-11-03T14:29:21.843944Z",
       "updated_at": "2026-11-03T14:29:21.843944Z",
       "content_hash": "cc599c75bfd0df53643961f13ef2bd02e1ca7847319a3f65cd0edb65b89b6813",
@@ -4126,7 +4126,7 @@
           "url": "https://www.trustified.in/passandfail/amul55chocolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:31.903320Z",
+      "fetched_at": "2026-11-18T07:59:23.704194Z",
       "first_seen_at": "2026-11-03T14:29:02.174202Z",
       "updated_at": "2026-11-03T14:29:02.174202Z",
       "content_hash": "197b09a6d4da483422d6516c5de7f3db675f0f89da5344ee23328a4ddb7ff5f9",
@@ -4158,7 +4158,7 @@
           "url": "https://www.trustified.in/passandfail/mdhdeggimirch"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:29.610798Z",
+      "fetched_at": "2026-11-18T08:01:04.864466Z",
       "first_seen_at": "2026-11-03T14:31:13.838864Z",
       "updated_at": "2026-11-04T19:46:10.916553Z",
       "content_hash": "0fd44af9477291ea7fb5ee31a0ba65054e06be65b54abdcb7fd02c1fb9ba4584",
@@ -4197,7 +4197,7 @@
           "url": "https://www.trustified.in/passandfail/countrydelightghee"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:45.054684Z",
+      "fetched_at": "2026-11-18T08:00:03.799768Z",
       "first_seen_at": "2026-11-03T14:29:59.807047Z",
       "updated_at": "2026-11-03T14:29:59.807047Z",
       "content_hash": "eeb37a9d3a957a3d250b65b35e09c5e8092de0178974f82a375118c70342f211",
@@ -4229,7 +4229,7 @@
           "url": "https://www.trustified.in/passandfail/disanopeanutbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:53.105786Z",
+      "fetched_at": "2026-11-18T08:00:08.783407Z",
       "first_seen_at": "2026-11-03T14:30:05.124063Z",
       "updated_at": "2026-11-03T14:30:05.124063Z",
       "content_hash": "eb2bcd63a003a8214e1a327e13d17deeaef6cfb148c4874f956483ab5fab9fd0",
@@ -4261,7 +4261,7 @@
           "url": "https://www.trustified.in/passandfail/doctor's-choice-eaa"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:58.765252Z",
+      "fetched_at": "2026-11-18T08:00:11.784065Z",
       "first_seen_at": "2026-11-03T14:30:10.176234Z",
       "updated_at": "2026-11-03T14:30:10.176234Z",
       "content_hash": "f9669722c8a5c4f3dc9822afa05afe88cbb2bba2161c0acd151e759f647b7d6c",
@@ -4293,7 +4293,7 @@
           "url": "https://www.trustified.in/passandfail/explosivewheyexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:12.639001Z",
+      "fetched_at": "2026-11-18T08:00:19.793195Z",
       "first_seen_at": "2026-11-03T14:30:19.758610Z",
       "updated_at": "2026-11-03T14:30:19.758610Z",
       "content_hash": "c85ef31b51034a3796b5d57ffc5a1796ab02387ecad3f6606fc5537628fcc9c1",
@@ -4325,7 +4325,7 @@
           "url": "https://www.trustified.in/passandfail/epigamiayoughurt50"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:00.179762Z",
+      "fetched_at": "2026-11-18T08:00:12.781450Z",
       "first_seen_at": "2026-11-03T14:30:11.404826Z",
       "updated_at": "2026-11-03T14:30:11.404826Z",
       "content_hash": "7c5703f84cf6b3ae9366e8dbc16b6b652f5998416213131ee835c4e63510dea3",
@@ -4357,7 +4357,7 @@
           "url": "https://www.trustified.in/passandfail/jivooliveoil"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:57.472329Z",
+      "fetched_at": "2026-11-18T08:00:48.839046Z",
       "first_seen_at": "2026-11-03T14:30:53.708219Z",
       "updated_at": "2026-11-03T14:30:53.708219Z",
       "content_hash": "9777cebe894a2008684fa7551a8512c7ec202a48f5d056bc2ee924f224aa469d",
@@ -4389,7 +4389,7 @@
           "url": "https://www.trustified.in/passandfail/farmleymakhana"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:14.027083Z",
+      "fetched_at": "2026-11-18T08:00:20.799554Z",
       "first_seen_at": "2026-11-03T14:30:21.638023Z",
       "updated_at": "2026-11-03T14:30:21.638023Z",
       "content_hash": "5c065a20766040cf4daaf76b154765c31740bc42c82301e9fcd4004e09e7232e",
@@ -4421,7 +4421,7 @@
           "url": "https://www.trustified.in/passandfail/indiagatebasmatirice"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:51.703834Z",
+      "fetched_at": "2026-11-18T08:00:44.829779Z",
       "first_seen_at": "2026-11-03T14:30:49.381962Z",
       "updated_at": "2026-11-03T14:30:49.381962Z",
       "content_hash": "7a755ac686976a6acd64cdc656537b5ddc8bcd3869933110202d2a4f8bb8388b",
@@ -4453,7 +4453,7 @@
           "url": "https://www.trustified.in/passandfail/superyouyeastprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:10.180569Z",
+      "fetched_at": "2026-11-18T08:02:14.014336Z",
       "first_seen_at": "2026-11-03T14:32:55.343914Z",
       "updated_at": "2026-11-03T14:32:55.343914Z",
       "content_hash": "4c7bd83180c31b3ea87706b1489777afc8de4e35f785e2cceacdfbd64056daf0",
@@ -4485,7 +4485,7 @@
           "url": "https://www.trustified.in/passandfail/nveda"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:44.098876Z",
+      "fetched_at": "2026-11-18T08:01:56.000253Z",
       "first_seen_at": "2026-11-03T14:32:34.385191Z",
       "updated_at": "2026-11-03T14:32:34.385191Z",
       "content_hash": "7d1bfae740eba3fa00de085fd6bbd76640388178a0733c75cc9922cfd897c387",
@@ -4517,7 +4517,7 @@
           "url": "https://www.trustified.in/passandfail/bbetter"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:11.357063Z",
+      "fetched_at": "2026-11-18T07:59:45.739932Z",
       "first_seen_at": "2026-11-03T14:29:36.481725Z",
       "updated_at": "2026-11-03T14:29:36.481725Z",
       "content_hash": "70cca9ed0bf3a0549a423557165624e3d83e62c6b37c0c7a39442a65c9ad0e08",
@@ -4549,7 +4549,7 @@
           "url": "https://www.trustified.in/passandfail/zingavita"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:46.184836Z",
+      "fetched_at": "2026-11-18T08:02:39.975088Z",
       "first_seen_at": "2026-11-03T14:33:31.311672Z",
       "updated_at": "2026-11-03T14:33:31.311672Z",
       "content_hash": "32c8401b7d3947c9b41c74b917c7a357976dcfa06893104aa18e4d6dd9d01472",
@@ -4613,7 +4613,7 @@
           "url": "https://www.trustified.in/passandfail/fuelone"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:21.847112Z",
+      "fetched_at": "2026-11-18T08:00:25.831711Z",
       "first_seen_at": "2026-11-03T14:30:27.233269Z",
       "updated_at": "2026-11-03T14:30:27.233269Z",
       "content_hash": "1b109aa9b70585619249f40913c9c423fb73e8619f7c98b0851b3af6c9a9cb93",
@@ -4645,7 +4645,7 @@
           "url": "https://www.trustified.in/passandfail/avvatarfuelwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:07.378054Z",
+      "fetched_at": "2026-11-18T07:59:43.735554Z",
       "first_seen_at": "2026-11-03T14:29:33.853202Z",
       "updated_at": "2026-11-03T14:29:33.853202Z",
       "content_hash": "dce2c145c18eb992e2098c551f57b3332b616af222fd26634ce723f43476bede",
@@ -4677,7 +4677,7 @@
           "url": "https://www.trustified.in/passandfail/funfoodspeanutbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:23.706187Z",
+      "fetched_at": "2026-11-18T08:00:26.807409Z",
       "first_seen_at": "2026-11-03T14:30:29.474689Z",
       "updated_at": "2026-11-03T14:30:29.474689Z",
       "content_hash": "eed52f0f48c97a7a27b73199f90425250c4200685190a41e298c155a4e409e3e",
@@ -4709,7 +4709,7 @@
           "url": "https://www.trustified.in/passandfail/everestgarammasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:03.424354Z",
+      "fetched_at": "2026-11-18T08:00:14.783974Z",
       "first_seen_at": "2026-11-03T14:30:14.223750Z",
       "updated_at": "2026-11-03T14:30:14.223750Z",
       "content_hash": "fb2f198e13d72f12837e41d1e25891d53dcbc3a027d29ca278a1aaacba3da690",
@@ -4741,7 +4741,7 @@
           "url": "https://www.trustified.in/passandfail/mdhgarammasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:31.299455Z",
+      "fetched_at": "2026-11-18T08:01:07.839129Z",
       "first_seen_at": "2026-11-03T14:31:14.895848Z",
       "updated_at": "2026-11-04T19:46:11.911405Z",
       "content_hash": "2f6ac946ae25ec8bfcac23d639828b83e91a898399a800168c8c0adac6d8272c",
@@ -4780,7 +4780,7 @@
           "url": "https://www.trustified.in/passandfail/amyleordglutathione"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:48.176473Z",
+      "fetched_at": "2026-11-18T07:59:33.719845Z",
       "first_seen_at": "2026-11-03T14:29:16.006866Z",
       "updated_at": "2026-11-03T14:29:16.006866Z",
       "content_hash": "7457c31f91e5a06a11a1f8fda5095c721f594de2ac1daa0ee9c2fb55495f2796",
@@ -4812,7 +4812,7 @@
           "url": "https://www.trustified.in/passandfail/foodstrongwheyexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:15.551929Z",
+      "fetched_at": "2026-11-18T08:00:21.790470Z",
       "first_seen_at": "2026-11-03T14:30:22.334407Z",
       "updated_at": "2026-11-03T14:30:22.334407Z",
       "content_hash": "81c8e84876dd5a25f9c92188d6400ab6729c692ff242fa0954ee4f03a1aa6b62",
@@ -4844,7 +4844,7 @@
           "url": "https://www.trustified.in/passandfail/gritzoforboys"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:32.314095Z",
+      "fetched_at": "2026-11-18T08:00:31.813196Z",
       "first_seen_at": "2026-11-03T14:30:34.359864Z",
       "updated_at": "2026-11-03T14:30:34.359864Z",
       "content_hash": "f36ce15d9e5ab9b3c6fef8fa36172809d695ffb04c12807730a2f2c34493317c",
@@ -4876,7 +4876,7 @@
           "url": "https://www.trustified.in/passandfail/gritzoforboys13years"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:33.758602Z",
+      "fetched_at": "2026-11-18T08:00:32.840712Z",
       "first_seen_at": "2026-11-03T14:30:35.398280Z",
       "updated_at": "2026-11-03T14:30:35.398280Z",
       "content_hash": "1530b22a5316fd4e0b117e8249206a5b053b217cbad6677466bd9daa7eb28f88",
@@ -4908,7 +4908,7 @@
           "url": "https://www.trustified.in/passandfail/gritzoforgirls"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:35.104578Z",
+      "fetched_at": "2026-11-18T08:00:33.810914Z",
       "first_seen_at": "2026-11-03T14:30:36.459779Z",
       "updated_at": "2026-11-03T14:30:36.459779Z",
       "content_hash": "6b630763670aaef610ba93122b406f14af6586e44d018e3a569ab0fb52c18cdd",
@@ -4940,7 +4940,7 @@
           "url": "https://www.trustified.in/passandfail/gritzoforgirls13years"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:36.464428Z",
+      "fetched_at": "2026-11-18T08:00:34.814347Z",
       "first_seen_at": "2026-11-03T14:30:37.386871Z",
       "updated_at": "2026-11-03T14:30:37.386871Z",
       "content_hash": "6311408815001eff53a20602c8eab8d9dd5d1307dde4774d46902ab352d7fab4",
@@ -4972,7 +4972,7 @@
           "url": "https://www.trustified.in/passandfail/dmarthaldipowder"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:54.880818Z",
+      "fetched_at": "2026-11-18T08:00:09.782994Z",
       "first_seen_at": "2026-11-03T14:30:06.271427Z",
       "updated_at": "2026-11-03T14:30:06.271427Z",
       "content_hash": "dc1f0466fac19f88f958e81537b76e42a8d4583d1f291abf5ebfc4d29903e09e",
@@ -5004,7 +5004,7 @@
           "url": "https://www.trustified.in/passandfail/healthfarm-creatine-monohydrate"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:40.890140Z",
+      "fetched_at": "2026-11-18T08:00:37.817991Z",
       "first_seen_at": "2026-11-03T14:30:41.372522Z",
       "updated_at": "2026-11-03T14:30:41.372522Z",
       "content_hash": "32bc6f11ee52dcb1c2e9fc314ce9f38d4765193579812a77d1f5a2cc86563d98",
@@ -5036,7 +5036,7 @@
           "url": "https://www.trustified.in/passandfail/milldproteinflour"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:34.325010Z",
+      "fetched_at": "2026-11-18T08:01:08.912135Z",
       "first_seen_at": "2026-11-03T14:31:16.828652Z",
       "updated_at": "2026-11-03T14:31:16.828652Z",
       "content_hash": "149010bc9d4f88963f55c58a65aaa5b798970a36f058db1966a813392ad4d509",
@@ -5068,7 +5068,7 @@
           "url": "https://www.trustified.in/nmr-reports/apishoney"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:47.787756Z",
+      "fetched_at": "2026-11-18T08:02:40.977958Z",
       "first_seen_at": "2026-11-03T14:28:34.143484Z",
       "updated_at": "2026-11-04T19:36:09.240206Z",
       "content_hash": "52c4bc8a44cf844f513a285f9cc0f06d49601bb8713db0002b3b699c744bd1f4",
@@ -5107,7 +5107,7 @@
           "url": "https://www.trustified.in/passandfail/himalayan-organics-vitamin-c"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:49.118074Z",
+      "fetched_at": "2026-11-18T08:00:42.858253Z",
       "first_seen_at": "2026-11-03T14:30:47.357220Z",
       "updated_at": "2026-11-03T14:30:47.357220Z",
       "content_hash": "9d3ec2abb4f649c26582f2b940dbf8a2bc63433bf93c8bb2e402626382c624ba",
@@ -5139,7 +5139,7 @@
           "url": "https://www.trustified.in/nmr-reports/saffolahoney"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:52.329081Z",
+      "fetched_at": "2026-11-18T08:02:43.981704Z",
       "first_seen_at": "2026-11-03T14:28:37.372996Z",
       "updated_at": "2026-11-04T19:36:12.236823Z",
       "content_hash": "6f219f5b36b828c1b15a23678e198ab5c24bc7f609b0dc13ab24d05d0aae8e84",
@@ -5178,7 +5178,7 @@
           "url": "https://www.trustified.in/passandfail/notoicecream"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:26.373097Z",
+      "fetched_at": "2026-11-18T08:01:43.959102Z",
       "first_seen_at": "2026-11-03T14:32:16.459295Z",
       "updated_at": "2026-11-03T14:32:16.459295Z",
       "content_hash": "f7a46842b3acff243b69cad336644e3f800af544ba8bf52663d450ac966b9280",
@@ -5210,7 +5210,7 @@
           "url": "https://www.trustified.in/passandfail/nakproimpactwheyproteintest"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:03.144122Z",
+      "fetched_at": "2026-11-18T08:01:27.937215Z",
       "first_seen_at": "2026-11-03T14:31:53.132517Z",
       "updated_at": "2026-11-03T14:31:53.132517Z",
       "content_hash": "c524412d4333ea1e2740c19e1dcf678d308000fa5b6e41529e4db50a61ca89d9",
@@ -5242,7 +5242,7 @@
           "url": "https://www.trustified.in/passandfail/insane-labz-psychotic"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:53.366222Z",
+      "fetched_at": "2026-11-18T08:00:45.834381Z",
       "first_seen_at": "2026-11-03T14:30:50.403394Z",
       "updated_at": "2026-11-03T14:30:50.403394Z",
       "content_hash": "72c6cc04e2c818168cee6eb0c3d80cf773533531368c6f3c91d92a071b7abc48",
@@ -5274,7 +5274,7 @@
           "url": "https://www.trustified.in/passandfail/isabgol"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:54.849882Z",
+      "fetched_at": "2026-11-18T08:00:46.860835Z",
       "first_seen_at": "2026-11-03T14:30:51.575604Z",
       "updated_at": "2026-11-03T14:30:51.575604Z",
       "content_hash": "f1d4b6167952556908588fd012883a1790a30fda86fd5bbdc6b63e9c98fde5a2",
@@ -5306,7 +5306,7 @@
           "url": "https://www.trustified.in/passandfail/healthfarm-isopro"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:42.322077Z",
+      "fetched_at": "2026-11-18T08:00:38.819747Z",
       "first_seen_at": "2026-11-03T14:30:42.332922Z",
       "updated_at": "2026-11-03T14:30:42.332922Z",
       "content_hash": "c49a1de120741fff4262f08e04cbc303b235212696c4da297ce177e184571a8d",
@@ -5338,7 +5338,7 @@
           "url": "https://www.trustified.in/passandfail/fortunemustardoil"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:17.187998Z",
+      "fetched_at": "2026-11-18T08:00:22.790441Z",
       "first_seen_at": "2026-11-03T14:30:23.052643Z",
       "updated_at": "2026-11-03T14:30:23.052643Z",
       "content_hash": "5cd5fe5e1b3c5317d0064a84850251752b5d50d5a30cf0f1891ed065399c502b",
@@ -5370,7 +5370,7 @@
           "url": "https://www.trustified.in/passandfail/everestkashmirilalmirch"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:05.736744Z",
+      "fetched_at": "2026-11-18T08:00:15.784698Z",
       "first_seen_at": "2026-11-03T14:30:14.985047Z",
       "updated_at": "2026-11-03T14:30:14.985047Z",
       "content_hash": "f079d6ff8aad28209b0a69eb0189ed3b6025a3020c75482f7e41727070ff46d8",
@@ -5402,7 +5402,7 @@
           "url": "https://www.trustified.in/passandfail/mdhkitchenking"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:32.766290Z",
+      "fetched_at": "2026-11-18T08:01:07.910259Z",
       "first_seen_at": "2026-11-03T14:31:15.940190Z",
       "updated_at": "2026-11-04T19:46:12.917816Z",
       "content_hash": "cb4d937e19b5fe2d0498204cc81dd48ce003c5dd8812b820dff8432e2f26a0e7",
@@ -5441,7 +5441,7 @@
           "url": "https://www.trustified.in/passandfail/everestkitchenkingmasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:07.651412Z",
+      "fetched_at": "2026-11-18T08:00:16.789251Z",
       "first_seen_at": "2026-11-03T14:30:16.144701Z",
       "updated_at": "2026-11-03T14:30:16.144701Z",
       "content_hash": "82fe92fbc0a0747532dbb2ad5c16c4a630217b7f0dfaeaf7473af88d6da62fc3",
@@ -5473,7 +5473,7 @@
           "url": "https://www.trustified.in/passandfail/esnleanwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:01.773760Z",
+      "fetched_at": "2026-11-18T08:00:13.791896Z",
       "first_seen_at": "2026-11-03T14:30:13.419041Z",
       "updated_at": "2026-11-03T14:30:13.419041Z",
       "content_hash": "cb4a43a5b579aa0bab07efd54355caed181cc6c271db93e2a4b095e5855a4af9",
@@ -5505,7 +5505,7 @@
           "url": "https://www.trustified.in/passandfail/gozerochocobar"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:30.738897Z",
+      "fetched_at": "2026-11-18T08:00:30.825810Z",
       "first_seen_at": "2026-11-03T14:30:33.357652Z",
       "updated_at": "2026-11-03T14:30:33.357652Z",
       "content_hash": "6a853fc4e06a607064b1b4a74fe221a51b579d681f623dbae0774371117046b9",
@@ -5537,7 +5537,7 @@
           "url": "https://www.trustified.in/passandfail/nutrijetmagnesium3in1"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:39.497231Z",
+      "fetched_at": "2026-11-18T08:01:52.978008Z",
       "first_seen_at": "2026-11-03T14:32:31.343094Z",
       "updated_at": "2026-11-03T14:32:31.343094Z",
       "content_hash": "d7504266ecc272cde6ae2bc03186bc1aa140d7875051d7ca5c4ef967a4a4d93e",
@@ -5569,7 +5569,7 @@
           "url": "https://www.trustified.in/passandfail/healthhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:43.904140Z",
+      "fetched_at": "2026-11-18T08:00:39.829538Z",
       "first_seen_at": "2026-11-03T14:30:44.385675Z",
       "updated_at": "2026-11-03T14:30:44.385675Z",
       "content_hash": "e17f544e12764d9b3a89c9e000f8907bf13fa3d8376008231490358246509e81",
@@ -5601,7 +5601,7 @@
           "url": "https://www.trustified.in/passandfail/healthveda"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:46.128451Z",
+      "fetched_at": "2026-11-18T08:00:40.832370Z",
       "first_seen_at": "2026-11-03T14:30:45.402375Z",
       "updated_at": "2026-11-03T14:30:45.402375Z",
       "content_hash": "f523f430307ceb858f250f097d7c67b514d32e211565c903510ecdc47c595dac",
@@ -5633,7 +5633,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinmagnesiumglycinate"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:14.608268Z",
+      "fetched_at": "2026-11-18T08:01:35.948601Z",
       "first_seen_at": "2026-11-03T14:32:08.242639Z",
       "updated_at": "2026-11-03T14:32:08.242639Z",
       "content_hash": "565fa43b41b8f723903751f29c71a5730e7080176572799992967729f56c3e24",
@@ -5665,7 +5665,7 @@
           "url": "https://www.trustified.in/passandfail/hkvitalsmagnesium"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:50.458777Z",
+      "fetched_at": "2026-11-18T08:00:43.844569Z",
       "first_seen_at": "2026-11-03T14:30:48.426250Z",
       "updated_at": "2026-11-03T14:30:48.426250Z",
       "content_hash": "2081eac40ae2716bdba2ac8095047cb719ec295b0b433a270e9df308b0387087",
@@ -5697,7 +5697,7 @@
           "url": "https://www.trustified.in/passandfail/magicamasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:14.707951Z",
+      "fetched_at": "2026-11-18T08:00:55.857172Z",
       "first_seen_at": "2026-11-03T14:31:03.188474Z",
       "updated_at": "2026-11-03T14:31:03.188474Z",
       "content_hash": "c833914924433f6dee40d3f42105f608ce21cc4c129a736be2d7cdf075ae619e",
@@ -5729,7 +5729,7 @@
           "url": "https://www.trustified.in/passandfail/mastidahipouch"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:19.456310Z",
+      "fetched_at": "2026-11-18T08:00:58.853900Z",
       "first_seen_at": "2026-11-03T14:31:05.840471Z",
       "updated_at": "2026-11-03T14:31:05.840471Z",
       "content_hash": "eacd0dc8a80600415d7121cd4435d4212055c1ce837a9855e95f0c0a53c3243d",
@@ -5761,7 +5761,7 @@
           "url": "https://www.trustified.in/passandfail/mastidahicup"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:17.733930Z",
+      "fetched_at": "2026-11-18T08:00:57.854287Z",
       "first_seen_at": "2026-11-03T14:31:04.877008Z",
       "updated_at": "2026-11-03T14:31:04.877008Z",
       "content_hash": "43ca01cd5dedce5dedccf95f7a39f12ed3d0db00b2ee900130be6383176b3553",
@@ -5793,7 +5793,7 @@
           "url": "https://www.trustified.in/passandfail/ritebite"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:58.895461Z",
+      "fetched_at": "2026-11-18T08:02:05.994949Z",
       "first_seen_at": "2026-11-03T14:32:46.545116Z",
       "updated_at": "2026-11-03T14:32:46.545116Z",
       "content_hash": "a6f8d63ed865877ba38c2895e28fbaf0aa3b0d1fb0ff079bfce2ccf883491225",
@@ -5825,7 +5825,7 @@
           "url": "https://www.trustified.in/passandfail/maxwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:22.825802Z",
+      "fetched_at": "2026-11-18T08:01:00.854153Z",
       "first_seen_at": "2026-11-03T14:31:08.852538Z",
       "updated_at": "2026-11-03T14:31:08.852538Z",
       "content_hash": "612f2415f2b55945a3fbffc03633ca13d28b829473bf0df7a6ae09d90ed465ed",
@@ -5857,7 +5857,7 @@
           "url": "https://www.trustified.in/passandfail/maxener-wellness-whey-iso-x"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:21.307258Z",
+      "fetched_at": "2026-11-18T08:00:59.872415Z",
       "first_seen_at": "2026-11-03T14:31:07.829804Z",
       "updated_at": "2026-11-03T14:31:07.829804Z",
       "content_hash": "8361c1d096dabcbf5b5a16c7d88a2aa58418c1dfa7dcb2deb8933eebb8272c63",
@@ -5889,7 +5889,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblaze-iso-zero"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:44.963160Z",
+      "fetched_at": "2026-11-18T08:01:15.940780Z",
       "first_seen_at": "2026-11-03T14:31:25.959791Z",
       "updated_at": "2026-11-03T14:31:25.959791Z",
       "content_hash": "713773b73e701e7db083dc05f694dd6515a0b778bfd928df4522cd8b81ca75a9",
@@ -5921,7 +5921,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblazemultivitamins"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:50.808811Z",
+      "fetched_at": "2026-11-18T08:01:19.921246Z",
       "first_seen_at": "2026-11-03T14:31:32.961161Z",
       "updated_at": "2026-11-03T14:31:32.961161Z",
       "content_hash": "cf2493e3ec3e9244413981051b229716c21858243e949271b90ba46b580d59a1",
@@ -5953,7 +5953,7 @@
           "url": "https://www.trustified.in/passandfail/everestmeatmasala"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:09.552776Z",
+      "fetched_at": "2026-11-18T08:00:17.790497Z",
       "first_seen_at": "2026-11-03T14:30:18.060396Z",
       "updated_at": "2026-11-03T14:30:18.060396Z",
       "content_hash": "17f202088ae17dd0188a20e3fcc5f38dfe9f046e831ecffb5e88a9e3ccef9baf",
@@ -5985,7 +5985,7 @@
           "url": "https://www.trustified.in/passandfail/nutriquintmelatonin"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:41.137304Z",
+      "fetched_at": "2026-11-18T08:01:53.977882Z",
       "first_seen_at": "2026-11-03T14:32:32.393136Z",
       "updated_at": "2026-11-03T14:32:32.393136Z",
       "content_hash": "75db5e4536a04a6aa884e03a12e135f7a63909fa8fabe3db75d15fb91a69bf3a",
@@ -6017,7 +6017,7 @@
           "url": "https://www.trustified.in/passandfail/centrummenmultivitamin"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:41.548814Z",
+      "fetched_at": "2026-11-18T08:00:01.766609Z",
       "first_seen_at": "2026-11-03T14:29:57.241334Z",
       "updated_at": "2026-11-03T14:29:57.241334Z",
       "content_hash": "e425ec28dcd8597dbe7ec20dd14bcacfac6df24bb8b6bb43b5fcdcb5017d02f3",
@@ -6049,7 +6049,7 @@
           "url": "https://www.trustified.in/passandfail/smashcreatine"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:04.420689Z",
+      "fetched_at": "2026-11-18T08:02:09.994837Z",
       "first_seen_at": "2026-11-03T14:32:51.395225Z",
       "updated_at": "2026-11-03T14:32:51.395225Z",
       "content_hash": "d365d41a292d8c1ca742dfb2efd7e2babd6fe08d16a4e01b2853e663948704d5",
@@ -6081,7 +6081,7 @@
           "url": "https://www.trustified.in/passandfail/athlab"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:55.852072Z",
+      "fetched_at": "2026-11-18T07:59:37.722187Z",
       "first_seen_at": "2026-11-03T14:29:23.843398Z",
       "updated_at": "2026-11-03T14:29:23.843398Z",
       "content_hash": "88d89a322db691c0c86bc08f0741e1705a67ad819d71305426b2c42bb34cc731",
@@ -6113,7 +6113,7 @@
           "url": "https://www.trustified.in/passandfail/tata1mgcreatine"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:14.193552Z",
+      "fetched_at": "2026-11-18T08:02:17.006622Z",
       "first_seen_at": "2026-11-03T14:32:58.342985Z",
       "updated_at": "2026-11-03T14:32:58.342985Z",
       "content_hash": "ca09d0db577df17ef415ae71101b84f51a6b274d144a25b8999a597e797b539d",
@@ -6145,7 +6145,7 @@
           "url": "https://www.trustified.in/passandfail/minus30icecream"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:38.785032Z",
+      "fetched_at": "2026-11-18T08:01:11.915109Z",
       "first_seen_at": "2026-11-03T14:31:19.833295Z",
       "updated_at": "2026-11-03T14:31:19.833295Z",
       "content_hash": "aae3f2ab3ab4d29094c3e87fe96c58c42e7bc6ec1c7d122deb0154539a154213",
@@ -6177,7 +6177,7 @@
           "url": "https://www.trustified.in/passandfail/kelloggsmuesli"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:59.011105Z",
+      "fetched_at": "2026-11-18T08:00:49.840695Z",
       "first_seen_at": "2026-11-03T14:30:54.460314Z",
       "updated_at": "2026-11-03T14:30:54.460314Z",
       "content_hash": "7d708a6b9763f2f3bd321ede0d71b4bf9de551e4d9e08a7c9f8cf8acc102b701",
@@ -6209,7 +6209,7 @@
           "url": "https://www.trustified.in/passandfail/gentlebeastwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:25.331982Z",
+      "fetched_at": "2026-11-18T08:00:27.801063Z",
       "first_seen_at": "2026-11-03T14:30:30.297246Z",
       "updated_at": "2026-11-03T14:30:30.297246Z",
       "content_hash": "30f1b1762fbb78c5d15d4bf5cebb60e31364d8384858cc5b5166433fa5520e26",
@@ -6241,7 +6241,7 @@
           "url": "https://www.trustified.in/passandfail/becadexaminemultivitamins"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:12.908016Z",
+      "fetched_at": "2026-11-18T07:59:46.739355Z",
       "first_seen_at": "2026-11-03T14:29:38.150485Z",
       "updated_at": "2026-11-03T14:29:38.150485Z",
       "content_hash": "e8fe63c0ed8f9af0cf573d9120713c86555e98f2d5b2f9b700837ea62d51ac94",
@@ -6273,7 +6273,7 @@
           "url": "https://www.trustified.in/passandfail/muscle-asylum"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:41.982883Z",
+      "fetched_at": "2026-11-18T08:01:13.915614Z",
       "first_seen_at": "2026-11-03T14:31:22.186476Z",
       "updated_at": "2026-11-03T14:31:22.186476Z",
       "content_hash": "fe376e63d61d2c206b4899e6d3a91056ff8e7c6dc86127f89be338d25f187a63",
@@ -6305,7 +6305,7 @@
           "url": "https://www.trustified.in/passandfail/run--muscle-whey"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:01.754101Z",
+      "fetched_at": "2026-11-18T08:02:07.999945Z",
       "first_seen_at": "2026-11-03T14:32:48.508564Z",
       "updated_at": "2026-11-03T14:32:48.508564Z",
       "content_hash": "6e859a02fe5ea8d548e1d0ac2b8c0efa819e09be8cf131a2e971a29fbf0c0445",
@@ -6337,7 +6337,7 @@
           "url": "https://www.trustified.in/passandfail/nakproplantproteintest1"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:04.735889Z",
+      "fetched_at": "2026-11-18T08:01:28.943863Z",
       "first_seen_at": "2026-11-03T14:31:55.514050Z",
       "updated_at": "2026-11-03T14:31:55.514050Z",
       "content_hash": "581287f8c4ce5e73f6e6d2594ba07e8285a8e60a5708623cc18185bf50a5af19",
@@ -6369,7 +6369,7 @@
           "url": "https://www.trustified.in/passandfail/nestlenanpro"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:23.314800Z",
+      "fetched_at": "2026-11-18T08:01:41.953591Z",
       "first_seen_at": "2026-11-03T14:32:14.676358Z",
       "updated_at": "2026-11-03T14:32:14.676358Z",
       "content_hash": "1d277beabe2525bfa5057402368271622bc85e8fe7b362f60e94c0c33719f3eb",
@@ -6401,7 +6401,7 @@
           "url": "https://www.trustified.in/passandfail/thebutternutcopeanut"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:23.273832Z",
+      "fetched_at": "2026-11-18T08:02:24.890077Z",
       "first_seen_at": "2026-11-03T14:33:07.343201Z",
       "updated_at": "2026-11-03T14:33:07.343201Z",
       "content_hash": "47f17753a3cf74565edff0df2c2c4f7b6ea7f4c6e7bdfb444609422637bf4b15",
@@ -6433,7 +6433,7 @@
           "url": "https://www.trustified.in/passandfail/naturaltein-crea-boost-test1"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:06.422588Z",
+      "fetched_at": "2026-11-18T08:01:29.934932Z",
       "first_seen_at": "2026-11-03T14:31:58.296935Z",
       "updated_at": "2026-11-03T14:31:58.296935Z",
       "content_hash": "57b1d0156c583ca5d7598887f611bad7c9bde85bed6f414d923de909f83e6aef",
@@ -6465,7 +6465,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinplantproteintest1"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:16.012529Z",
+      "fetched_at": "2026-11-18T08:01:36.949191Z",
       "first_seen_at": "2026-11-03T14:32:09.260123Z",
       "updated_at": "2026-11-03T14:32:09.260123Z",
       "content_hash": "d0eef591dbd074299dd1f8c38af5c51df20b5040bc0be2fb10584b9e69b96768",
@@ -6497,7 +6497,7 @@
           "url": "https://www.trustified.in/passandfail/nescafeclassic"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:21.931227Z",
+      "fetched_at": "2026-11-18T08:01:40.956366Z",
       "first_seen_at": "2026-11-03T14:32:13.310093Z",
       "updated_at": "2026-11-03T14:32:13.310093Z",
       "content_hash": "2132b80393ace1c12f478c1f4237b2bb49ea3595d80c19b1327b8d47e848f2a2",
@@ -6529,7 +6529,7 @@
           "url": "https://www.trustified.in/passandfail/avvatar-nitro-iso-whey-test1"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:04.260455Z",
+      "fetched_at": "2026-11-18T07:59:41.732465Z",
       "first_seen_at": "2026-11-03T14:29:31.806657Z",
       "updated_at": "2026-11-03T14:29:31.806657Z",
       "content_hash": "76581c151ced786f5ec454f0e7c45856d83602e95d649aa126d69222c23822dc",
@@ -6561,7 +6561,7 @@
           "url": "https://www.trustified.in/passandfail/nutrabaygoldwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:30.903163Z",
+      "fetched_at": "2026-11-18T08:01:46.971470Z",
       "first_seen_at": "2026-11-03T14:32:22.934977Z",
       "updated_at": "2026-11-03T14:32:22.934977Z",
       "content_hash": "107119d7579ef182685249c6ab8207a9115dbcfaaa08115e3fe5880459d7d87c",
@@ -6593,7 +6593,7 @@
           "url": "https://www.trustified.in/passandfail/nutrabay-pro-fish-oil-omega-3"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:29.306259Z",
+      "fetched_at": "2026-11-18T08:01:45.966055Z",
       "first_seen_at": "2026-11-03T14:32:20.458226Z",
       "updated_at": "2026-11-03T14:32:20.458226Z",
       "content_hash": "01dd339e1635cde12f597791c4fe517e00426ff7865cb56f153fc6ad4abbfbba",
@@ -6625,7 +6625,7 @@
           "url": "https://www.trustified.in/passandfail/patanjali-nutrela"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:49.310865Z",
+      "fetched_at": "2026-11-18T08:01:58.982352Z",
       "first_seen_at": "2026-11-03T14:32:38.341911Z",
       "updated_at": "2026-11-03T14:32:38.341911Z",
       "content_hash": "65cd82c8caddd9cfaea064e48ca0235be3dd1e617c79b7bfbf92d8e61a682226",
@@ -6657,7 +6657,7 @@
           "url": "https://www.trustified.in/passandfail/pureservingomega3"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:54.994958Z",
+      "fetched_at": "2026-11-18T08:02:02.989504Z",
       "first_seen_at": "2026-11-03T14:32:42.409616Z",
       "updated_at": "2026-11-03T14:32:42.409616Z",
       "content_hash": "5c85fa2f5128df8113ab9442827364e4f77c509bfc0e95c667c4d93db556843c",
@@ -6689,7 +6689,7 @@
           "url": "https://www.trustified.in/passandfail/nirvasa"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:24.736681Z",
+      "fetched_at": "2026-11-18T08:01:42.960890Z",
       "first_seen_at": "2026-11-03T14:32:15.411374Z",
       "updated_at": "2026-11-03T14:32:15.411374Z",
       "content_hash": "0d6c9b2d7c71d7abcadc1ffc036dc01477c88cfdcbe580f91108d0f67dcaaebe",
@@ -6721,7 +6721,7 @@
           "url": "https://www.trustified.in/nmr-reports/saffola"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:50.855594Z",
+      "fetched_at": "2026-11-18T08:02:42.982475Z",
       "first_seen_at": "2026-11-03T14:28:36.352421Z",
       "updated_at": "2026-11-04T19:36:11.225699Z",
       "content_hash": "75e80220a30eee90cda6977e568f1a46efebdf739ade701369b4fe0d6ae7b280",
@@ -6760,7 +6760,7 @@
           "url": "https://www.trustified.in/passandfail/osoaaimpactwheyexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:46.169712Z",
+      "fetched_at": "2026-11-18T08:01:56.978439Z",
       "first_seen_at": "2026-11-03T14:32:36.376257Z",
       "updated_at": "2026-11-03T14:32:36.376257Z",
       "content_hash": "1e9fbedfede7e7244eecea08981b4a4dd0a318cf58677f4fc35403876c550352",
@@ -6792,7 +6792,7 @@
           "url": "https://www.trustified.in/nmr-reports/patanjali"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:49.342815Z",
+      "fetched_at": "2026-11-18T08:02:41.981065Z",
       "first_seen_at": "2026-11-03T14:28:35.211533Z",
       "updated_at": "2026-11-04T19:36:10.230770Z",
       "content_hash": "1470bad55ffe7bd4d03026da75ee29c83984368ff80ddf8566fa60260a4fd5b1",
@@ -6831,7 +6831,7 @@
           "url": "https://www.trustified.in/passandfail/nutrabaypeaprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:32.182579Z",
+      "fetched_at": "2026-11-18T08:01:47.964589Z",
       "first_seen_at": "2026-11-03T14:32:23.611420Z",
       "updated_at": "2026-11-03T14:32:23.611420Z",
       "content_hash": "8e5a384ca5f29d276e3a7399389a3433db13c2220d5e4b56c311729703403b7b",
@@ -6863,7 +6863,7 @@
           "url": "https://www.trustified.in/passandfail/pintolapeanutbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:52.086633Z",
+      "fetched_at": "2026-11-18T08:02:00.991323Z",
       "first_seen_at": "2026-11-03T14:32:40.342983Z",
       "updated_at": "2026-11-03T14:32:40.342983Z",
       "content_hash": "d2bf30c46c505c63386ba6973dcfbc1344d3d6e05b9a55b88f0774d6a9aee126",
@@ -6895,7 +6895,7 @@
           "url": "https://www.trustified.in/passandfail/abottpediasure"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:17.320086Z",
+      "fetched_at": "2026-11-18T07:59:14.690242Z",
       "first_seen_at": "2026-11-03T14:28:52.152563Z",
       "updated_at": "2026-11-03T14:28:52.152563Z",
       "content_hash": "cfde2cd907558a70af44a960be45d2833aa62b43f4a63d6698eac7d46aa2df04",
@@ -6927,7 +6927,7 @@
           "url": "https://www.trustified.in/passandfail/xlr8performancewhey-expired"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:40.475768Z",
+      "fetched_at": "2026-11-18T08:02:35.972324Z",
       "first_seen_at": "2026-11-03T14:33:25.514299Z",
       "updated_at": "2026-11-03T14:33:25.514299Z",
       "content_hash": "3da1169072e5a49260bd2d0aa48be8d8eade28797a3797003be35c20f80e724c",
@@ -6959,7 +6959,7 @@
           "url": "https://www.trustified.in/passandfail/plantbasedovegha"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:53.516452Z",
+      "fetched_at": "2026-11-18T08:02:01.997376Z",
       "first_seen_at": "2026-11-03T14:32:41.346612Z",
       "updated_at": "2026-11-03T14:32:41.346612Z",
       "content_hash": "09135446bd8e5d537b69a8d44e49289568b31581c81518607268e2b644c10c87",
@@ -6991,7 +6991,7 @@
           "url": "https://www.trustified.in/passandfail/milleplantprotein25g"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:35.827665Z",
+      "fetched_at": "2026-11-18T08:01:09.910851Z",
       "first_seen_at": "2026-11-03T14:31:17.827344Z",
       "updated_at": "2026-11-03T14:31:17.827344Z",
       "content_hash": "3321203a7c3f09e788128a214642450897a167a673c58168b8d1d780d48b4989",
@@ -7023,7 +7023,7 @@
           "url": "https://www.trustified.in/passandfail/milleplantprotein31g"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:37.254916Z",
+      "fetched_at": "2026-11-18T08:01:10.914617Z",
       "first_seen_at": "2026-11-03T14:31:19.185762Z",
       "updated_at": "2026-11-03T14:31:19.185762Z",
       "content_hash": "009de3fff627d6036b6395b3e058fbfafba3a794953dc8bbdbe5b0ef392bb625",
@@ -7055,7 +7055,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblazepreworkout"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:52.245076Z",
+      "fetched_at": "2026-11-18T08:01:20.931031Z",
       "first_seen_at": "2026-11-03T14:31:33.987202Z",
       "updated_at": "2026-11-03T14:31:33.987202Z",
       "content_hash": "2763864c72cb8cc9a0c0ee4a06e092e78563c7024d503e6134d9be04005a94cb",
@@ -7087,7 +7087,7 @@
           "url": "https://www.trustified.in/passandfail/mbxtremepreworkout"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:24.533205Z",
+      "fetched_at": "2026-11-18T08:01:01.881969Z",
       "first_seen_at": "2026-11-03T14:31:10.846777Z",
       "updated_at": "2026-11-03T14:31:10.846777Z",
       "content_hash": "f3bddbabb4472d27bbe79c7d6aa9e7e30a4984b3a6ce6125bb6c29b51c2b2f7a",
@@ -7119,7 +7119,7 @@
           "url": "https://www.trustified.in/passandfail/bevzillaclassiccoffee"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:16.694736Z",
+      "fetched_at": "2026-11-18T07:59:48.758109Z",
       "first_seen_at": "2026-11-03T14:29:39.673385Z",
       "updated_at": "2026-11-03T14:29:39.673385Z",
       "content_hash": "c1371fe57c552a35c6f3d1b776e7e3007ff8d6c67a0e839af7ed3172af065ab4",
@@ -7151,7 +7151,7 @@
           "url": "https://www.trustified.in/passandfail/bevzillapremiumcoffee"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:18.360639Z",
+      "fetched_at": "2026-11-18T07:59:49.740674Z",
       "first_seen_at": "2026-11-03T14:29:40.734605Z",
       "updated_at": "2026-11-03T14:29:40.734605Z",
       "content_hash": "957ac41ed43a3d89e6ad6ef26f2c5975dbd23f9446cb9eaea1a3ae250655b948",
@@ -7183,7 +7183,7 @@
           "url": "https://www.trustified.in/passandfail/trikutwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:27.879311Z",
+      "fetched_at": "2026-11-18T08:02:26.958506Z",
       "first_seen_at": "2026-11-03T14:33:10.410044Z",
       "updated_at": "2026-11-03T14:33:10.410044Z",
       "content_hash": "b7ced1b4f26a5769e289a95af36ce31a3782526dc7889753bf8b88cf8ec6d77b",
@@ -7215,7 +7215,7 @@
           "url": "https://www.trustified.in/passandfail/ronniecoleman"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:00.318086Z",
+      "fetched_at": "2026-11-18T08:02:06.993238Z",
       "first_seen_at": "2026-11-03T14:32:47.443219Z",
       "updated_at": "2026-11-03T14:32:47.443219Z",
       "content_hash": "6682b415ac5ad8255e2e99ab5265174004fd5383e122b0a75a24c81b3493d271",
@@ -7247,7 +7247,7 @@
           "url": "https://www.trustified.in/passandfail/yogabarcleanwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:43.344585Z",
+      "fetched_at": "2026-11-18T08:02:37.970931Z",
       "first_seen_at": "2026-11-03T14:33:27.560183Z",
       "updated_at": "2026-11-03T14:33:27.560183Z",
       "content_hash": "d3ddc6d25611aec6df98b1b1e511239e8dad901008403aa27988945ccd1031d4",
@@ -7279,7 +7279,7 @@
           "url": "https://www.trustified.in/passandfail/americanzmusclesprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:28.306117Z",
+      "fetched_at": "2026-11-18T07:59:21.695958Z",
       "first_seen_at": "2026-11-03T14:29:00.421675Z",
       "updated_at": "2026-11-03T14:29:00.421675Z",
       "content_hash": "634e72bf34105e6328f7aa9ffeb70488787b24c31da141b0d181a16457b2cec2",
@@ -7311,7 +7311,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinpure07"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:17.417851Z",
+      "fetched_at": "2026-11-18T08:01:37.945609Z",
       "first_seen_at": "2026-11-03T14:32:10.310004Z",
       "updated_at": "2026-11-03T14:32:10.310004Z",
       "content_hash": "b707f40c5ecccfd4f6e2bb8f89c069733900c419fb6361b96d5ed24df1954ef4",
@@ -7343,7 +7343,7 @@
           "url": "https://www.trustified.in/nmr-reports/zandu"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:54.961136Z",
+      "fetched_at": "2026-11-18T08:02:45.991550Z",
       "first_seen_at": "2026-11-03T14:28:39.306765Z",
       "updated_at": "2026-11-04T19:36:14.681611Z",
       "content_hash": "e260b0f51752ae866bd5de6d34a14db82413cf7300cebb57b61628ab5823636d",
@@ -7382,7 +7382,7 @@
           "url": "https://www.trustified.in/passandfail/quaker"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:56.282202Z",
+      "fetched_at": "2026-11-18T08:02:03.993914Z",
       "first_seen_at": "2026-11-03T14:32:43.393162Z",
       "updated_at": "2026-11-03T14:32:43.393162Z",
       "content_hash": "5b9ea3c892b023594bbe67c640afde336b405319c6a7c4065ab5b75910b637d5",
@@ -7414,7 +7414,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblaze-raw-whey-protein-80%25"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:48.039102Z",
+      "fetched_at": "2026-11-18T08:01:17.928284Z",
       "first_seen_at": "2026-11-03T14:31:29.970898Z",
       "updated_at": "2026-11-03T14:31:29.970898Z",
       "content_hash": "ff23552b5900e6258983a27fb743c6019651367afb3d3aace395e707fd4c9ef1",
@@ -7446,7 +7446,7 @@
           "url": "https://www.trustified.in/passandfail/thewholetruthconcentratetest1"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:25.098042Z",
+      "fetched_at": "2026-11-18T08:02:24.961260Z",
       "first_seen_at": "2026-11-03T14:33:09.159956Z",
       "updated_at": "2026-11-03T14:33:09.159956Z",
       "content_hash": "b95b730870ccd3e37dc833059f7cf9230213bad71fd73286942038809da1c0a3",
@@ -7478,7 +7478,7 @@
           "url": "https://www.trustified.in/passandfail/the-whole-truth-raw-isolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:21.595573Z",
+      "fetched_at": "2026-11-18T08:02:22.030596Z",
       "first_seen_at": "2026-11-03T14:33:06.370249Z",
       "updated_at": "2026-11-03T14:33:06.370249Z",
       "content_hash": "07ced1d16fd43e03b60cbce528be62608c9d27d8c745611473b80215d2efc2a3",
@@ -7510,7 +7510,7 @@
           "url": "https://www.trustified.in/passandfail/dmartredchillipowder"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:57.079863Z",
+      "fetched_at": "2026-11-18T08:00:10.824915Z",
       "first_seen_at": "2026-11-03T14:30:09.222117Z",
       "updated_at": "2026-11-03T14:30:09.222117Z",
       "content_hash": "727aac8c88b5c39369d4608150a262b4ac993f4dd849124c1395d825a4917444",
@@ -7542,7 +7542,7 @@
           "url": "https://www.trustified.in/passandfail/muscledominator"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:55.307091Z",
+      "fetched_at": "2026-11-18T08:01:22.932027Z",
       "first_seen_at": "2026-11-03T14:31:35.972993Z",
       "updated_at": "2026-11-03T14:31:35.972993Z",
       "content_hash": "59551cac94c55a1fb782f70741ae4ebfe2f8cdcfdbb5d587404445c2178c1ead",
@@ -7574,7 +7574,7 @@
           "url": "https://www.trustified.in/passandfail/saffolaoats"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:03.138707Z",
+      "fetched_at": "2026-11-18T08:02:08.999741Z",
       "first_seen_at": "2026-11-03T14:32:50.379134Z",
       "updated_at": "2026-11-03T14:32:50.379134Z",
       "content_hash": "250f9e55dc2688b8e30225d6838ce987d8ea2cca3c58ab520b6b62f288c565b4",
@@ -7606,7 +7606,7 @@
           "url": "https://www.trustified.in/passandfail/haldiramspeanuts"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:37.848800Z",
+      "fetched_at": "2026-11-18T08:00:35.819699Z",
       "first_seen_at": "2026-11-03T14:30:38.397889Z",
       "updated_at": "2026-11-03T14:30:38.397889Z",
       "content_hash": "849c1deb302ae3a64a9acabd2303edff240311d9820e66a5526909b01508ef6e",
@@ -7638,7 +7638,7 @@
           "url": "https://www.trustified.in/passandfail/vsmanicoffee"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:34.871373Z",
+      "fetched_at": "2026-11-18T08:02:31.965150Z",
       "first_seen_at": "2026-11-03T14:33:18.544118Z",
       "updated_at": "2026-11-03T14:33:18.544118Z",
       "content_hash": "ee1e89f90746505e3cd043bd60b3c75acf44bf0cf1c877152c7f5cfa54c741e3",
@@ -7670,7 +7670,7 @@
           "url": "https://www.trustified.in/passandfail/xlr8-isolate"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:38.811457Z",
+      "fetched_at": "2026-11-18T08:02:34.972736Z",
       "first_seen_at": "2026-11-03T14:33:24.526459Z",
       "updated_at": "2026-11-03T14:33:24.526459Z",
       "content_hash": "be26318b8af880ee0aaf67332172d5644991979fa2c48aec25af94108c0aea0b",
@@ -7702,7 +7702,7 @@
           "url": "https://www.trustified.in/passandfail/asitissoyisolateprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:53.852072Z",
+      "fetched_at": "2026-11-18T07:59:36.721508Z",
       "first_seen_at": "2026-11-03T14:29:22.713349Z",
       "updated_at": "2026-11-03T14:29:22.713349Z",
       "content_hash": "df455d43c158bb151203d248783e03ac0ac81621826e3b2ef57b3a3eebb40a37",
@@ -7734,7 +7734,7 @@
           "url": "https://www.trustified.in/passandfail/fortunesoyachunks"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:18.719028Z",
+      "fetched_at": "2026-11-18T08:00:23.796036Z",
       "first_seen_at": "2026-11-03T14:30:23.958656Z",
       "updated_at": "2026-11-03T14:30:23.958656Z",
       "content_hash": "098fc848fadb93adc400603fd9aa3605cb341244a89482c3b75b51b1b2242ff1",
@@ -7766,7 +7766,7 @@
           "url": "https://www.trustified.in/passandfail/nutrelasoyachunks"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:37.717868Z",
+      "fetched_at": "2026-11-18T08:01:51.969592Z",
       "first_seen_at": "2026-11-03T14:32:30.376820Z",
       "updated_at": "2026-11-03T14:32:30.376820Z",
       "content_hash": "17f7cc13c5b253def88556106439e1491fc8e9769cafcdd7bd7604b10b487719",
@@ -7798,7 +7798,7 @@
           "url": "https://www.trustified.in/passandfail/sundroppeanutbutter"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:05.894395Z",
+      "fetched_at": "2026-11-18T08:02:11.007178Z",
       "first_seen_at": "2026-11-03T14:32:52.352799Z",
       "updated_at": "2026-11-03T14:32:52.352799Z",
       "content_hash": "5aa9b3014b71c91a6b541351c443dbee2b61e2fa56d7908a64d7d2bdee66c47b",
@@ -7830,7 +7830,7 @@
           "url": "https://www.trustified.in/passandfail/aashirvaadatta"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:15.268262Z",
+      "fetched_at": "2026-11-18T07:59:13.686546Z",
       "first_seen_at": "2026-11-03T14:28:51.206536Z",
       "updated_at": "2026-11-03T14:28:51.206536Z",
       "content_hash": "f78fcaea03e1421e1c616a8c66787a0b65e943c8e4deb1570f72b4ee771d4c00",
@@ -7862,7 +7862,7 @@
           "url": "https://www.trustified.in/passandfail/supermilk2to6year"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:07.363716Z",
+      "fetched_at": "2026-11-18T08:02:12.006919Z",
       "first_seen_at": "2026-11-03T14:32:53.341938Z",
       "updated_at": "2026-11-03T14:32:53.341938Z",
       "content_hash": "c6ffe4f2c3ffb43b3664086dc5a71850de076464d23baee719477f9d4a26da35",
@@ -7894,7 +7894,7 @@
           "url": "https://www.trustified.in/passandfail/alpinopeanutprotein1"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:26.860563Z",
+      "fetched_at": "2026-11-18T07:59:20.694637Z",
       "first_seen_at": "2026-11-03T14:28:59.212566Z",
       "updated_at": "2026-11-03T14:28:59.212566Z",
       "content_hash": "62e4a5ae9606c2efb6c57a74974f7ee899b128d5add8e33ffdc47b5b418635f7",
@@ -7926,7 +7926,7 @@
           "url": "https://www.trustified.in/passandfail/alpinopeanutprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:25.239181Z",
+      "fetched_at": "2026-11-18T07:59:19.696258Z",
       "first_seen_at": "2026-11-03T14:28:58.413381Z",
       "updated_at": "2026-11-03T14:28:58.413381Z",
       "content_hash": "0b71f648d991f584e39d21615237489de7e317bbdeab53fd4c54afdb3232f2fb",
@@ -7958,7 +7958,7 @@
           "url": "https://www.trustified.in/passandfail/ashirvaadghee"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:50.136861Z",
+      "fetched_at": "2026-11-18T07:59:34.718687Z",
       "first_seen_at": "2026-11-03T14:29:16.993805Z",
       "updated_at": "2026-11-03T14:29:16.993805Z",
       "content_hash": "2a83f8278ebab2cfb804b14f033c1b90c27c47f48230ddecf98b7a0b317e27dd",
@@ -7990,7 +7990,7 @@
           "url": "https://www.trustified.in/passandfail/amulhomogenisedmilk"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:43.190415Z",
+      "fetched_at": "2026-11-18T07:59:30.712018Z",
       "first_seen_at": "2026-11-03T14:29:12.375576Z",
       "updated_at": "2026-11-03T14:29:12.375576Z",
       "content_hash": "927600d8a9d26f58dcb104a1d1d070c200a250ee14fa48bbe0564a9fc3e8a0ae",
@@ -8022,7 +8022,7 @@
           "url": "https://www.trustified.in/passandfail/amultaazamilk"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:46.374615Z",
+      "fetched_at": "2026-11-18T07:59:32.713072Z",
       "first_seen_at": "2026-11-03T14:29:14.939891Z",
       "updated_at": "2026-11-03T14:29:14.939891Z",
       "content_hash": "56ed71416b7af561c84195e5fb3532f0de3c8b293297d65aa19c309104aaf8cd",
@@ -8054,7 +8054,7 @@
           "url": "https://www.trustified.in/passandfail/taazatea"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:11.474077Z",
+      "fetched_at": "2026-11-18T08:02:15.007193Z",
       "first_seen_at": "2026-11-03T14:32:56.376510Z",
       "updated_at": "2026-11-03T14:32:56.376510Z",
       "content_hash": "e6c092b281965f24c83b9d29f5e1b9a30c110f598e82b729bcdadfcce64cd17d",
@@ -8086,7 +8086,7 @@
           "url": "https://www.trustified.in/passandfail/tata1mgvitaminc"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:16.908467Z",
+      "fetched_at": "2026-11-18T08:02:19.013288Z",
       "first_seen_at": "2026-11-03T14:33:00.343336Z",
       "updated_at": "2026-11-03T14:33:00.343336Z",
       "content_hash": "c654f840a06a7518bb8dbfd8dc9c42c6e345fa081ed939d2ada6ad5d3b34aa45",
@@ -8118,7 +8118,7 @@
           "url": "https://www.trustified.in/passandfail/tatasalt"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:18.262258Z",
+      "fetched_at": "2026-11-18T08:02:20.009355Z",
       "first_seen_at": "2026-11-03T14:33:01.393796Z",
       "updated_at": "2026-11-03T14:33:01.393796Z",
       "content_hash": "52516fd5a173fa7f4ab5cf8a80a7893b43a818a5ba48c8c8abecd373e2c8415a",
@@ -8150,7 +8150,7 @@
           "url": "https://www.trustified.in/passandfail/alphacreatine"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:22.041328Z",
+      "fetched_at": "2026-11-18T07:59:17.688394Z",
       "first_seen_at": "2026-11-03T14:28:56.206585Z",
       "updated_at": "2026-11-03T14:28:56.206585Z",
       "content_hash": "a0ee5eff4866e9272ed823927f15dd0c76cdeb38f10e3a37c89a778f5936769b",
@@ -8182,7 +8182,7 @@
           "url": "https://www.trustified.in/passandfail/kobra-labs"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:08.848378Z",
+      "fetched_at": "2026-11-18T08:00:51.849482Z",
       "first_seen_at": "2026-11-03T14:30:57.964544Z",
       "updated_at": "2026-11-03T14:30:57.964544Z",
       "content_hash": "3229416530e637406eac8edc5467338c1a2394041d0aa9691b3f8067d3c27b43",
@@ -8214,7 +8214,7 @@
           "url": "https://www.trustified.in/passandfail/exaltprioritywheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:11.257697Z",
+      "fetched_at": "2026-11-18T08:00:18.793472Z",
       "first_seen_at": "2026-11-03T14:30:18.989078Z",
       "updated_at": "2026-11-03T14:30:18.989078Z",
       "content_hash": "62ba96bb6856a874d0a38939eaf6074de84358ae586b84131b56608450bd12a9",
@@ -8246,7 +8246,7 @@
           "url": "https://www.trustified.in/passandfail/the-whole-truth-protein-bar"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:19.863478Z",
+      "fetched_at": "2026-11-18T08:02:21.023560Z",
       "first_seen_at": "2026-11-03T14:33:04.360504Z",
       "updated_at": "2026-11-03T14:33:04.360504Z",
       "content_hash": "f30c446c2a322db55a4a36dc318dab19d1993fa89871c8b02557516c9758fbb8",
@@ -8278,7 +8278,7 @@
           "url": "https://www.trustified.in/passandfail/cutlernutritionwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:49.845591Z",
+      "fetched_at": "2026-11-18T08:00:06.790136Z",
       "first_seen_at": "2026-11-03T14:30:02.874717Z",
       "updated_at": "2026-11-03T14:30:02.874717Z",
       "content_hash": "00a01375fff99a2c28e8e226fe24d8055be0505047e40073b20ddf845c8d78ef",
@@ -8310,7 +8310,7 @@
           "url": "https://www.trustified.in/passandfail/carbamide-forte"
         }
       ],
-      "fetched_at": "2026-11-17T08:33:39.643124Z",
+      "fetched_at": "2026-11-18T08:00:00.763136Z",
       "first_seen_at": "2026-11-03T14:29:56.003273Z",
       "updated_at": "2026-11-03T14:29:56.003273Z",
       "content_hash": "143f837d7783ad3eeece6bc3f18dac28c1bf5c971e52bff8cbbb3ea5ec468d86",
@@ -8342,7 +8342,7 @@
           "url": "https://www.trustified.in/passandfail/truebasicsplantprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:29.603411Z",
+      "fetched_at": "2026-11-18T08:02:28.966761Z",
       "first_seen_at": "2026-11-03T14:33:12.817673Z",
       "updated_at": "2026-11-03T14:33:12.817673Z",
       "content_hash": "88b06f57254d72ac8866b033b09e5d81ef96e8fb29317d1299cf2604459c5f4c",
@@ -8374,7 +8374,7 @@
           "url": "https://www.trustified.in/passandfail/naturaltein-omega-3"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:09.127642Z",
+      "fetched_at": "2026-11-18T08:01:32.037199Z",
       "first_seen_at": "2026-11-03T14:32:02.328129Z",
       "updated_at": "2026-11-03T14:32:02.328129Z",
       "content_hash": "bb709afd63f6f90c8915f31795fc7136a284473ba8a4d5a5ac0a0248fb34e539",
@@ -8406,7 +8406,7 @@
           "url": "https://www.trustified.in/passandfail/naturaltein-omega-3-test1"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:09.198094Z",
+      "fetched_at": "2026-11-18T08:01:32.943863Z",
       "first_seen_at": "2026-11-03T14:32:03.210117Z",
       "updated_at": "2026-11-03T14:32:03.210117Z",
       "content_hash": "95310a2cd67baffcb28d76350c0e2d4ce915d9c0b63e212e92387c39751accec",
@@ -8438,7 +8438,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinveganomega"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:19.103241Z",
+      "fetched_at": "2026-11-18T08:01:38.952891Z",
       "first_seen_at": "2026-11-03T14:32:11.260242Z",
       "updated_at": "2026-11-03T14:32:11.260242Z",
       "content_hash": "b531fd12715fd50d3bae0db60b32afc1b570b4add003b7d6eb14f1436b4c17b0",
@@ -8470,7 +8470,7 @@
           "url": "https://www.trustified.in/passandfail/tata1mgcleanwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:12.886807Z",
+      "fetched_at": "2026-11-18T08:02:16.009657Z",
       "first_seen_at": "2026-11-03T14:32:57.393063Z",
       "updated_at": "2026-11-03T14:32:57.393063Z",
       "content_hash": "874d5d22a4082e766fe32dc82db3eab81f6db1d67fde6cf2d8f462f09ad14dd2",
@@ -8502,7 +8502,7 @@
           "url": "https://www.trustified.in/passandfail/hersheyscocoapowder"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:47.819421Z",
+      "fetched_at": "2026-11-18T08:00:41.837958Z",
       "first_seen_at": "2026-11-03T14:30:46.337430Z",
       "updated_at": "2026-11-03T14:30:46.337430Z",
       "content_hash": "e4348006528d627f5cb39a124687e20dda7d1b9f3c54dd5d68875a1d6581cedd",
@@ -8534,7 +8534,7 @@
           "url": "https://www.trustified.in/passandfail/alkemuprised3capsule"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:20.524496Z",
+      "fetched_at": "2026-11-18T07:59:16.692227Z",
       "first_seen_at": "2026-11-03T14:28:55.289519Z",
       "updated_at": "2026-11-03T14:28:55.289519Z",
       "content_hash": "fcff81bbf9049962e49c3ef1a579de9b40f20860ecaaebeac2b7e30155c3ad47",
@@ -8566,7 +8566,7 @@
           "url": "https://www.trustified.in/nmr-reports/vedakahoney"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:53.601265Z",
+      "fetched_at": "2026-11-18T08:02:44.981719Z",
       "first_seen_at": "2026-11-03T14:28:38.271596Z",
       "updated_at": "2026-11-04T19:36:14.582029Z",
       "content_hash": "d3394fee3213810a117a1ec46de844077dcc616f69ee63da0a85f57d7b60873b",
@@ -8605,7 +8605,7 @@
           "url": "https://www.trustified.in/passandfail/rawrxveganomega"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:57.564167Z",
+      "fetched_at": "2026-11-18T08:02:04.992881Z",
       "first_seen_at": "2026-11-03T14:32:44.376259Z",
       "updated_at": "2026-11-03T14:32:44.376259Z",
       "content_hash": "7971306e6f54448bd600efa008ed19ab3514c6e01b3c84b694af8f1248755b6e",
@@ -8637,7 +8637,7 @@
           "url": "https://www.trustified.in/passandfail/zavedaomega3"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:44.753368Z",
+      "fetched_at": "2026-11-18T08:02:38.977688Z",
       "first_seen_at": "2026-11-03T14:33:29.643514Z",
       "updated_at": "2026-11-03T14:33:29.643514Z",
       "content_hash": "c36ea60d84d2f3075d061a4cc1de2eb614c4876f7c204d80992fc7fc95e28974",
@@ -8669,7 +8669,7 @@
           "url": "https://www.trustified.in/passandfail/haleupomega3"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:39.423251Z",
+      "fetched_at": "2026-11-18T08:00:36.824230Z",
       "first_seen_at": "2026-11-03T14:30:39.409881Z",
       "updated_at": "2026-11-03T14:30:39.409881Z",
       "content_hash": "7e7d789dc3e9fce28e48879d12a3991e8f938eae975365df625a1c9fac499989",
@@ -8701,7 +8701,7 @@
           "url": "https://www.trustified.in/passandfail/nutraboxveganprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:36.382020Z",
+      "fetched_at": "2026-11-18T08:01:50.969896Z",
       "first_seen_at": "2026-11-03T14:32:29.326162Z",
       "updated_at": "2026-11-03T14:32:29.326162Z",
       "content_hash": "63be012aedba75d1a4934de882b8f4b8eeb36194737c2cdf610fa0f414c137b9",
@@ -8733,7 +8733,7 @@
           "url": "https://www.trustified.in/passandfail/muscleblaze-whey-gold"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:49.385288Z",
+      "fetched_at": "2026-11-18T08:01:18.927597Z",
       "first_seen_at": "2026-11-03T14:31:30.970151Z",
       "updated_at": "2026-11-03T14:31:30.970151Z",
       "content_hash": "e6fb7927d0084b8c0b6451eb4640e03d2d3e26b0c313a64c87d8b2d37e2e14fe",
@@ -8765,7 +8765,7 @@
           "url": "https://www.trustified.in/passandfail/totalnutrition"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:26.491096Z",
+      "fetched_at": "2026-11-18T08:02:25.963981Z",
       "first_seen_at": "2026-11-03T14:33:09.526872Z",
       "updated_at": "2026-11-03T14:33:09.526872Z",
       "content_hash": "a7e2a5f72da809c3cdb12ed6585d25e7041b887587ae13f49cbeb49be073e528",
@@ -8797,7 +8797,7 @@
           "url": "https://www.trustified.in/passandfail/amul"
         }
       ],
-      "fetched_at": "2026-11-17T08:32:30.207612Z",
+      "fetched_at": "2026-11-18T07:59:22.699949Z",
       "first_seen_at": "2026-11-03T14:29:01.432207Z",
       "updated_at": "2026-11-03T14:29:01.432207Z",
       "content_hash": "13975a9b5804fddce49ab875514d90f54d077e8133669e70abf01649ff2a8d1c",
@@ -8829,7 +8829,7 @@
           "url": "https://www.trustified.in/passandfail/ownwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:47.833185Z",
+      "fetched_at": "2026-11-18T08:01:57.982948Z",
       "first_seen_at": "2026-11-03T14:32:37.393056Z",
       "updated_at": "2026-11-03T14:32:37.393056Z",
       "content_hash": "d86c3fb0b4c2eac41518d48a23a2bf93f6921f3e2505cd83c42b5ff01b8040eb",
@@ -8861,7 +8861,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinisoboost"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:12.981070Z",
+      "fetched_at": "2026-11-18T08:01:34.947697Z",
       "first_seen_at": "2026-11-03T14:32:07.276628Z",
       "updated_at": "2026-11-03T14:32:07.276628Z",
       "content_hash": "899e73876768b01d4f39f15607d87fe675f8a042de7edb1adc8dac1e1e04cfcd",
@@ -8893,7 +8893,7 @@
           "url": "https://www.trustified.in/passandfail/muscleclubwhey"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:53.601086Z",
+      "fetched_at": "2026-11-18T08:01:21.925349Z",
       "first_seen_at": "2026-11-03T14:31:34.991478Z",
       "updated_at": "2026-11-03T14:31:34.991478Z",
       "content_hash": "ee207387860cef344103656970c635d62f8df19b3b0f74b046aee7cf3233d8f2",
@@ -8925,7 +8925,7 @@
           "url": "https://www.trustified.in/passandfail/musclenectarisolatetest3"
         }
       ],
-      "fetched_at": "2026-11-17T08:35:59.956978Z",
+      "fetched_at": "2026-11-18T08:01:25.963299Z",
       "first_seen_at": "2026-11-03T14:31:45.410404Z",
       "updated_at": "2026-11-03T14:31:45.410404Z",
       "content_hash": "6458fbfdb2ea2614e0dcd4774bbbda4615f6d312faf68d3e50c57a4b7568240e",
@@ -8957,7 +8957,7 @@
           "url": "https://www.trustified.in/passandfail/nutrovaisolateblendexpired"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:42.562457Z",
+      "fetched_at": "2026-11-18T08:01:54.975453Z",
       "first_seen_at": "2026-11-03T14:32:33.327686Z",
       "updated_at": "2026-11-03T14:32:33.327686Z",
       "content_hash": "c4eee1fb9ac0aa44da3ec0ec182f19f1e26206747827a85ff6bb538e79133024",
@@ -8989,7 +8989,7 @@
           "url": "https://www.trustified.in/passandfail/fuelledwheyprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:34:20.144872Z",
+      "fetched_at": "2026-11-18T08:00:24.797737Z",
       "first_seen_at": "2026-11-03T14:30:26.722224Z",
       "updated_at": "2026-11-03T14:30:26.722224Z",
       "content_hash": "37aa1c4e3fa20d12b6ca4419508788be10c005dec569692cc60cdb0cc2c72b13",
@@ -9021,7 +9021,7 @@
           "url": "https://www.trustified.in/passandfail/trunativwheyblendpro"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:31.935898Z",
+      "fetched_at": "2026-11-18T08:02:29.959338Z",
       "first_seen_at": "2026-11-03T14:33:16.376679Z",
       "updated_at": "2026-11-03T14:33:16.376679Z",
       "content_hash": "15959882a8f5c8cd8d44ec20e46e3823c439c9a58131843a18168cc67685af77",
@@ -9053,7 +9053,7 @@
           "url": "https://www.trustified.in/passandfail/nakpro-wheyzyme"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:01.493573Z",
+      "fetched_at": "2026-11-18T08:01:26.955315Z",
       "first_seen_at": "2026-11-03T14:31:51.162354Z",
       "updated_at": "2026-11-03T14:31:51.162354Z",
       "content_hash": "b07fc516619919258bb60796fc64ec074ff6d1c5547dd479890a3aa34c513ecf",
@@ -9085,7 +9085,7 @@
           "url": "https://www.trustified.in/passandfail/xlr8wheyproteintest"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:41.991139Z",
+      "fetched_at": "2026-11-18T08:02:36.976412Z",
       "first_seen_at": "2026-11-03T14:33:26.510132Z",
       "updated_at": "2026-11-03T14:33:26.510132Z",
       "content_hash": "b398905ddfc0c4c7f82cbdfb84f167715f72a223c95a9ced3e021e7157e775d0",
@@ -9117,7 +9117,7 @@
           "url": "https://www.trustified.in/passandfail/xlr8"
         }
       ],
-      "fetched_at": "2026-11-17T08:37:37.399720Z",
+      "fetched_at": "2026-11-18T08:02:33.976255Z",
       "first_seen_at": "2026-11-03T14:33:23.510559Z",
       "updated_at": "2026-11-03T14:33:23.510559Z",
       "content_hash": "dd937f2eab8f39ab99f318e2e81b13c56fc71db70e8cb798064067a2755a3dcc",
@@ -9149,7 +9149,7 @@
           "url": "https://www.trustified.in/passandfail/nutrabayyeastprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:33.562492Z",
+      "fetched_at": "2026-11-18T08:01:48.968569Z",
       "first_seen_at": "2026-11-03T14:32:24.357730Z",
       "updated_at": "2026-11-03T14:32:24.357730Z",
       "content_hash": "cff5cbd0a027309475a5a6b98202bcc34e8ebf041109a6bc8be21e16d8414c4a",
@@ -9181,7 +9181,7 @@
           "url": "https://www.trustified.in/passandfail/naturalteinyesprotein"
         }
       ],
-      "fetched_at": "2026-11-17T08:36:20.429281Z",
+      "fetched_at": "2026-11-18T08:01:39.957277Z",
       "first_seen_at": "2026-11-03T14:32:12.296542Z",
       "updated_at": "2026-11-03T14:32:12.296542Z",
       "content_hash": "330d60eb0391078cd4d6da1430ef3da7fe8dd1663ebe4d5d6ec8c6d03a28cd31",
