@@ -1,15 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T08:21:33.105597Z",
+  "generated_at": "2026-11-24T10:28:23.776249Z",
   "sources": {
     "trustified": {
-      "status": "partial",
-      "last_attempt_at": "2026-11-23T08:16:44.229960Z",
+      "status": "error",
+      "last_attempt_at": "2026-11-24T10:26:59.439591Z",
       "last_success_at": "2026-11-23T08:21:33.105175Z",
       "discovered": 283,
-      "checked": 211,
-      "failed": 72,
+      "checked": 0,
+      "failed": 0,
       "pending_urls": [
+        "https://www.trustified.in/nmr-reports/apishoney",
+        "https://www.trustified.in/nmr-reports/patanjali",
+        "https://www.trustified.in/nmr-reports/saffola",
+        "https://www.trustified.in/nmr-reports/saffolahoney",
+        "https://www.trustified.in/nmr-reports/vedakahoney",
+        "https://www.trustified.in/nmr-reports/zandu",
         "https://www.trustified.in/passandfail/-insane-labz-psychotic",
         "https://www.trustified.in/passandfail/Americanzmusclesprotein",
         "https://www.trustified.in/passandfail/Becadexaminemultivitamins",
@@ -21,95 +27,281 @@
         "https://www.trustified.in/passandfail/Janaushadhiwhey",
         "https://www.trustified.in/passandfail/Ronniecoleman",
         "https://www.trustified.in/passandfail/Xlr8wheyproteintest",
+        "https://www.trustified.in/passandfail/aashirvaadatta",
+        "https://www.trustified.in/passandfail/abottpediasure",
         "https://www.trustified.in/passandfail/adreno-nutraceuticals",
+        "https://www.trustified.in/passandfail/alkem-laboratories",
+        "https://www.trustified.in/passandfail/alkemuprised3capsule",
+        "https://www.trustified.in/passandfail/alphacreatine",
+        "https://www.trustified.in/passandfail/alpinonaturalpeanutbutter",
+        "https://www.trustified.in/passandfail/alpinopeanutprotein",
+        "https://www.trustified.in/passandfail/alpinopeanutprotein1",
+        "https://www.trustified.in/passandfail/americanzmusclesprotein",
+        "https://www.trustified.in/passandfail/amul",
+        "https://www.trustified.in/passandfail/amul55chocolate",
+        "https://www.trustified.in/passandfail/amul75chocolate",
+        "https://www.trustified.in/passandfail/amul90chocolate",
         "https://www.trustified.in/passandfail/amulHomogenisedmilk",
+        "https://www.trustified.in/passandfail/amulbutter",
+        "https://www.trustified.in/passandfail/amulcheesecubes",
+        "https://www.trustified.in/passandfail/amulghee",
+        "https://www.trustified.in/passandfail/amulgoldmilk",
+        "https://www.trustified.in/passandfail/amulhomogenisedmilk",
+        "https://www.trustified.in/passandfail/amulpaneer",
+        "https://www.trustified.in/passandfail/amultaazamilk",
+        "https://www.trustified.in/passandfail/amyleordglutathione",
+        "https://www.trustified.in/passandfail/ashirvaadghee",
         "https://www.trustified.in/passandfail/asitis--whey-isolate",
         "https://www.trustified.in/passandfail/asitis-atom-blend",
         "https://www.trustified.in/passandfail/asitis-atom-creatine",
         "https://www.trustified.in/passandfail/asitis-concentrate",
+        "https://www.trustified.in/passandfail/asitisonecreatine",
+        "https://www.trustified.in/passandfail/asitissoyisolateprotein",
+        "https://www.trustified.in/passandfail/athlab",
+        "https://www.trustified.in/passandfail/atompowerwheyexpired",
         "https://www.trustified.in/passandfail/avvatar-blend",
         "https://www.trustified.in/passandfail/avvatar-isorich",
+        "https://www.trustified.in/passandfail/avvatar-mass-gainer",
+        "https://www.trustified.in/passandfail/avvatar-mass-gainer-test-1",
         "https://www.trustified.in/passandfail/avvatar-muscle-gainer",
         "https://www.trustified.in/passandfail/avvatar-nitro-iso-whey",
+        "https://www.trustified.in/passandfail/avvatar-nitro-iso-whey-test1",
+        "https://www.trustified.in/passandfail/avvatarcreatinemonohydrate",
+        "https://www.trustified.in/passandfail/avvatarfuelwhey",
+        "https://www.trustified.in/passandfail/avvatarperformance100",
+        "https://www.trustified.in/passandfail/bbetter",
+        "https://www.trustified.in/passandfail/becadexaminemultivitamins",
+        "https://www.trustified.in/passandfail/belgianchocolate",
+        "https://www.trustified.in/passandfail/bevzillaclassiccoffee",
+        "https://www.trustified.in/passandfail/bevzillapremiumcoffee",
+        "https://www.trustified.in/passandfail/bgreenplantproteinexpired",
         "https://www.trustified.in/passandfail/bigmuscles-gold-whey",
         "https://www.trustified.in/passandfail/bigmuscles-nutrition",
+        "https://www.trustified.in/passandfail/biozyme-performance-whey",
+        "https://www.trustified.in/passandfail/biozymegoldwhey100",
         "https://www.trustified.in/passandfail/biozymewheyPR",
         "https://www.trustified.in/passandfail/biozymewheypr",
+        "https://www.trustified.in/passandfail/blackbeastcreatinemonohydrate",
+        "https://www.trustified.in/passandfail/blackbeastwheyprotein",
+        "https://www.trustified.in/passandfail/bluvitd3sachets",
+        "https://www.trustified.in/passandfail/boldfit-vitamin-d3",
+        "https://www.trustified.in/passandfail/britanniawholebread",
+        "https://www.trustified.in/passandfail/cadburybournville50",
+        "https://www.trustified.in/passandfail/cadburybournville70",
+        "https://www.trustified.in/passandfail/carbamide-forte",
+        "https://www.trustified.in/passandfail/centrummenmultivitamin",
+        "https://www.trustified.in/passandfail/cleanwheyprotein",
         "https://www.trustified.in/passandfail/coreblaze-nutrition",
+        "https://www.trustified.in/passandfail/countrydelightghee",
+        "https://www.trustified.in/passandfail/countrydelightmilk",
+        "https://www.trustified.in/passandfail/creasurecreatinemonohydrate",
+        "https://www.trustified.in/passandfail/cutlernutritionwhey",
+        "https://www.trustified.in/passandfail/daawatrice",
+        "https://www.trustified.in/passandfail/disanopeanutbutter",
+        "https://www.trustified.in/passandfail/dmarthaldipowder",
+        "https://www.trustified.in/passandfail/dmartredchillipowder",
+        "https://www.trustified.in/passandfail/doctor's-choice-eaa",
+        "https://www.trustified.in/passandfail/epigamiayoughurt50",
+        "https://www.trustified.in/passandfail/esnleanwhey",
+        "https://www.trustified.in/passandfail/everestgarammasala",
+        "https://www.trustified.in/passandfail/everestkashmirilalmirch",
+        "https://www.trustified.in/passandfail/everestkitchenkingmasala",
+        "https://www.trustified.in/passandfail/everestmeatmasala",
+        "https://www.trustified.in/passandfail/exaltprioritywheyprotein",
+        "https://www.trustified.in/passandfail/explosivewheyexpired",
+        "https://www.trustified.in/passandfail/farmleymakhana",
+        "https://www.trustified.in/passandfail/foodstrongwheyexpired",
+        "https://www.trustified.in/passandfail/fortunemustardoil",
+        "https://www.trustified.in/passandfail/fortunesoyachunks",
         "https://www.trustified.in/passandfail/fuel-one-whey-max",
+        "https://www.trustified.in/passandfail/fuelledwheyprotein",
+        "https://www.trustified.in/passandfail/fuelone",
         "https://www.trustified.in/passandfail/fuelone-main",
+        "https://www.trustified.in/passandfail/funfoodspeanutbutter",
+        "https://www.trustified.in/passandfail/gentlebeastwheyprotein",
+        "https://www.trustified.in/passandfail/getmymettle",
+        "https://www.trustified.in/passandfail/glaxosmithkline---gsk",
+        "https://www.trustified.in/passandfail/gozerochocobar",
+        "https://www.trustified.in/passandfail/gritzoforboys",
+        "https://www.trustified.in/passandfail/gritzoforboys13years",
+        "https://www.trustified.in/passandfail/gritzoforgirls",
+        "https://www.trustified.in/passandfail/gritzoforgirls13years",
+        "https://www.trustified.in/passandfail/haldiramspeanuts",
+        "https://www.trustified.in/passandfail/haleupomega3",
         "https://www.trustified.in/passandfail/healthfarm-",
+        "https://www.trustified.in/passandfail/healthfarm-creatine-monohydrate",
+        "https://www.trustified.in/passandfail/healthfarm-isopro",
         "https://www.trustified.in/passandfail/healthfarmisopro",
+        "https://www.trustified.in/passandfail/healthhey",
+        "https://www.trustified.in/passandfail/healthveda",
+        "https://www.trustified.in/passandfail/hersheyscocoapowder",
+        "https://www.trustified.in/passandfail/himalayan-organics-vitamin-c",
+        "https://www.trustified.in/passandfail/hkvitalsmagnesium",
+        "https://www.trustified.in/passandfail/indiagatebasmatirice",
+        "https://www.trustified.in/passandfail/insane-labz-psychotic",
+        "https://www.trustified.in/passandfail/isabgol",
+        "https://www.trustified.in/passandfail/janaushadhiwhey",
+        "https://www.trustified.in/passandfail/jivooliveoil",
+        "https://www.trustified.in/passandfail/kelloggsmuesli",
+        "https://www.trustified.in/passandfail/kellogscornflakes",
+        "https://www.trustified.in/passandfail/kissanketchup",
+        "https://www.trustified.in/passandfail/kobra-labs",
+        "https://www.trustified.in/passandfail/liciouschicken",
+        "https://www.trustified.in/passandfail/lindtchocolate70",
+        "https://www.trustified.in/passandfail/lindtchocolate85",
+        "https://www.trustified.in/passandfail/magicamasala",
+        "https://www.trustified.in/passandfail/manmattersgummies",
+        "https://www.trustified.in/passandfail/mastidahicup",
+        "https://www.trustified.in/passandfail/mastidahipouch",
         "https://www.trustified.in/passandfail/maxener-wellness-expired",
+        "https://www.trustified.in/passandfail/maxener-wellness-whey-iso-x",
+        "https://www.trustified.in/passandfail/maxwheyprotein",
         "https://www.trustified.in/passandfail/mbkoshaveda",
+        "https://www.trustified.in/passandfail/mbxtremepreworkout",
+        "https://www.trustified.in/passandfail/mdhbiryanimasala",
+        "https://www.trustified.in/passandfail/mdhchunkychatmasala",
+        "https://www.trustified.in/passandfail/mdhdeggimirch",
+        "https://www.trustified.in/passandfail/mdhgarammasala",
+        "https://www.trustified.in/passandfail/mdhkitchenking",
+        "https://www.trustified.in/passandfail/milldproteinflour",
+        "https://www.trustified.in/passandfail/milleplantprotein25g",
+        "https://www.trustified.in/passandfail/milleplantprotein31g",
+        "https://www.trustified.in/passandfail/minus30icecream",
+        "https://www.trustified.in/passandfail/motherdairymilk",
+        "https://www.trustified.in/passandfail/muscle-asylum",
         "https://www.trustified.in/passandfail/muscleblaze",
+        "https://www.trustified.in/passandfail/muscleblaze-biozyme%C2%A0pr",
         "https://www.trustified.in/passandfail/muscleblaze-creatine-",
+        "https://www.trustified.in/passandfail/muscleblaze-iso-zero",
+        "https://www.trustified.in/passandfail/muscleblaze-multivitamin",
         "https://www.trustified.in/passandfail/muscleblaze-multivitamintest",
         "https://www.trustified.in/passandfail/muscleblaze-omega-3",
+        "https://www.trustified.in/passandfail/muscleblaze-raw-whey-protein-80%25",
+        "https://www.trustified.in/passandfail/muscleblaze-whey-gold",
         "https://www.trustified.in/passandfail/muscleblaze-whey-gold-main",
+        "https://www.trustified.in/passandfail/muscleblazemultivitamins",
+        "https://www.trustified.in/passandfail/muscleblazepreworkout",
+        "https://www.trustified.in/passandfail/muscleclubwhey",
+        "https://www.trustified.in/passandfail/muscledominator",
+        "https://www.trustified.in/passandfail/musclegearswhey",
         "https://www.trustified.in/passandfail/musclenectar",
         "https://www.trustified.in/passandfail/musclenectar-omega",
         "https://www.trustified.in/passandfail/musclenectar-whey-blend",
+        "https://www.trustified.in/passandfail/musclenectarcreatinemonohydrate",
+        "https://www.trustified.in/passandfail/musclenectarisolatetest3",
         "https://www.trustified.in/passandfail/mypro",
         "https://www.trustified.in/passandfail/nakpro--isolate",
         "https://www.trustified.in/passandfail/nakpro-gold",
         "https://www.trustified.in/passandfail/nakpro-nutrition",
         "https://www.trustified.in/passandfail/nakpro-perform-",
+        "https://www.trustified.in/passandfail/nakpro-wheyzyme",
         "https://www.trustified.in/passandfail/nakproimpactwhey",
+        "https://www.trustified.in/passandfail/nakproimpactwheyproteintest",
         "https://www.trustified.in/passandfail/nakproplantprotein",
+        "https://www.trustified.in/passandfail/nakproplantproteintest1",
         "https://www.trustified.in/passandfail/naturaltein-concentrate",
         "https://www.trustified.in/passandfail/naturaltein-crea-boost",
+        "https://www.trustified.in/passandfail/naturaltein-crea-boost-test1",
         "https://www.trustified.in/passandfail/naturaltein-creatine",
         "https://www.trustified.in/passandfail/naturaltein-isolate",
+        "https://www.trustified.in/passandfail/naturaltein-omega-3",
+        "https://www.trustified.in/passandfail/naturaltein-omega-3-test1",
         "https://www.trustified.in/passandfail/naturaltein-plant-protein",
         "https://www.trustified.in/passandfail/naturaltein-the-good-prot",
+        "https://www.trustified.in/passandfail/naturalteincreamag",
+        "https://www.trustified.in/passandfail/naturalteinisoboost",
+        "https://www.trustified.in/passandfail/naturalteinmagnesiumglycinate",
+        "https://www.trustified.in/passandfail/naturalteinplantproteintest1",
+        "https://www.trustified.in/passandfail/naturalteinpure07",
+        "https://www.trustified.in/passandfail/naturalteinveganomega",
+        "https://www.trustified.in/passandfail/naturalteinyesprotein",
+        "https://www.trustified.in/passandfail/nescafeclassic",
+        "https://www.trustified.in/passandfail/nestlenanpro",
+        "https://www.trustified.in/passandfail/nirvasa",
+        "https://www.trustified.in/passandfail/notoicecream",
         "https://www.trustified.in/passandfail/nutrabay",
         "https://www.trustified.in/passandfail/nutrabay-creatine-",
+        "https://www.trustified.in/passandfail/nutrabay-gold",
+        "https://www.trustified.in/passandfail/nutrabay-pro-fish-oil-omega-3",
         "https://www.trustified.in/passandfail/nutrabay-pro-fish-oil-omega-main",
+        "https://www.trustified.in/passandfail/nutrabaygoldwheyprotein",
+        "https://www.trustified.in/passandfail/nutrabaypeaprotein",
+        "https://www.trustified.in/passandfail/nutrabayyeastprotein",
         "https://www.trustified.in/passandfail/nutrabox-100%25",
         "https://www.trustified.in/passandfail/nutrabox-raw",
         "https://www.trustified.in/passandfail/nutrabox-ripped",
+        "https://www.trustified.in/passandfail/nutraboxsoyprotein",
+        "https://www.trustified.in/passandfail/nutraboxveganprotein",
+        "https://www.trustified.in/passandfail/nutrelasoyachunks",
+        "https://www.trustified.in/passandfail/nutrijetmagnesium3in1",
+        "https://www.trustified.in/passandfail/nutriquintmelatonin",
+        "https://www.trustified.in/passandfail/nutrovaisolateblendexpired",
+        "https://www.trustified.in/passandfail/nveda",
         "https://www.trustified.in/passandfail/onesciencenutrition",
+        "https://www.trustified.in/passandfail/osoaaimpactwheyexpired",
+        "https://www.trustified.in/passandfail/ownwheyprotein",
+        "https://www.trustified.in/passandfail/patanjali-nutrela",
+        "https://www.trustified.in/passandfail/patanjalighee",
+        "https://www.trustified.in/passandfail/pintolapeanutbutter",
+        "https://www.trustified.in/passandfail/plantbasedovegha",
+        "https://www.trustified.in/passandfail/pureservingomega3",
+        "https://www.trustified.in/passandfail/quaker",
+        "https://www.trustified.in/passandfail/rawrxveganomega",
         "https://www.trustified.in/passandfail/ripped-up-nutrition-expired",
+        "https://www.trustified.in/passandfail/ritebite",
+        "https://www.trustified.in/passandfail/ronniecoleman",
+        "https://www.trustified.in/passandfail/run--muscle-whey",
         "https://www.trustified.in/passandfail/runmusclewhey-expired",
+        "https://www.trustified.in/passandfail/saffolaoats",
+        "https://www.trustified.in/passandfail/smashcreatine",
+        "https://www.trustified.in/passandfail/sundroppeanutbutter",
+        "https://www.trustified.in/passandfail/supermilk2to6year",
+        "https://www.trustified.in/passandfail/superyoucreatine",
+        "https://www.trustified.in/passandfail/superyouyeastprotein",
+        "https://www.trustified.in/passandfail/taazatea",
+        "https://www.trustified.in/passandfail/tata1mgcleanwhey",
+        "https://www.trustified.in/passandfail/tata1mgcreatine",
+        "https://www.trustified.in/passandfail/tata1mgomega3",
+        "https://www.trustified.in/passandfail/tata1mgvitaminc",
+        "https://www.trustified.in/passandfail/tatasalt",
         "https://www.trustified.in/passandfail/the-whole-truth",
         "https://www.trustified.in/passandfail/the-whole-truth-concentrate",
+        "https://www.trustified.in/passandfail/the-whole-truth-protein-bar",
         "https://www.trustified.in/passandfail/the-whole-truth-protein-bar-main",
+        "https://www.trustified.in/passandfail/the-whole-truth-raw-isolate",
+        "https://www.trustified.in/passandfail/thebutternutcopeanut",
+        "https://www.trustified.in/passandfail/thewholetruthconcentratetest1",
+        "https://www.trustified.in/passandfail/totalnutrition",
+        "https://www.trustified.in/passandfail/trikutwheyprotein",
+        "https://www.trustified.in/passandfail/truebasiccleanisolate",
+        "https://www.trustified.in/passandfail/truebasicsplantprotein",
         "https://www.trustified.in/passandfail/trueforma",
         "https://www.trustified.in/passandfail/trunativ-raw-whey-isolate",
+        "https://www.trustified.in/passandfail/trunativwheyblendpro",
         "https://www.trustified.in/passandfail/twtrawwheyisolate",
+        "https://www.trustified.in/passandfail/vaidyaapplecidervinegar",
+        "https://www.trustified.in/passandfail/vsmanicoffee",
         "https://www.trustified.in/passandfail/wellversed",
         "https://www.trustified.in/passandfail/wheymill",
         "https://www.trustified.in/passandfail/wild-buck-",
-        "https://www.trustified.in/passandfail/zeroharmomega"
+        "https://www.trustified.in/passandfail/wow",
+        "https://www.trustified.in/passandfail/xlr8",
+        "https://www.trustified.in/passandfail/xlr8-isolate",
+        "https://www.trustified.in/passandfail/xlr8performancewhey-expired",
+        "https://www.trustified.in/passandfail/xlr8wheyproteintest",
+        "https://www.trustified.in/passandfail/yogabarcleanwhey",
+        "https://www.trustified.in/passandfail/zavedaomega3",
+        "https://www.trustified.in/passandfail/zeroharmomega",
+        "https://www.trustified.in/passandfail/zingavita"
       ],
       "errors": [
-        "https://www.trustified.in/passandfail/-insane-labz-psychotic: Client error '404 Not Found' for url 'https://www.trustified.in/passandfail/-insane-labz-psychotic'\nFor more information check: https://developer.mozi",
-        "https://www.trustified.in/passandfail/Americanzmusclesprotein: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Becadexaminemultivitamins: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Belgianchocolate: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Bevzillaclassiccoffee: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Countrydelightghee: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Dmarthaldipowder: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Hersheyscocoapowder: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Janaushadhiwhey: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Ronniecoleman: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/Xlr8wheyproteintest: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/adreno-nutraceuticals: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/amulHomogenisedmilk: Product heading missing; source layout may have changed",
-        "https://www.trustified.in/passandfail/asitis--whey-isolate: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/asitis-atom-blend: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/asitis-atom-creatine: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/asitis-concentrate: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/avvatar-blend: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/avvatar-isorich: Trustified product fields missing",
-        "https://www.trustified.in/passandfail/avvatar-muscle-gainer: Trustified product fields missing"
+        "Too many source redirects"
       ]
     },
     "foodpharmer": {
       "status": "ok",
-      "last_attempt_at": "2026-11-23T08:16:44.229960Z",
-      "last_success_at": "2026-11-23T08:18:08.541800Z",
+      "last_attempt_at": "2026-11-24T10:26:59.439591Z",
+      "last_success_at": "2026-11-24T10:28:23.775957Z",
       "discovered": 63,
       "checked": 63,
       "failed": 0,
@@ -146,7 +338,7 @@
           "url": "https://foodpharmer.health/c/paneer/humpy-a2-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:44.471308Z",
+      "fetched_at": "2026-11-24T10:27:59.716261Z",
       "first_seen_at": "2026-11-03T14:29:32.997897Z",
       "updated_at": "2026-11-03T14:29:32.997897Z",
       "content_hash": "dc08aeec789b4bfe789090955defd897213fab5cecf2ef872f67dd6de043638d",
@@ -182,7 +374,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/bakers-loaf-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:09.431815Z",
+      "fetched_at": "2026-11-24T10:27:24.684119Z",
       "first_seen_at": "2026-11-03T14:28:56.582367Z",
       "updated_at": "2026-11-03T14:28:56.582367Z",
       "content_hash": "0e9c534520468491f1467981e1ab1f77bd9804c5e9a9edce4cbdaca28fe81782",
@@ -216,7 +408,7 @@
           "url": "https://foodpharmer.health/c/tofu/milky-mist-briyas-tofu"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:02.561521Z",
+      "fetched_at": "2026-11-24T10:28:17.752370Z",
       "first_seen_at": "2026-11-03T14:29:51.332465Z",
       "updated_at": "2026-11-03T14:29:51.332465Z",
       "content_hash": "e4ef81d0b85114ca1e3586543027c29576d0792ae5a8c90be74dcc3d20ff71c5",
@@ -252,7 +444,7 @@
           "url": "https://foodpharmer.health/c/pasta/pinkharvest-chickpea-penne"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:46.500960Z",
+      "fetched_at": "2026-11-24T10:28:01.812256Z",
       "first_seen_at": "2026-11-03T14:29:34.868722Z",
       "updated_at": "2026-11-03T14:29:34.868722Z",
       "content_hash": "9c23cbd8e6441f8c06e4f5cd7cd2860458ac58b092274ff5e337d6fc5811d1e7",
@@ -286,7 +478,7 @@
           "url": "https://foodpharmer.health/c/tofu/health-on-plants-classic-tofu"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:01.519893Z",
+      "fetched_at": "2026-11-24T10:28:16.815368Z",
       "first_seen_at": "2026-11-03T14:29:50.097920Z",
       "updated_at": "2026-11-03T14:29:50.097920Z",
       "content_hash": "8c41472d4d0a8dea21b0e656125af8c13b9af85af639afd9b505a272223b8a9f",
@@ -320,7 +512,7 @@
           "url": "https://foodpharmer.health/c/ors/electral"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:35.510461Z",
+      "fetched_at": "2026-11-24T10:27:50.741914Z",
       "first_seen_at": "2026-11-03T14:29:23.878241Z",
       "updated_at": "2026-11-03T14:29:23.878241Z",
       "content_hash": "fde5dcfc967e79d7dcac72facc63dd2932f7f7bab842bcf06fc9b87ca57cb8ba",
@@ -354,7 +546,7 @@
           "url": "https://foodpharmer.health/c/tofu/urban-platter-firm-tofu"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:05.572909Z",
+      "fetched_at": "2026-11-24T10:28:20.771162Z",
       "first_seen_at": "2026-11-03T14:29:54.173759Z",
       "updated_at": "2026-11-03T14:29:54.173759Z",
       "content_hash": "5962b3476e16a6c28b9ae45ca163480b8de26a53383e422cdaee423763b6d1c1",
@@ -388,7 +580,7 @@
           "url": "https://foodpharmer.health/c/tofu/mother-natures-fresh-soft-tofu"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:03.507035Z",
+      "fetched_at": "2026-11-24T10:28:18.749476Z",
       "first_seen_at": "2026-11-03T14:29:52.073542Z",
       "updated_at": "2026-11-03T14:29:52.073542Z",
       "content_hash": "b3be0453721d47a9e98bd559762030692060f70e613c9cad8176d6238dceb6e9",
@@ -425,7 +617,7 @@
           "url": "https://foodpharmer.health/c/chips/lo-foods-millet-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:18.487636Z",
+      "fetched_at": "2026-11-24T10:27:33.669297Z",
       "first_seen_at": "2026-11-03T14:29:05.511546Z",
       "updated_at": "2026-11-03T14:29:05.511546Z",
       "content_hash": "2224fdca6926c51d3daf4c7974787e3073615a9f814ed573c4b0d23d868107c3",
@@ -462,7 +654,7 @@
           "url": "https://foodpharmer.health/c/noodles/wickedgud-hakka-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:28.506517Z",
+      "fetched_at": "2026-11-24T10:27:43.693040Z",
       "first_seen_at": "2026-11-03T14:29:17.013889Z",
       "updated_at": "2026-11-03T14:29:17.013889Z",
       "content_hash": "3798392d06b04cba956cdc8a1b74395658209fa8299dac78444466ec1a3ed42e",
@@ -499,7 +691,7 @@
           "url": "https://foodpharmer.health/c/biscuits/open-secret-healthy-digestive"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:07.429093Z",
+      "fetched_at": "2026-11-24T10:27:22.636272Z",
       "first_seen_at": "2026-11-03T14:28:54.412434Z",
       "updated_at": "2026-11-03T14:28:54.412434Z",
       "content_hash": "03720fe9f9c79e6641bce1c79267855160b157d8f26d78e9c20e06aec2f89295",
@@ -534,7 +726,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/pintola-high-protein-oats-chocolate"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:33.529125Z",
+      "fetched_at": "2026-11-24T10:27:48.759209Z",
       "first_seen_at": "2026-11-03T14:29:21.943534Z",
       "updated_at": "2026-11-03T14:29:21.943534Z",
       "content_hash": "71167176b869b1ea95e463ae72900361614931164daa675ad25c2f73a2e331b6",
@@ -569,7 +761,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/yoga-bar-high-protein-oats-dark-chocolate"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:34.492468Z",
+      "fetched_at": "2026-11-24T10:27:49.751512Z",
       "first_seen_at": "2026-11-03T14:29:22.902500Z",
       "updated_at": "2026-11-03T14:29:22.902500Z",
       "content_hash": "5af28fa142fad1d73bf693f056e430a065ff751aaa27e43bf816f3d30377890a",
@@ -604,7 +796,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/alpino-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:30.525004Z",
+      "fetched_at": "2026-11-24T10:27:45.668009Z",
       "first_seen_at": "2026-11-03T14:29:19.205878Z",
       "updated_at": "2026-11-03T14:29:19.205878Z",
       "content_hash": "036ffe285f48dc8c98a6b23b25f5f9a607f1920111f95d2d75702600ef75d8c9",
@@ -639,7 +831,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/goat-life-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:31.505923Z",
+      "fetched_at": "2026-11-24T10:27:46.708626Z",
       "first_seen_at": "2026-11-03T14:29:19.990667Z",
       "updated_at": "2026-11-03T14:29:19.990667Z",
       "content_hash": "d69afdedf73c83ce5df9d9f319160ff6232079b34b701bd5d6c8cd49eedbc161",
@@ -674,7 +866,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/amul-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:38.545816Z",
+      "fetched_at": "2026-11-24T10:27:53.701481Z",
       "first_seen_at": "2026-11-03T14:29:26.842391Z",
       "updated_at": "2026-11-03T14:29:26.842391Z",
       "content_hash": "7dd8181c7dfcea8b835a8b2f6659737cb71103609303cd815ff14b062c329621",
@@ -709,7 +901,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/id-fresh-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:40.530818Z",
+      "fetched_at": "2026-11-24T10:27:55.754707Z",
       "first_seen_at": "2026-11-03T14:29:28.930772Z",
       "updated_at": "2026-11-03T14:29:28.930772Z",
       "content_hash": "ad25513bc1d5b007f63cb73a87aebd3e477cdf9dea3fe1b63976d1aff43a1697",
@@ -744,7 +936,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/desi-farms-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:39.479029Z",
+      "fetched_at": "2026-11-24T10:27:54.731882Z",
       "first_seen_at": "2026-11-03T14:29:27.873469Z",
       "updated_at": "2026-11-03T14:29:27.873469Z",
       "content_hash": "267e2b231e218f0a3f5d1703cc958186be37ee64d4974cf3ab79f35e37c1b79a",
@@ -779,7 +971,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/milky-mist-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:41.530907Z",
+      "fetched_at": "2026-11-24T10:27:56.821969Z",
       "first_seen_at": "2026-11-03T14:29:29.927609Z",
       "updated_at": "2026-11-03T14:29:29.927609Z",
       "content_hash": "e84d1a6ca5ecef0b49450ab0b80889243363a9d7bedad9b005b347c5e0ce573b",
@@ -815,7 +1007,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/muscleblaze-high-protein-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:50.773736Z",
+      "fetched_at": "2026-11-24T10:28:05.732468Z",
       "first_seen_at": "2026-11-03T14:29:39.143115Z",
       "updated_at": "2026-11-03T14:29:39.143115Z",
       "content_hash": "0474ffc09c2c1b9f70a2d78e9a7770a90a4d4acbf1253b74d5cabe00cc5e8ef8",
@@ -851,7 +1043,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/pintola-high-protein-pb"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:52.524773Z",
+      "fetched_at": "2026-11-24T10:28:07.712614Z",
       "first_seen_at": "2026-11-03T14:29:41.061481Z",
       "updated_at": "2026-11-03T14:29:41.061481Z",
       "content_hash": "7b0d88dfed126db1588b3f3d676237751cc4b9205a1aa8dc0bc015f9e23525a3",
@@ -888,7 +1080,7 @@
           "url": "https://foodpharmer.health/c/biscuits/taakat-hunger-bar-crunchy-coconut"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:08.431432Z",
+      "fetched_at": "2026-11-24T10:27:23.656531Z",
       "first_seen_at": "2026-11-03T14:28:55.542212Z",
       "updated_at": "2026-11-03T14:28:55.542212Z",
       "content_hash": "e26a0b2311cdd533873da087a584b289c2ba7b2808a45e83889d642baf5bf1df",
@@ -925,7 +1117,7 @@
           "url": "https://foodpharmer.health/c/noodles/jiwa-instant-oats-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:24.879675Z",
+      "fetched_at": "2026-11-24T10:27:39.671363Z",
       "first_seen_at": "2026-11-03T14:29:13.089204Z",
       "updated_at": "2026-11-03T14:29:13.089204Z",
       "content_hash": "b913cd762e3212f16f29c4e30c1f17a35c5c15ef8cc608683a69a84fa7285e3f",
@@ -960,7 +1152,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/no-bs-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:32.453548Z",
+      "fetched_at": "2026-11-24T10:27:47.692804Z",
       "first_seen_at": "2026-11-03T14:29:20.942275Z",
       "updated_at": "2026-11-03T14:29:20.942275Z",
       "content_hash": "799355845db30c18483bb7f47f2d1ca8892a8c22d82128ca08b1ef61c6e56ca9",
@@ -997,7 +1189,7 @@
           "url": "https://foodpharmer.health/c/noodles/slurrp-farm-little-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:26.497615Z",
+      "fetched_at": "2026-11-24T10:27:41.676846Z",
       "first_seen_at": "2026-11-03T14:29:14.974064Z",
       "updated_at": "2026-11-03T14:29:14.974064Z",
       "content_hash": "66e15bac77976c0039619c23377e0e869f2b83797f61581d375d6929cdd98a57",
@@ -1033,7 +1225,7 @@
           "url": "https://foodpharmer.health/c/paneer/amul-malai-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:42.474110Z",
+      "fetched_at": "2026-11-24T10:27:57.687493Z",
       "first_seen_at": "2026-11-03T14:29:30.904819Z",
       "updated_at": "2026-11-03T14:29:30.904819Z",
       "content_hash": "02a806abef2b78fbf1e531abd16f0efbd408a3f504f8597834355336187e9563",
@@ -1070,7 +1262,7 @@
           "url": "https://foodpharmer.health/c/biscuits/millet-jaggery-cookies"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:06.436087Z",
+      "fetched_at": "2026-11-24T10:27:21.683011Z",
       "first_seen_at": "2026-11-03T14:28:53.152564Z",
       "updated_at": "2026-11-03T14:28:53.152564Z",
       "content_hash": "4132bd6fa2a41a176e69f426a207abeb661b42433d7598663a8bb8ccd959effc",
@@ -1107,7 +1299,7 @@
           "url": "https://foodpharmer.health/c/noodles/conscious-food-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:23.479319Z",
+      "fetched_at": "2026-11-24T10:27:38.677254Z",
       "first_seen_at": "2026-11-03T14:29:11.372192Z",
       "updated_at": "2026-11-03T14:29:11.372192Z",
       "content_hash": "b0e29b299fc963334eb30b627cc4c8eb6d6f5ca99297c1b0f46e3d186542046d",
@@ -1142,7 +1334,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/superyou-multigrain-chips"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:15.466667Z",
+      "fetched_at": "2026-11-24T10:27:30.678336Z",
       "first_seen_at": "2026-11-03T14:29:02.257552Z",
       "updated_at": "2026-11-03T14:29:02.257552Z",
       "content_hash": "30839e60de78128f33df18943fb8f74b3775542e6252302eaa44b32833651aa2",
@@ -1178,7 +1370,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-bakers-dozen-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:10.745121Z",
+      "fetched_at": "2026-11-24T10:27:25.645057Z",
       "first_seen_at": "2026-11-03T14:28:57.624051Z",
       "updated_at": "2026-11-03T14:28:57.624051Z",
       "content_hash": "e86d025f390d7daf3d4d1fa79321eb9b455378c3f883d2cc08e269e9a9e6495f",
@@ -1212,7 +1404,7 @@
           "url": "https://foodpharmer.health/c/makhana/tata-sampann-natural-high-protein-makhana"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:22.527682Z",
+      "fetched_at": "2026-11-24T10:27:37.788875Z",
       "first_seen_at": "2026-11-03T14:29:09.483653Z",
       "updated_at": "2026-11-03T14:29:09.483653Z",
       "content_hash": "e9f3159e8198b09a1257199b9049bb8bc0a820a4d0cf5a9bd78f52c96129987c",
@@ -1248,7 +1440,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/butternutco-natural-creamy-pb"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:49.501635Z",
+      "fetched_at": "2026-11-24T10:28:04.780648Z",
       "first_seen_at": "2026-11-03T14:29:38.653377Z",
       "updated_at": "2026-11-03T14:29:38.653377Z",
       "content_hash": "052fffc19079549bd5e0617e8f875e9d4f88e87d64337f797d13551754924718",
@@ -1284,7 +1476,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/alpino-natural-pb-crunch"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:48.519917Z",
+      "fetched_at": "2026-11-24T10:28:03.736892Z",
       "first_seen_at": "2026-11-03T14:29:37.688211Z",
       "updated_at": "2026-11-03T14:29:37.688211Z",
       "content_hash": "e8c754e443313218cb5e8443d1fa35faf7b96504e62659cc34d20f504175ef72",
@@ -1319,7 +1511,7 @@
           "url": "https://foodpharmer.health/c/tempeh/hello-tempayy-soybean-tempeh-cubes"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:00.500867Z",
+      "fetched_at": "2026-11-24T10:28:15.795945Z",
       "first_seen_at": "2026-11-03T14:29:49.040550Z",
       "updated_at": "2026-11-03T14:29:49.040550Z",
       "content_hash": "b66a39db811877f62153f9e0ccd5959324b32ab8e06bdf1258cc2167e0b95d23",
@@ -1355,7 +1547,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/myfitness-unsweetened-crunchy-pb"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:51.503576Z",
+      "fetched_at": "2026-11-24T10:28:06.718793Z",
       "first_seen_at": "2026-11-03T14:29:40.013960Z",
       "updated_at": "2026-11-03T14:29:40.013960Z",
       "content_hash": "f0d2cc411fe9e12befb56077cbe36ac01337c82c69ec1117252ba7e3bc07be04",
@@ -1391,7 +1583,7 @@
           "url": "https://foodpharmer.health/c/paneer/gowardhan-paneer"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:43.472348Z",
+      "fetched_at": "2026-11-24T10:27:58.782101Z",
       "first_seen_at": "2026-11-03T14:29:31.825338Z",
       "updated_at": "2026-11-03T14:29:31.825338Z",
       "content_hash": "90e80f8dd78d9e03e94352878aaf797f2d71efbeef4775a475239ea76caa7049",
@@ -1427,7 +1619,7 @@
           "url": "https://foodpharmer.health/c/pasta/mille-penne-protein-pasta"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:45.527204Z",
+      "fetched_at": "2026-11-24T10:28:00.751461Z",
       "first_seen_at": "2026-11-03T14:29:33.873209Z",
       "updated_at": "2026-11-03T14:29:33.873209Z",
       "content_hash": "211992001217fd2ecee7a85c2ccc0402c6ba57167c06c0d2d65d51465db1c863",
@@ -1461,7 +1653,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/whole-farm-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:59.585579Z",
+      "fetched_at": "2026-11-24T10:28:14.741941Z",
       "first_seen_at": "2026-11-03T14:29:48.067627Z",
       "updated_at": "2026-11-03T14:29:48.067627Z",
       "content_hash": "6bad1efd2d83fd383b2769ca997af78ebe06324f7b5f8009237bf4a9d010b93c",
@@ -1495,7 +1687,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/515-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:57.571657Z",
+      "fetched_at": "2026-11-24T10:28:12.722399Z",
       "first_seen_at": "2026-11-03T14:29:46.413665Z",
       "updated_at": "2026-11-03T14:29:46.413665Z",
       "content_hash": "1a302422b755c3a303a0131a63a6d0a81c58e235259fa8b458ec579359fb8c9b",
@@ -1529,7 +1721,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/urban-platter-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:58.539476Z",
+      "fetched_at": "2026-11-24T10:28:13.734284Z",
       "first_seen_at": "2026-11-03T14:29:47.201355Z",
       "updated_at": "2026-11-03T14:29:47.201355Z",
       "content_hash": "9dbcfce1fca419db06f1bdf7cf8719144e8ad225457d14a0c52fc0509f5aace8",
@@ -1563,7 +1755,7 @@
           "url": "https://foodpharmer.health/c/makhana/farmley-prasadam-makhana"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:20.479114Z",
+      "fetched_at": "2026-11-24T10:27:35.682411Z",
       "first_seen_at": "2026-11-03T14:29:07.962172Z",
       "updated_at": "2026-11-03T14:29:07.962172Z",
       "content_hash": "c23eb7b9b9047cd280e1cf641861560d8f84c32749cb538230ead9a088609fdf",
@@ -1597,7 +1789,7 @@
           "url": "https://foodpharmer.health/c/ors/prolyte-ors"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:36.533823Z",
+      "fetched_at": "2026-11-24T10:27:51.582791Z",
       "first_seen_at": "2026-11-03T14:29:24.869292Z",
       "updated_at": "2026-11-03T14:29:24.869292Z",
       "content_hash": "bd521f6bcf07632cafec601751e524d0a1cb8f0bfdc6834cb46e0d072d44f29c",
@@ -1632,7 +1824,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/the-bakers-dozen-protein-chips-masala-mania"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:16.440345Z",
+      "fetched_at": "2026-11-24T10:27:31.682727Z",
       "first_seen_at": "2026-11-03T14:29:03.523829Z",
       "updated_at": "2026-11-03T14:29:03.523829Z",
       "content_hash": "0541c42c33d723dba154f5b034a14b94f3a4c32eaa639e7cb88e839fad3192cd",
@@ -1668,7 +1860,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/protein-chef-protein-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:12.525657Z",
+      "fetched_at": "2026-11-24T10:27:27.687517Z",
       "first_seen_at": "2026-11-03T14:28:59.699354Z",
       "updated_at": "2026-11-03T14:28:59.699354Z",
       "content_hash": "78aae1ef2e3b935b40c741ad4989a031a54d029064ecc16e9c25a301cadd1fba",
@@ -1704,7 +1896,7 @@
           "url": "https://foodpharmer.health/c/yogurt/country-delight-protein-greek-yogurt"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:06.545917Z",
+      "fetched_at": "2026-11-24T10:28:21.780997Z",
       "first_seen_at": "2026-11-03T14:29:54.912503Z",
       "updated_at": "2026-11-03T14:29:54.912503Z",
       "content_hash": "377ea5e3c74519363ddd42f50c2e5fb54c4fdc88f108bd7efbb69b58f1e63567",
@@ -1740,7 +1932,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/poptein-protein-popcorn-herb-n-zing"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:56.531368Z",
+      "fetched_at": "2026-11-24T10:28:11.714315Z",
       "first_seen_at": "2026-11-03T14:29:45.136881Z",
       "updated_at": "2026-11-03T14:29:45.136881Z",
       "content_hash": "5f23e209b258290e5111c150f55006f4025f72137de6865ab91bc4bff4a3c78c",
@@ -1776,7 +1968,7 @@
           "url": "https://foodpharmer.health/c/pasta/urbanplatter-protein-spaghetti"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:47.533571Z",
+      "fetched_at": "2026-11-24T10:28:02.738782Z",
       "first_seen_at": "2026-11-03T14:29:36.304847Z",
       "updated_at": "2026-11-03T14:29:36.304847Z",
       "content_hash": "798aaae48ac4ae4e347ba5448e81759e6086e9266fd2496a2e37473e2aca7d2e",
@@ -1813,7 +2005,7 @@
           "url": "https://foodpharmer.health/c/noodles/quinoa-noodles-naturally"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:25.511313Z",
+      "fetched_at": "2026-11-24T10:27:40.659160Z",
       "first_seen_at": "2026-11-03T14:29:14.459741Z",
       "updated_at": "2026-11-03T14:29:14.459741Z",
       "content_hash": "841fe949bff2faae9b33f438dc8919ee22f5f7f04cdcaead2c0da50678483fde",
@@ -1850,7 +2042,7 @@
           "url": "https://foodpharmer.health/c/chips/the-bakers-dozen-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:19.461611Z",
+      "fetched_at": "2026-11-24T10:27:34.683528Z",
       "first_seen_at": "2026-11-03T14:29:07.106608Z",
       "updated_at": "2026-11-03T14:29:07.106608Z",
       "content_hash": "ff00f605f0034809b2866413cd39e598ed57ad5a383a5550d32da736d89591ea",
@@ -1884,7 +2076,7 @@
           "url": "https://foodpharmer.health/c/makhana/lotus-raw-makhana"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:21.468151Z",
+      "fetched_at": "2026-11-24T10:27:36.747429Z",
       "first_seen_at": "2026-11-03T14:29:08.613579Z",
       "updated_at": "2026-11-03T14:29:08.613579Z",
       "content_hash": "91fa7897754533451aec1d7a201a1dfd243bc2e346f25825b593d069266bb6f6",
@@ -1920,7 +2112,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/4700bc-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:54.512412Z",
+      "fetched_at": "2026-11-24T10:28:09.780734Z",
       "first_seen_at": "2026-11-03T14:29:43.106764Z",
       "updated_at": "2026-11-03T14:29:43.106764Z",
       "content_hash": "6b419d8d767738aff12541c4429ecafbb75b0f4c52ed43e74fcb6490650ea198",
@@ -1956,7 +2148,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/lets-try-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:55.631383Z",
+      "fetched_at": "2026-11-24T10:28:10.758312Z",
       "first_seen_at": "2026-11-03T14:29:44.127648Z",
       "updated_at": "2026-11-03T14:29:44.127648Z",
       "content_hash": "60698cb3446604df439c2e3281e108b3f6deaaafa55d5f0e6dd41449fa4d0bb1",
@@ -1993,7 +2185,7 @@
           "url": "https://foodpharmer.health/c/noodles/urbanplatter-shirataki-konjac-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:27.484761Z",
+      "fetched_at": "2026-11-24T10:27:42.711644Z",
       "first_seen_at": "2026-11-03T14:29:16.029580Z",
       "updated_at": "2026-11-03T14:29:16.029580Z",
       "content_hash": "0beadccd7bdfd880ff019f73e535a2ea4bcd31a8540dd4e29049307783baf72f",
@@ -2029,7 +2221,7 @@
           "url": "https://foodpharmer.health/c/yogurt/milky-mist-skyr-high-protein-plain"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:08.539221Z",
+      "fetched_at": "2026-11-24T10:28:23.770924Z",
       "first_seen_at": "2026-11-03T14:29:57.270692Z",
       "updated_at": "2026-11-03T14:29:57.270692Z",
       "content_hash": "fc8c4abaa4dbc3e55e8dd8acf6328cd75c8aae942d676dec08f08581dd220e76",
@@ -2066,7 +2258,7 @@
           "url": "https://foodpharmer.health/c/chips/eatopia-superfood-oat-bites-masala-crunch"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:17.506169Z",
+      "fetched_at": "2026-11-24T10:27:32.789112Z",
       "first_seen_at": "2026-11-03T14:29:04.683416Z",
       "updated_at": "2026-11-03T14:29:04.683416Z",
       "content_hash": "33c04a422765712c842f96d368c87430c5df407c441df2c220a71b0d0972c7f6",
@@ -2100,7 +2292,7 @@
           "url": "https://foodpharmer.health/c/tofu/soyarich-tofu"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:04.505673Z",
+      "fetched_at": "2026-11-24T10:28:19.744123Z",
       "first_seen_at": "2026-11-03T14:29:53.192405Z",
       "updated_at": "2026-11-03T14:29:53.192405Z",
       "content_hash": "6b6fc0d458640dc0fab69fb46056cdf6f85fda94d660686fda85508013217c29",
@@ -2136,7 +2328,7 @@
           "url": "https://foodpharmer.health/c/yogurt/epigamia-turbo-protein-yogurt"
         }
       ],
-      "fetched_at": "2026-11-23T08:18:07.594127Z",
+      "fetched_at": "2026-11-24T10:28:22.786457Z",
       "first_seen_at": "2026-11-03T14:29:56.691659Z",
       "updated_at": "2026-11-03T14:29:56.691659Z",
       "content_hash": "62b38bcc8855df746dea94c9f5e9490abf22380e561c742afe2bae8bca44f711",
@@ -2172,7 +2364,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/the-whole-truth-unsweetened-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:53.530140Z",
+      "fetched_at": "2026-11-24T10:28:08.755529Z",
       "first_seen_at": "2026-11-03T14:29:42.683621Z",
       "updated_at": "2026-11-03T14:29:42.683621Z",
       "content_hash": "c9b810a335a54e5a221402bf07c74edddf3bf2c3e6dbaec807777cfb8e8bf795",
@@ -2206,7 +2398,7 @@
           "url": "https://foodpharmer.health/c/ors/walyte-ors"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:37.520427Z",
+      "fetched_at": "2026-11-24T10:27:52.727822Z",
       "first_seen_at": "2026-11-03T14:29:26.132363Z",
       "updated_at": "2026-11-03T14:29:26.132363Z",
       "content_hash": "84a1dfa883f8ad677e7a5a4f3834688d05ac1f74812503740a483a1d2efd4a5e",
@@ -2243,7 +2435,7 @@
           "url": "https://foodpharmer.health/c/noodles/yu-foodlabs-whole-wheat-noodles"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:29.521978Z",
+      "fetched_at": "2026-11-24T10:27:44.744918Z",
       "first_seen_at": "2026-11-03T14:29:18.267089Z",
       "updated_at": "2026-11-03T14:29:18.267089Z",
       "content_hash": "8331f80fd1940c4c01d1cd1324b7e86f1f58b6319fcecc83b247309c4affe0fa",
@@ -2279,7 +2471,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-bakers-dozen-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:13.473497Z",
+      "fetched_at": "2026-11-24T10:27:28.709918Z",
       "first_seen_at": "2026-11-03T14:29:00.600762Z",
       "updated_at": "2026-11-03T14:29:00.600762Z",
       "content_hash": "5700f7b4e2570c5be6fecd7c344fd4aee84aab302bdde36bfbcf1bdae59714cf",
@@ -2315,7 +2507,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-health-factory-zero-maida-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:14.416778Z",
+      "fetched_at": "2026-11-24T10:27:29.679565Z",
       "first_seen_at": "2026-11-03T14:29:01.553399Z",
       "updated_at": "2026-11-03T14:29:01.553399Z",
       "content_hash": "d9a8a25af150ce11cb1c5d1859474263cba47f2135e20304012694b34bb548f6",
@@ -2351,7 +2543,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-health-factory-zero-maida-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-23T08:17:11.522211Z",
+      "fetched_at": "2026-11-24T10:27:26.637677Z",
       "first_seen_at": "2026-11-03T14:28:58.543364Z",
       "updated_at": "2026-11-03T14:28:58.543364Z",
       "content_hash": "bcefed072755793bcec159e53a43520a946978e0c431efbe9014f2c5b088750a",
