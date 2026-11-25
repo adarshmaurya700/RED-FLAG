@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:28:23.776249Z",
+  "generated_at": "2026-11-25T09:14:07.003803Z",
   "sources": {
     "trustified": {
       "status": "error",
-      "last_attempt_at": "2026-11-24T10:26:59.439591Z",
+      "last_attempt_at": "2026-11-25T09:12:42.739729Z",
       "last_success_at": "2026-11-23T08:21:33.105175Z",
       "discovered": 283,
       "checked": 0,
@@ -300,8 +300,8 @@
     },
     "foodpharmer": {
       "status": "ok",
-      "last_attempt_at": "2026-11-24T10:26:59.439591Z",
-      "last_success_at": "2026-11-24T10:28:23.775957Z",
+      "last_attempt_at": "2026-11-25T09:12:42.739729Z",
+      "last_success_at": "2026-11-25T09:14:07.003471Z",
       "discovered": 63,
       "checked": 63,
       "failed": 0,
@@ -338,7 +338,7 @@
           "url": "https://foodpharmer.health/c/paneer/humpy-a2-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:59.716261Z",
+      "fetched_at": "2026-11-25T09:13:43.006388Z",
       "first_seen_at": "2026-11-03T14:29:32.997897Z",
       "updated_at": "2026-11-03T14:29:32.997897Z",
       "content_hash": "dc08aeec789b4bfe789090955defd897213fab5cecf2ef872f67dd6de043638d",
@@ -374,7 +374,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/bakers-loaf-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:24.684119Z",
+      "fetched_at": "2026-11-25T09:13:07.997269Z",
       "first_seen_at": "2026-11-03T14:28:56.582367Z",
       "updated_at": "2026-11-03T14:28:56.582367Z",
       "content_hash": "0e9c534520468491f1467981e1ab1f77bd9804c5e9a9edce4cbdaca28fe81782",
@@ -408,7 +408,7 @@
           "url": "https://foodpharmer.health/c/tofu/milky-mist-briyas-tofu"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:17.752370Z",
+      "fetched_at": "2026-11-25T09:14:01.013898Z",
       "first_seen_at": "2026-11-03T14:29:51.332465Z",
       "updated_at": "2026-11-03T14:29:51.332465Z",
       "content_hash": "e4ef81d0b85114ca1e3586543027c29576d0792ae5a8c90be74dcc3d20ff71c5",
@@ -444,7 +444,7 @@
           "url": "https://foodpharmer.health/c/pasta/pinkharvest-chickpea-penne"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:01.812256Z",
+      "fetched_at": "2026-11-25T09:13:44.994020Z",
       "first_seen_at": "2026-11-03T14:29:34.868722Z",
       "updated_at": "2026-11-03T14:29:34.868722Z",
       "content_hash": "9c23cbd8e6441f8c06e4f5cd7cd2860458ac58b092274ff5e337d6fc5811d1e7",
@@ -478,7 +478,7 @@
           "url": "https://foodpharmer.health/c/tofu/health-on-plants-classic-tofu"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:16.815368Z",
+      "fetched_at": "2026-11-25T09:14:00.034862Z",
       "first_seen_at": "2026-11-03T14:29:50.097920Z",
       "updated_at": "2026-11-03T14:29:50.097920Z",
       "content_hash": "8c41472d4d0a8dea21b0e656125af8c13b9af85af639afd9b505a272223b8a9f",
@@ -512,7 +512,7 @@
           "url": "https://foodpharmer.health/c/ors/electral"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:50.741914Z",
+      "fetched_at": "2026-11-25T09:13:33.950359Z",
       "first_seen_at": "2026-11-03T14:29:23.878241Z",
       "updated_at": "2026-11-03T14:29:23.878241Z",
       "content_hash": "fde5dcfc967e79d7dcac72facc63dd2932f7f7bab842bcf06fc9b87ca57cb8ba",
@@ -546,7 +546,7 @@
           "url": "https://foodpharmer.health/c/tofu/urban-platter-firm-tofu"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:20.771162Z",
+      "fetched_at": "2026-11-25T09:14:04.136721Z",
       "first_seen_at": "2026-11-03T14:29:54.173759Z",
       "updated_at": "2026-11-03T14:29:54.173759Z",
       "content_hash": "5962b3476e16a6c28b9ae45ca163480b8de26a53383e422cdaee423763b6d1c1",
@@ -580,7 +580,7 @@
           "url": "https://foodpharmer.health/c/tofu/mother-natures-fresh-soft-tofu"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:18.749476Z",
+      "fetched_at": "2026-11-25T09:14:02.077822Z",
       "first_seen_at": "2026-11-03T14:29:52.073542Z",
       "updated_at": "2026-11-03T14:29:52.073542Z",
       "content_hash": "b3be0453721d47a9e98bd559762030692060f70e613c9cad8176d6238dceb6e9",
@@ -617,7 +617,7 @@
           "url": "https://foodpharmer.health/c/chips/lo-foods-millet-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:33.669297Z",
+      "fetched_at": "2026-11-25T09:13:16.899409Z",
       "first_seen_at": "2026-11-03T14:29:05.511546Z",
       "updated_at": "2026-11-03T14:29:05.511546Z",
       "content_hash": "2224fdca6926c51d3daf4c7974787e3073615a9f814ed573c4b0d23d868107c3",
@@ -654,7 +654,7 @@
           "url": "https://foodpharmer.health/c/noodles/wickedgud-hakka-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:43.693040Z",
+      "fetched_at": "2026-11-25T09:13:26.972919Z",
       "first_seen_at": "2026-11-03T14:29:17.013889Z",
       "updated_at": "2026-11-03T14:29:17.013889Z",
       "content_hash": "3798392d06b04cba956cdc8a1b74395658209fa8299dac78444466ec1a3ed42e",
@@ -691,7 +691,7 @@
           "url": "https://foodpharmer.health/c/biscuits/open-secret-healthy-digestive"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:22.636272Z",
+      "fetched_at": "2026-11-25T09:13:05.934180Z",
       "first_seen_at": "2026-11-03T14:28:54.412434Z",
       "updated_at": "2026-11-03T14:28:54.412434Z",
       "content_hash": "03720fe9f9c79e6641bce1c79267855160b157d8f26d78e9c20e06aec2f89295",
@@ -726,7 +726,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/pintola-high-protein-oats-chocolate"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:48.759209Z",
+      "fetched_at": "2026-11-25T09:13:31.927851Z",
       "first_seen_at": "2026-11-03T14:29:21.943534Z",
       "updated_at": "2026-11-03T14:29:21.943534Z",
       "content_hash": "71167176b869b1ea95e463ae72900361614931164daa675ad25c2f73a2e331b6",
@@ -761,7 +761,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/yoga-bar-high-protein-oats-dark-chocolate"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:49.751512Z",
+      "fetched_at": "2026-11-25T09:13:32.954834Z",
       "first_seen_at": "2026-11-03T14:29:22.902500Z",
       "updated_at": "2026-11-03T14:29:22.902500Z",
       "content_hash": "5af28fa142fad1d73bf693f056e430a065ff751aaa27e43bf816f3d30377890a",
@@ -796,7 +796,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/alpino-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:45.668009Z",
+      "fetched_at": "2026-11-25T09:13:28.958973Z",
       "first_seen_at": "2026-11-03T14:29:19.205878Z",
       "updated_at": "2026-11-03T14:29:19.205878Z",
       "content_hash": "036ffe285f48dc8c98a6b23b25f5f9a607f1920111f95d2d75702600ef75d8c9",
@@ -831,7 +831,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/goat-life-high-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:46.708626Z",
+      "fetched_at": "2026-11-25T09:13:30.056480Z",
       "first_seen_at": "2026-11-03T14:29:19.990667Z",
       "updated_at": "2026-11-03T14:29:19.990667Z",
       "content_hash": "d69afdedf73c83ce5df9d9f319160ff6232079b34b701bd5d6c8cd49eedbc161",
@@ -866,7 +866,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/amul-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:53.701481Z",
+      "fetched_at": "2026-11-25T09:13:36.978012Z",
       "first_seen_at": "2026-11-03T14:29:26.842391Z",
       "updated_at": "2026-11-03T14:29:26.842391Z",
       "content_hash": "7dd8181c7dfcea8b835a8b2f6659737cb71103609303cd815ff14b062c329621",
@@ -901,7 +901,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/id-fresh-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:55.754707Z",
+      "fetched_at": "2026-11-25T09:13:39.046578Z",
       "first_seen_at": "2026-11-03T14:29:28.930772Z",
       "updated_at": "2026-11-03T14:29:28.930772Z",
       "content_hash": "ad25513bc1d5b007f63cb73a87aebd3e477cdf9dea3fe1b63976d1aff43a1697",
@@ -936,7 +936,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/desi-farms-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:54.731882Z",
+      "fetched_at": "2026-11-25T09:13:37.971231Z",
       "first_seen_at": "2026-11-03T14:29:27.873469Z",
       "updated_at": "2026-11-03T14:29:27.873469Z",
       "content_hash": "267e2b231e218f0a3f5d1703cc958186be37ee64d4974cf3ab79f35e37c1b79a",
@@ -971,7 +971,7 @@
           "url": "https://foodpharmer.health/c/paneer-high-protein/milky-mist-high-protein-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:56.821969Z",
+      "fetched_at": "2026-11-25T09:13:39.961677Z",
       "first_seen_at": "2026-11-03T14:29:29.927609Z",
       "updated_at": "2026-11-03T14:29:29.927609Z",
       "content_hash": "e84d1a6ca5ecef0b49450ab0b80889243363a9d7bedad9b005b347c5e0ce573b",
@@ -1007,7 +1007,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/muscleblaze-high-protein-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:05.732468Z",
+      "fetched_at": "2026-11-25T09:13:48.995290Z",
       "first_seen_at": "2026-11-03T14:29:39.143115Z",
       "updated_at": "2026-11-03T14:29:39.143115Z",
       "content_hash": "0474ffc09c2c1b9f70a2d78e9a7770a90a4d4acbf1253b74d5cabe00cc5e8ef8",
@@ -1043,7 +1043,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/pintola-high-protein-pb"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:07.712614Z",
+      "fetched_at": "2026-11-25T09:13:50.991935Z",
       "first_seen_at": "2026-11-03T14:29:41.061481Z",
       "updated_at": "2026-11-03T14:29:41.061481Z",
       "content_hash": "7b0d88dfed126db1588b3f3d676237751cc4b9205a1aa8dc0bc015f9e23525a3",
@@ -1080,7 +1080,7 @@
           "url": "https://foodpharmer.health/c/biscuits/taakat-hunger-bar-crunchy-coconut"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:23.656531Z",
+      "fetched_at": "2026-11-25T09:13:06.974355Z",
       "first_seen_at": "2026-11-03T14:28:55.542212Z",
       "updated_at": "2026-11-03T14:28:55.542212Z",
       "content_hash": "e26a0b2311cdd533873da087a584b289c2ba7b2808a45e83889d642baf5bf1df",
@@ -1117,7 +1117,7 @@
           "url": "https://foodpharmer.health/c/noodles/jiwa-instant-oats-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:39.671363Z",
+      "fetched_at": "2026-11-25T09:13:22.963031Z",
       "first_seen_at": "2026-11-03T14:29:13.089204Z",
       "updated_at": "2026-11-03T14:29:13.089204Z",
       "content_hash": "b913cd762e3212f16f29c4e30c1f17a35c5c15ef8cc608683a69a84fa7285e3f",
@@ -1152,7 +1152,7 @@
           "url": "https://foodpharmer.health/c/oats-high-protein/no-bs-protein-oats"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:47.692804Z",
+      "fetched_at": "2026-11-25T09:13:30.948226Z",
       "first_seen_at": "2026-11-03T14:29:20.942275Z",
       "updated_at": "2026-11-03T14:29:20.942275Z",
       "content_hash": "799355845db30c18483bb7f47f2d1ca8892a8c22d82128ca08b1ef61c6e56ca9",
@@ -1189,7 +1189,7 @@
           "url": "https://foodpharmer.health/c/noodles/slurrp-farm-little-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:41.676846Z",
+      "fetched_at": "2026-11-25T09:13:24.947563Z",
       "first_seen_at": "2026-11-03T14:29:14.974064Z",
       "updated_at": "2026-11-03T14:29:14.974064Z",
       "content_hash": "66e15bac77976c0039619c23377e0e869f2b83797f61581d375d6929cdd98a57",
@@ -1225,7 +1225,7 @@
           "url": "https://foodpharmer.health/c/paneer/amul-malai-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:57.687493Z",
+      "fetched_at": "2026-11-25T09:13:41.032055Z",
       "first_seen_at": "2026-11-03T14:29:30.904819Z",
       "updated_at": "2026-11-03T14:29:30.904819Z",
       "content_hash": "02a806abef2b78fbf1e531abd16f0efbd408a3f504f8597834355336187e9563",
@@ -1262,7 +1262,7 @@
           "url": "https://foodpharmer.health/c/biscuits/millet-jaggery-cookies"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:21.683011Z",
+      "fetched_at": "2026-11-25T09:13:04.949136Z",
       "first_seen_at": "2026-11-03T14:28:53.152564Z",
       "updated_at": "2026-11-03T14:28:53.152564Z",
       "content_hash": "4132bd6fa2a41a176e69f426a207abeb661b42433d7598663a8bb8ccd959effc",
@@ -1299,7 +1299,7 @@
           "url": "https://foodpharmer.health/c/noodles/conscious-food-millet-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:38.677254Z",
+      "fetched_at": "2026-11-25T09:13:21.927311Z",
       "first_seen_at": "2026-11-03T14:29:11.372192Z",
       "updated_at": "2026-11-03T14:29:11.372192Z",
       "content_hash": "b0e29b299fc963334eb30b627cc4c8eb6d6f5ca99297c1b0f46e3d186542046d",
@@ -1334,7 +1334,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/superyou-multigrain-chips"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:30.678336Z",
+      "fetched_at": "2026-11-25T09:13:13.920930Z",
       "first_seen_at": "2026-11-03T14:29:02.257552Z",
       "updated_at": "2026-11-03T14:29:02.257552Z",
       "content_hash": "30839e60de78128f33df18943fb8f74b3775542e6252302eaa44b32833651aa2",
@@ -1370,7 +1370,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-bakers-dozen-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:25.645057Z",
+      "fetched_at": "2026-11-25T09:13:08.910095Z",
       "first_seen_at": "2026-11-03T14:28:57.624051Z",
       "updated_at": "2026-11-03T14:28:57.624051Z",
       "content_hash": "e86d025f390d7daf3d4d1fa79321eb9b455378c3f883d2cc08e269e9a9e6495f",
@@ -1404,7 +1404,7 @@
           "url": "https://foodpharmer.health/c/makhana/tata-sampann-natural-high-protein-makhana"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:37.788875Z",
+      "fetched_at": "2026-11-25T09:13:20.979943Z",
       "first_seen_at": "2026-11-03T14:29:09.483653Z",
       "updated_at": "2026-11-03T14:29:09.483653Z",
       "content_hash": "e9f3159e8198b09a1257199b9049bb8bc0a820a4d0cf5a9bd78f52c96129987c",
@@ -1440,7 +1440,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/butternutco-natural-creamy-pb"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:04.780648Z",
+      "fetched_at": "2026-11-25T09:13:47.966371Z",
       "first_seen_at": "2026-11-03T14:29:38.653377Z",
       "updated_at": "2026-11-03T14:29:38.653377Z",
       "content_hash": "052fffc19079549bd5e0617e8f875e9d4f88e87d64337f797d13551754924718",
@@ -1476,7 +1476,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/alpino-natural-pb-crunch"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:03.736892Z",
+      "fetched_at": "2026-11-25T09:13:47.006931Z",
       "first_seen_at": "2026-11-03T14:29:37.688211Z",
       "updated_at": "2026-11-03T14:29:37.688211Z",
       "content_hash": "e8c754e443313218cb5e8443d1fa35faf7b96504e62659cc34d20f504175ef72",
@@ -1511,7 +1511,7 @@
           "url": "https://foodpharmer.health/c/tempeh/hello-tempayy-soybean-tempeh-cubes"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:15.795945Z",
+      "fetched_at": "2026-11-25T09:13:59.051342Z",
       "first_seen_at": "2026-11-03T14:29:49.040550Z",
       "updated_at": "2026-11-03T14:29:49.040550Z",
       "content_hash": "b66a39db811877f62153f9e0ccd5959324b32ab8e06bdf1258cc2167e0b95d23",
@@ -1547,7 +1547,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/myfitness-unsweetened-crunchy-pb"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:06.718793Z",
+      "fetched_at": "2026-11-25T09:13:49.975382Z",
       "first_seen_at": "2026-11-03T14:29:40.013960Z",
       "updated_at": "2026-11-03T14:29:40.013960Z",
       "content_hash": "f0d2cc411fe9e12befb56077cbe36ac01337c82c69ec1117252ba7e3bc07be04",
@@ -1583,7 +1583,7 @@
           "url": "https://foodpharmer.health/c/paneer/gowardhan-paneer"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:58.782101Z",
+      "fetched_at": "2026-11-25T09:13:41.964673Z",
       "first_seen_at": "2026-11-03T14:29:31.825338Z",
       "updated_at": "2026-11-03T14:29:31.825338Z",
       "content_hash": "90e80f8dd78d9e03e94352878aaf797f2d71efbeef4775a475239ea76caa7049",
@@ -1619,7 +1619,7 @@
           "url": "https://foodpharmer.health/c/pasta/mille-penne-protein-pasta"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:00.751461Z",
+      "fetched_at": "2026-11-25T09:13:43.969855Z",
       "first_seen_at": "2026-11-03T14:29:33.873209Z",
       "updated_at": "2026-11-03T14:29:33.873209Z",
       "content_hash": "211992001217fd2ecee7a85c2ccc0402c6ba57167c06c0d2d65d51465db1c863",
@@ -1653,7 +1653,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/whole-farm-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:14.741941Z",
+      "fetched_at": "2026-11-25T09:13:58.036721Z",
       "first_seen_at": "2026-11-03T14:29:48.067627Z",
       "updated_at": "2026-11-03T14:29:48.067627Z",
       "content_hash": "6bad1efd2d83fd383b2769ca997af78ebe06324f7b5f8009237bf4a9d010b93c",
@@ -1687,7 +1687,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/515-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:12.722399Z",
+      "fetched_at": "2026-11-25T09:13:56.026716Z",
       "first_seen_at": "2026-11-03T14:29:46.413665Z",
       "updated_at": "2026-11-03T14:29:46.413665Z",
       "content_hash": "1a302422b755c3a303a0131a63a6d0a81c58e235259fa8b458ec579359fb8c9b",
@@ -1721,7 +1721,7 @@
           "url": "https://foodpharmer.health/c/popcorn-whole-kernels/urban-platter-popcorn-kernels"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:13.734284Z",
+      "fetched_at": "2026-11-25T09:13:57.014415Z",
       "first_seen_at": "2026-11-03T14:29:47.201355Z",
       "updated_at": "2026-11-03T14:29:47.201355Z",
       "content_hash": "9dbcfce1fca419db06f1bdf7cf8719144e8ad225457d14a0c52fc0509f5aace8",
@@ -1755,7 +1755,7 @@
           "url": "https://foodpharmer.health/c/makhana/farmley-prasadam-makhana"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:35.682411Z",
+      "fetched_at": "2026-11-25T09:13:18.954015Z",
       "first_seen_at": "2026-11-03T14:29:07.962172Z",
       "updated_at": "2026-11-03T14:29:07.962172Z",
       "content_hash": "c23eb7b9b9047cd280e1cf641861560d8f84c32749cb538230ead9a088609fdf",
@@ -1789,7 +1789,7 @@
           "url": "https://foodpharmer.health/c/ors/prolyte-ors"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:51.582791Z",
+      "fetched_at": "2026-11-25T09:13:35.044393Z",
       "first_seen_at": "2026-11-03T14:29:24.869292Z",
       "updated_at": "2026-11-03T14:29:24.869292Z",
       "content_hash": "bd521f6bcf07632cafec601751e524d0a1cb8f0bfdc6834cb46e0d072d44f29c",
@@ -1824,7 +1824,7 @@
           "url": "https://foodpharmer.health/c/chips-protein/the-bakers-dozen-protein-chips-masala-mania"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:31.682727Z",
+      "fetched_at": "2026-11-25T09:13:14.954707Z",
       "first_seen_at": "2026-11-03T14:29:03.523829Z",
       "updated_at": "2026-11-03T14:29:03.523829Z",
       "content_hash": "0541c42c33d723dba154f5b034a14b94f3a4c32eaa639e7cb88e839fad3192cd",
@@ -1860,7 +1860,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/protein-chef-protein-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:27.687517Z",
+      "fetched_at": "2026-11-25T09:13:10.926111Z",
       "first_seen_at": "2026-11-03T14:28:59.699354Z",
       "updated_at": "2026-11-03T14:28:59.699354Z",
       "content_hash": "78aae1ef2e3b935b40c741ad4989a031a54d029064ecc16e9c25a301cadd1fba",
@@ -1896,7 +1896,7 @@
           "url": "https://foodpharmer.health/c/yogurt/country-delight-protein-greek-yogurt"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:21.780997Z",
+      "fetched_at": "2026-11-25T09:14:05.003449Z",
       "first_seen_at": "2026-11-03T14:29:54.912503Z",
       "updated_at": "2026-11-03T14:29:54.912503Z",
       "content_hash": "377ea5e3c74519363ddd42f50c2e5fb54c4fdc88f108bd7efbb69b58f1e63567",
@@ -1932,7 +1932,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/poptein-protein-popcorn-herb-n-zing"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:11.714315Z",
+      "fetched_at": "2026-11-25T09:13:55.012890Z",
       "first_seen_at": "2026-11-03T14:29:45.136881Z",
       "updated_at": "2026-11-03T14:29:45.136881Z",
       "content_hash": "5f23e209b258290e5111c150f55006f4025f72137de6865ab91bc4bff4a3c78c",
@@ -1968,7 +1968,7 @@
           "url": "https://foodpharmer.health/c/pasta/urbanplatter-protein-spaghetti"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:02.738782Z",
+      "fetched_at": "2026-11-25T09:13:46.003344Z",
       "first_seen_at": "2026-11-03T14:29:36.304847Z",
       "updated_at": "2026-11-03T14:29:36.304847Z",
       "content_hash": "798aaae48ac4ae4e347ba5448e81759e6086e9266fd2496a2e37473e2aca7d2e",
@@ -2005,7 +2005,7 @@
           "url": "https://foodpharmer.health/c/noodles/quinoa-noodles-naturally"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:40.659160Z",
+      "fetched_at": "2026-11-25T09:13:23.918815Z",
       "first_seen_at": "2026-11-03T14:29:14.459741Z",
       "updated_at": "2026-11-03T14:29:14.459741Z",
       "content_hash": "841fe949bff2faae9b33f438dc8919ee22f5f7f04cdcaead2c0da50678483fde",
@@ -2042,7 +2042,7 @@
           "url": "https://foodpharmer.health/c/chips/the-bakers-dozen-ragi-chips"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:34.683528Z",
+      "fetched_at": "2026-11-25T09:13:17.904144Z",
       "first_seen_at": "2026-11-03T14:29:07.106608Z",
       "updated_at": "2026-11-03T14:29:07.106608Z",
       "content_hash": "ff00f605f0034809b2866413cd39e598ed57ad5a383a5550d32da736d89591ea",
@@ -2076,7 +2076,7 @@
           "url": "https://foodpharmer.health/c/makhana/lotus-raw-makhana"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:36.747429Z",
+      "fetched_at": "2026-11-25T09:13:19.960319Z",
       "first_seen_at": "2026-11-03T14:29:08.613579Z",
       "updated_at": "2026-11-03T14:29:08.613579Z",
       "content_hash": "91fa7897754533451aec1d7a201a1dfd243bc2e346f25825b593d069266bb6f6",
@@ -2112,7 +2112,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/4700bc-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:09.780734Z",
+      "fetched_at": "2026-11-25T09:13:52.991166Z",
       "first_seen_at": "2026-11-03T14:29:43.106764Z",
       "updated_at": "2026-11-03T14:29:43.106764Z",
       "content_hash": "6b419d8d767738aff12541c4429ecafbb75b0f4c52ed43e74fcb6490650ea198",
@@ -2148,7 +2148,7 @@
           "url": "https://foodpharmer.health/c/popcorn-ready-to-eat/lets-try-salted-popcorn"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:10.758312Z",
+      "fetched_at": "2026-11-25T09:13:54.028090Z",
       "first_seen_at": "2026-11-03T14:29:44.127648Z",
       "updated_at": "2026-11-03T14:29:44.127648Z",
       "content_hash": "60698cb3446604df439c2e3281e108b3f6deaaafa55d5f0e6dd41449fa4d0bb1",
@@ -2185,7 +2185,7 @@
           "url": "https://foodpharmer.health/c/noodles/urbanplatter-shirataki-konjac-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:42.711644Z",
+      "fetched_at": "2026-11-25T09:13:26.017687Z",
       "first_seen_at": "2026-11-03T14:29:16.029580Z",
       "updated_at": "2026-11-03T14:29:16.029580Z",
       "content_hash": "0beadccd7bdfd880ff019f73e535a2ea4bcd31a8540dd4e29049307783baf72f",
@@ -2221,7 +2221,7 @@
           "url": "https://foodpharmer.health/c/yogurt/milky-mist-skyr-high-protein-plain"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:23.770924Z",
+      "fetched_at": "2026-11-25T09:14:06.998825Z",
       "first_seen_at": "2026-11-03T14:29:57.270692Z",
       "updated_at": "2026-11-03T14:29:57.270692Z",
       "content_hash": "fc8c4abaa4dbc3e55e8dd8acf6328cd75c8aae942d676dec08f08581dd220e76",
@@ -2258,7 +2258,7 @@
           "url": "https://foodpharmer.health/c/chips/eatopia-superfood-oat-bites-masala-crunch"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:32.789112Z",
+      "fetched_at": "2026-11-25T09:13:16.016118Z",
       "first_seen_at": "2026-11-03T14:29:04.683416Z",
       "updated_at": "2026-11-03T14:29:04.683416Z",
       "content_hash": "33c04a422765712c842f96d368c87430c5df407c441df2c220a71b0d0972c7f6",
@@ -2292,7 +2292,7 @@
           "url": "https://foodpharmer.health/c/tofu/soyarich-tofu"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:19.744123Z",
+      "fetched_at": "2026-11-25T09:14:03.009054Z",
       "first_seen_at": "2026-11-03T14:29:53.192405Z",
       "updated_at": "2026-11-03T14:29:53.192405Z",
       "content_hash": "6b6fc0d458640dc0fab69fb46056cdf6f85fda94d660686fda85508013217c29",
@@ -2328,7 +2328,7 @@
           "url": "https://foodpharmer.health/c/yogurt/epigamia-turbo-protein-yogurt"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:22.786457Z",
+      "fetched_at": "2026-11-25T09:14:06.026818Z",
       "first_seen_at": "2026-11-03T14:29:56.691659Z",
       "updated_at": "2026-11-03T14:29:56.691659Z",
       "content_hash": "62b38bcc8855df746dea94c9f5e9490abf22380e561c742afe2bae8bca44f711",
@@ -2364,7 +2364,7 @@
           "url": "https://foodpharmer.health/c/peanut-butter/the-whole-truth-unsweetened-pb-crunchy"
         }
       ],
-      "fetched_at": "2026-11-24T10:28:08.755529Z",
+      "fetched_at": "2026-11-25T09:13:52.024623Z",
       "first_seen_at": "2026-11-03T14:29:42.683621Z",
       "updated_at": "2026-11-03T14:29:42.683621Z",
       "content_hash": "c9b810a335a54e5a221402bf07c74edddf3bf2c3e6dbaec807777cfb8e8bf795",
@@ -2398,7 +2398,7 @@
           "url": "https://foodpharmer.health/c/ors/walyte-ors"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:52.727822Z",
+      "fetched_at": "2026-11-25T09:13:35.998148Z",
       "first_seen_at": "2026-11-03T14:29:26.132363Z",
       "updated_at": "2026-11-03T14:29:26.132363Z",
       "content_hash": "84a1dfa883f8ad677e7a5a4f3834688d05ac1f74812503740a483a1d2efd4a5e",
@@ -2435,7 +2435,7 @@
           "url": "https://foodpharmer.health/c/noodles/yu-foodlabs-whole-wheat-noodles"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:44.744918Z",
+      "fetched_at": "2026-11-25T09:13:27.979857Z",
       "first_seen_at": "2026-11-03T14:29:18.267089Z",
       "updated_at": "2026-11-03T14:29:18.267089Z",
       "content_hash": "8331f80fd1940c4c01d1cd1324b7e86f1f58b6319fcecc83b247309c4affe0fa",
@@ -2471,7 +2471,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-bakers-dozen-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:28.709918Z",
+      "fetched_at": "2026-11-25T09:13:11.964274Z",
       "first_seen_at": "2026-11-03T14:29:00.600762Z",
       "updated_at": "2026-11-03T14:29:00.600762Z",
       "content_hash": "5700f7b4e2570c5be6fecd7c344fd4aee84aab302bdde36bfbcf1bdae59714cf",
@@ -2507,7 +2507,7 @@
           "url": "https://foodpharmer.health/c/bread-protein/the-health-factory-zero-maida-protein-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:29.679565Z",
+      "fetched_at": "2026-11-25T09:13:12.947510Z",
       "first_seen_at": "2026-11-03T14:29:01.553399Z",
       "updated_at": "2026-11-03T14:29:01.553399Z",
       "content_hash": "d9a8a25af150ce11cb1c5d1859474263cba47f2135e20304012694b34bb548f6",
@@ -2543,7 +2543,7 @@
           "url": "https://foodpharmer.health/c/bread-multigrain/the-health-factory-zero-maida-multigrain-bread"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:26.637677Z",
+      "fetched_at": "2026-11-25T09:13:09.902316Z",
       "first_seen_at": "2026-11-03T14:28:58.543364Z",
       "updated_at": "2026-11-03T14:28:58.543364Z",
       "content_hash": "bcefed072755793bcec159e53a43520a946978e0c431efbe9014f2c5b088750a",
